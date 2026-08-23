@@ -49,11 +49,7 @@
 ## 2. Visual Architecture and Showcase
 
 <p align="center">
-  <img src="assets/architecture_diagram.svg" alt="6-Layer Neural Architecture Diagram" width="100%" />
-</p>
-
-<p align="center">
-  <img src="assets/skill_pack_showcase.jpg" alt="70-Skill Pack Showcase" width="100%" />
+  <img src="assets/architecture_core.jpg" alt="AGI Antigravity Core 3D Neural Architecture" width="100%" />
 </p>
 
 ---

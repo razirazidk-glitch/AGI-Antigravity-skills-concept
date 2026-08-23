@@ -129,10 +129,9 @@ Quality Score Formula:
 ---
 
 ## 6. 🎨 MULTIMODAL & ASSET GENERATION DIRECTIVES
-- **2D Images (`generate_image`):** Specify sensor/optics (Arri/Hasselblad), lighting (Chiaroscuro 3200K), material physics, and film stock (Kodak Vision3). Avoid shallow buzzwords ("photorealistic, 8k, hyperdetailed").
+- **2D Images (`generate_image`):** Specify physical camera sensor dynamics, optical lens characteristics, realistic material roughness/refraction, and natural volumetric lighting. Strictly ban synthetic floating HUDs, fake UI text gibberish, and generic CGI stock tropes.
 - **3D Assets:** Ensure IBL HDRI lighting, metric bounding box normalization (`THREE.Box3`), and Ray-Box Interior Mapping shaders.
-- **Audio:** UI clicks (<50ms) use WebAudio API; environmental/telemetry audio must use real extracted audio via `youtube-audio-prospecting` (`yt-dlp` + FFmpeg EBU R128 loudness normalization).
-- **Video:** Use cinematic prompt parameters with keyframe interpolation and 24fps progressive rendering.
+- **Audio & Video:** UI clicks (<50ms) use WebAudio API; environmental audio uses extracted telemetry (`youtube-audio-prospecting`). Video uses cinematic camera physics and 24fps progressive rendering.
 
 ---
 

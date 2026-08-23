@@ -10,7 +10,7 @@ trigger: always_on
 ---
 
 ## 1. 🎨 2D/3D ASSET GENERATION & OPTICAL RIGOR
-- **2D Asset Synthesis (`generate_image`):** Specify sensor/optics (Arri/Hasselblad), volumetric lighting, and physical shaders. Strictly prohibit shallow buzzwords.
+- **2D Asset Synthesis (`generate_image`):** Specify physical camera sensor dynamics, lens focal optics, authentic material roughness/refraction, and natural volumetric lighting. Strictly prohibit shallow buzzwords ("photorealistic, 8k"), fake 2D floating HUDs, synthetic text overlays, and sterile CGI symmetry.
 - **3D Procedural Mesh & GLSL:** Enforce IBL HDRI ambient lighting, metric bounding box normalization (`THREE.Box3`), and Ray-Box Interior Mapping shaders.
 
 ---
