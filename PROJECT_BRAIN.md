@@ -18,7 +18,14 @@
 | Pre-Tool Validator | `hooks/pre_tool_validator.py` | ✅ DONE | JSON stdin/stdout, security & path gatekeeper | 10.0 |
 | Post-Tool Linter | `hooks/post_tool_linter.py` | ✅ DONE | JSON stdin/stdout, error telemetry & protojson `{}` | 10.0 |
 | Stop Gatekeeper | `hooks/stop_gatekeeper.py` | ✅ DONE | JSON stdin/stdout, idle invariant loop validator | 10.0 |
-| AGI Constitution | `rules/AGENTS.md` | ✅ DONE | Consolidated System 2 rules (<300 lines) | 10.0 |
+| AGI Constitution | `rules/AGENTS.md` | ✅ DONE | Master System 2 platform rule & ignition cycle | 10.0 |
+| Layer 1: Skills Taxonomy | `rules/01_SKILLS_TAXONOMY_ROUTING.md` | ✅ DONE | 34 Master Playbooks & Neural Routing Engine | 10.0 |
+| Layer 2: Engineering & TDD | `rules/02_ENGINEERING_TDD_STANDARDS.md` | ✅ DONE | Red-Green TDD, Causal Debugging & Disassembly | 10.0 |
+| Layer 3: Swarm Governance | `rules/03_SWARM_COGNITION_GOVERNANCE.md` | ✅ DONE | Corporate Swarm OS, C_max <= 2 & Reactive Wakeup | 10.0 |
+| Layer 4: Multimodal Web | `rules/04_MULTIMODAL_SPATIAL_WEB.md` | ✅ DONE | Authentic 3D, EBU R128 Audio, Chrome DevTools MCP | 10.0 |
+| Layer 5: Continuous Evolution | `rules/05_CONTINUOUS_EVOLUTION.md` | ✅ DONE | Gauntlet Review, Dual Gates & /learn Meta-Learning | 10.0 |
+| Layer 6: Voice Persona Engine | `rules/06_AGI_VOICE_PERSONA_ENGINE.md` | ✅ DONE | Sovereign Persona, Dynamic Self-ID & Grounding | 10.0 |
+| Layer 7: Autonomous Cognition | `rules/07_AGI_AUTONOMOUS_COGNITION_ENGINE.md` | ✅ DONE | 3-Layer Cognition, Proactive Triggers & Anti-Idle | 10.0 |
 | Master Documentation | `README.md` | ✅ DONE | Comprehensive platform & operator playbook | 10.0 |
 | Project Neural Map | `PROJECT_BRAIN.md` | ✅ DONE | Persistent architectural state & telemetry | 10.0 |
 
@@ -48,6 +55,7 @@
 | **DEC-009** | 12 Iron Laws of Cognitive Immunity | Formalize systemic immunity against 12 LLM cognitive pathologies (sycophancy, shotgun debugging, top-down bias, greedy trap, toy scale). | 2026-08-23 |
 | **DEC-010** | Rules vs Skills Ontological Segregation | Promote 12 ambient thinking policies into `rules/` and consolidate 71 micro-skills into 34 high-density specialized master playbooks across 8 clusters to eliminate cognitive bloat and trigger ambiguity. | 2026-08-23 |
 | **DEC-011** | Autonomous Cognitive Reflex Matrix (Anti-Passive Bot Invariant) | Eliminate passive user-keyword dependency by establishing autonomous domain-state triggers in `rules/AGENTS.md` and `rules/01_SKILLS_TAXONOMY_ROUTING.md` across 8 core capabilities (prompt refinement, deep planning, a11y auditing, popperian invariance, memory hygiene, SOTA benchmarking, gauntlet release gate, and neural map checkpointing). | 2026-08-23 |
+| **DEC-012** | 7-Layer Cognitive Architecture & Operational Delegation | Formalize 7 distinct constitutional operational layers (`01_SKILLS_TAXONOMY_ROUTING` to `07_AGI_AUTONOMOUS_COGNITION_ENGINE`) with dedicated always-on triggers, dynamic voice persona grounding, and 3-layer parallel inference cognition. | 2026-08-23 |
 
 
 ---
