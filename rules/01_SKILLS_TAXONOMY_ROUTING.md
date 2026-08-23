@@ -21,57 +21,16 @@ On the first turn of any non-trivial user intent $X$:
 
 ---
 
-## 2. 🏛️ COMPLETE 34 MASTER PLAYBOOK TAXONOMY AND DIRECTORY MAPPING
+## 2. 🏛️ COMPLETE 34 MASTER PLAYBOOK TAXONOMY (8 Operational Clusters)
 
-### Cluster 1: Architecture, Pre-Flight & Strategic Inception
-- `deep-planning-protocol`: Master 5-document pre-flight planning (`ARCHITECTURE.md`, `CONTRACTS.md`), 10-dimension latent context expansion, and Graph-of-Thought trade-off matrices.
-- `grill-me-layered`: 12-topic 4-layer alignment interview for deep architectural probing before execution.
-- `agi-prompt-refiner`: Elevation of brief/naive prompts into enterprise specifications with anti-hallucination guardrails.
-- `technological-prospecting`: Autonomous discovery, benchmarking, and integration of external APIs, libraries, competitor reference bars, and high-stakes domain alpha.
-
-### Cluster 2: TDD Red-Green-Refactor, Code Construction & Heavy Refactoring
-- `test-driven-development`: Red-Green-Refactor unit and integration test cycle enforcing deterministic exit code 0.
-- `master-refactoring-pipeline`: 8-phase structural reconstruction with zero hardcoding and strict typing.
-- `cross-sector-integration`: Type-theoretic contract enforcement and quarantine specifications.
-
-### Cluster 3: Causal Root-Cause Debugging & Diagnostics
-- `systematic-debugging`: 4-phase root-cause debugging protocol (Reproduce, Isolate, Diagnose, Verify) unified with backward causal DAG tracing and invariant failure trees.
-- `memory-leak-debugging`: Heap snapshot analysis, V8 memory profiling, and memory leak elimination.
-- `popperian-invariance-testing`: Metamorphic testing across Topological, Scale ($N \ge 10^5$), Temporal, and Regime dimensions.
-
-### Cluster 4: Adversarial Tribunal, Gauntlet Convergence & Quality Gates
-- `gauntlet-loop`: Double-blind Builder/Critic verification against Named Reference Bar ($Q \ge 9.0$) unified with Point W evolutionary superiority proofs.
-- `adversarial-tribunal`: Red Team vs Blue Team post-milestone security and architecture audits with 5 attack vectors, 7 design invariants, and causal thesis triage.
-- `permissioned-github`: GitHub workflow operations, PR management, and permission boundary defense.
-
-### Cluster 5: Frontend Architecture, Modern Web APIs & Kinetic Media
-- `modern-web-guidance`: SOTA web development best practices (View Transitions, Popover, Container Queries, `:has()`).
-- `visual-synthesis-engine`: AAA visual layouts, CSS glassmorphism, WebGL aesthetics, trans-domain Awwwards-tier experiences, and live browser visual regression auditing.
-- `interactive-kinetic-media-engine`: Scroll-driven scrubbing, sticky parallax, and 3D micro-interactions.
-- `a11y-debugging`: Automated WCAG 2.2 AA accessibility auditing via Chrome DevTools MCP.
-
-### Cluster 6: Browser Automation, Scraping, DevTools & Extension Engineering
-- `chrome-devtools`: Direct Chrome DevTools MCP automation, DOM inspection, network traces, and CDP connection troubleshooting.
-- `puppeteer-browser-automation`: Headless browser scripting, scraping, form automation, and PDF generation.
-- `chrome-extensions`: Manifest V3 Chrome Extension development, background service workers, and WebStore publishing.
-- `debug-optimize-lcp`: Largest Contentful Paint and Core Web Vitals optimization.
-
-### Cluster 7: Multimodal Spatial 3D, Audio Sonification & Omni Video Generation
-- `omni-multimodal-spatial-engine`: Procedural 3D math, GLSL shaders, and spatial projection.
-- `sketchfab-prospecting-protocol`: Sourcing, evaluating, and integrating 3D CAD models and meshes.
-- `youtube-audio-prospecting`: Authentic audio extraction via `yt-dlp` + FFmpeg EBU R128 loudness normalization.
-- `gemini-omni-video-generation`: Cinematic video prompting, camera physics, and keyframe interpolation.
-
-### Cluster 8: Swarm Cognition, Archaeology, Memory & SDK
-- `corporate-swarm-os`: Enterprise corporate hierarchy (CEO -> C-Level -> Workers) with `BRIEF.md`, `SECTOR.md`, massive batch orchestration, and 5-component structured handoffs.
-- `swarm-legacy-archaeology`: Universal 1:1 node disassembly onto the mechanic's bench ($\forall v \in \mathcal{V}$), AST 3-tier complexity classification, and sprint audit persistence.
-- `project-neural-map`: Recursive long-term memory (`PROJECT_BRAIN.md` + `NODE.md`), transactional state schemas, and SHA-256 session handoff cryptography.
-- `meta-skill-synthesis`: Machine self-learning synthesizing permanent new skills on disk from session insights (/learn workflow) and dual-loop self-improvement.
-- `autonomous-workspace-orchestration`: Automated Git worktrees for non-destructive branch isolation and destructive testing.
-- `google-antigravity-sdk`: Agent architecture using the native Antigravity Python SDK and LiteRT integration.
-- `agy-customizations`: Reference guide for Antigravity rules, hooks, skills, and MCP configurations.
-- `antigravity-guide`: Comprehensive user guide and CLI reference for the Antigravity platform.
-- `technical-documentation-crafting`: Authoring high-conversion technical documentation, READMEs, and API guides.
+- **Cluster 1 (Architecture & Inception):** `deep-planning-protocol`, `grill-me-layered`, `agi-prompt-refiner`, `technological-prospecting`.
+- **Cluster 2 (TDD & Deep Refactoring):** `test-driven-development`, `master-refactoring-pipeline`, `cross-sector-integration`.
+- **Cluster 3 (Causal Diagnostics):** `systematic-debugging`, `memory-leak-debugging`, `popperian-invariance-testing`.
+- **Cluster 4 (Tribunal & Gauntlet Gates):** `gauntlet-loop`, `adversarial-tribunal`, `permissioned-github`.
+- **Cluster 5 (Frontend & Kinetic Media):** `modern-web-guidance`, `visual-synthesis-engine`, `interactive-kinetic-media-engine`, `a11y-debugging`.
+- **Cluster 6 (Browser Automation & MCP):** `chrome-devtools`, `puppeteer-browser-automation`, `chrome-extensions`, `debug-optimize-lcp`.
+- **Cluster 7 (Multimodal Spatial, Audio & Video):** `omni-multimodal-spatial-engine`, `sketchfab-prospecting-protocol`, `youtube-audio-prospecting`, `gemini-omni-video-generation`.
+- **Cluster 8 (Swarm Cognition & Memory):** `corporate-swarm-os`, `swarm-legacy-archaeology`, `project-neural-map`, `meta-skill-synthesis`, `autonomous-workspace-orchestration`, `google-antigravity-sdk`, `agy-customizations`, `antigravity-guide`, `technical-documentation-crafting`.
 
 ---
 
