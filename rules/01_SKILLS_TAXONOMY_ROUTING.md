@@ -1,74 +1,59 @@
 ---
-description: Master 34-Skill Taxonomy and Hypergraph Neural Routing Engine
+description: Master 34-Skill Taxonomy, Composite Intent Dissection, and Mandatory Activation Protocol
 trigger: always_on
 ---
 # AGI LAYER 1: 34 MASTER PLAYBOOK TAXONOMY & NEURAL ROUTING ENGINE
 
 > **Scope**: Layer 1 Specialized Operational Rule for `agi-antigravity-core`.
-> **Mandate**: 100% Deterministic Skill Discovery, $T_0$ Grounding, and Hypergraph Vector Activation.
+> **Mandate**: 100% Deterministic Skill Discovery, $T_0$ Mechanical Forcing Function, Zero-Unitarity Decomposition.
 
 ---
 
-## 1. 🌐 THE PROGRESSIVE DISCLOSURE PARADIGM & $T_0$ ACTIVATION
-In the Antigravity architecture, skills operate via progressive disclosure. The agent only possesses the short YAML frontmatter description in memory until explicitly activated.
-To achieve true AGI/ASI level execution, the agent MUST NEVER rely on shallow instinct or generic LLM generation. 
-
-### Mandatory $T_0$ Protocol:
-On the first turn of any non-trivial user intent $X$:
-1. Classify $X$ into one or more of the 8 operational clusters below.
-2. Select the Primary Skill $\mathcal{S}_{\text{prime}}$ and Auxiliary Skills $\langle \mathcal{S}_{\text{aux}}, \mathcal{S}_{\text{multi}}, \mathcal{S}_{\text{falsif}} \rangle$.
-3. Execute `view_file(AbsolutePath: "skills/<skill_name>/SKILL.md")` as the **first action** in the turn.
+## 1. 🚨 THE MECHANICAL FORCING FUNCTION & $T_0$ GROUNDING
+In Antigravity, skills operate via progressive disclosure (YAML frontmatter in memory until viewed).
+**Structural Invariant**: The agent's **FIRST tool call(s)** in any non-trivial technical turn MUST be parallel `view_file` calls on `skills/<skill_name>/SKILL.md` for ALL activated skills before generating output or modifying code.
 
 ---
 
 ## 2. 🏛️ COMPLETE 34 MASTER PLAYBOOK TAXONOMY (8 Operational Clusters)
 
-- **Cluster 1 (Architecture & Inception):** `deep-planning-protocol`, `grill-me-layered`, `agi-prompt-refiner`, `technological-prospecting`.
-- **Cluster 2 (TDD & Deep Refactoring):** `test-driven-development`, `master-refactoring-pipeline`, `cross-sector-integration`.
-- **Cluster 3 (Causal Diagnostics):** `systematic-debugging`, `memory-leak-debugging`, `popperian-invariance-testing`.
-- **Cluster 4 (Tribunal & Gauntlet Gates):** `gauntlet-loop`, `adversarial-tribunal`, `permissioned-github`.
-- **Cluster 5 (Frontend & Kinetic Media):** `modern-web-guidance`, `visual-synthesis-engine`, `interactive-kinetic-media-engine`, `a11y-debugging`.
-- **Cluster 6 (Browser Automation & MCP):** `chrome-devtools`, `puppeteer-browser-automation`, `chrome-extensions`, `debug-optimize-lcp`.
-- **Cluster 7 (Multimodal Spatial, Audio & Video):** `omni-multimodal-spatial-engine`, `sketchfab-prospecting-protocol`, `youtube-audio-prospecting`, `gemini-omni-video-generation`.
-- **Cluster 8 (Swarm Cognition & Memory):** `corporate-swarm-os`, `swarm-legacy-archaeology`, `project-neural-map`, `meta-skill-synthesis`, `autonomous-workspace-orchestration`, `google-antigravity-sdk`, `agy-customizations`, `antigravity-guide`, `technical-documentation-crafting`.
+- **Cluster 1 (Architecture & Inception):** `deep-planning-protocol`, `grill-me-layered`, `agi-prompt-refiner`, `technological-prospecting`
+- **Cluster 2 (TDD & Deep Refactoring):** `test-driven-development`, `master-refactoring-pipeline`, `cross-sector-integration`
+- **Cluster 3 (Causal Diagnostics):** `systematic-debugging`, `memory-leak-debugging`, `popperian-invariance-testing`
+- **Cluster 4 (Tribunal & Gauntlet Gates):** `gauntlet-loop`, `adversarial-tribunal`, `permissioned-github`
+- **Cluster 5 (Interface & Kinetic Media):** `modern-web-guidance`, `visual-synthesis-engine`, `interactive-kinetic-media-engine`, `a11y-debugging`
+- **Cluster 6 (Browser Automation & MCP):** `chrome-devtools`, `puppeteer-browser-automation`, `chrome-extensions`, `debug-optimize-lcp`
+- **Cluster 7 (Multimodal Spatial, Audio & Video):** `omni-multimodal-spatial-engine`, `sketchfab-prospecting-protocol`, `youtube-audio-prospecting`, `gemini-omni-video-generation`
+- **Cluster 8 (Swarm Cognition & Knowledge):** `corporate-swarm-os`, `swarm-legacy-archaeology`, `project-neural-map`, `meta-skill-synthesis`, `autonomous-workspace-orchestration`, `google-antigravity-sdk`, `agy-customizations`, `antigravity-guide`, `technical-documentation-crafting`
 
 ---
 
-## 3. ⚡ DETERMINISTIC ACTIVATION FORMULA
-For any incoming prompt $X$:
-\[
-\mathcal{V}(X) = \arg\max_{\mathcal{S} \in \text{Clusters}} \text{CosineSimilarity}(\text{Embedding}(X), \text{Frontmatter}(\mathcal{S}))
-\]
-1. Primary engine $\mathcal{S}_{\text{prime}}$ executes the core workflow.
-2. Falsification gate $\mathcal{S}_{\text{falsif}}$ stress-tests the output.
-3. Gate 1, 2, and 3 must pass with exit code `0` before completion.
-
-## 4. 🧬 O REFLEXO DO HIPERGRAFO & QUEBRA DO "PEDIU, EU FIZ"
-
-O maior vício de modelos de linguagem é a **inércia do literal**: receber um comando $X$ e responder unicamente no plano superficial daquele pedido.
-
-### A Regra de Ativação em Onda ($1 \to 4$ Skills):
-Em qualquer turn técnico, o agente NÃO escolhe uma única skill isolada. Ele desdobra a intenção em 4 ondas simultâneas:
-1. **Onda 1 (Execução Primária $\mathcal{S}_{\text{prime}}$):** Constrói a lógica principal (`test-driven-development`, `modern-web-guidance`, etc.).
-2. **Onda 2 (Fundação Oculta $\mathcal{S}_{\text{aux}}$):** Blinda a máquina de estados, idempotência e tratamento de falhas (`deep-iceberg-autonomous-engine`, `master-refactoring-pipeline`).
-3. **Onda 3 (Fronteiras e Ativos $\mathcal{S}_{\text{multi}}$):** Integra contratos entre módulos, APIs reais e telemetria (`cross-sector-integration`, `chrome-devtools`).
-4. **Onda 4 (Tribunal Adversarial $\mathcal{S}_{\text{falsif}}$):** Submete a solução a testes metamórficos, auditoria Red Team e convergência $Q \ge 9.0$ (`gauntlet-loop`, `popperian-invariance-testing`).
+## 3. 🧬 COMPOSITE PROMPT DECOMPOSITION (ANTI-UNITARITY LAW)
+Any prompt with $\ge 2$ technical concerns MUST NOT be treated as a single intent.
+1. **Decompose**: Parse prompt $X \to \{I_1, I_2, ..., I_n\}$ across all feature dimensions, architectural layers, and implicit engineering prerequisites (TDD, QA, persistence, lifecycle).
+2. **Exhaustive Scan**: Map each $I_k$ against all 8 clusters. Proportionality rule: single task = 1–3 skills; composite/enterprise = ALL matching skills (no ceiling).
+3. **Activation Waterfall**: Dispatch parallel `view_file` calls for all selected skills as Turn Step 1.
 
 ---
 
-## 5. ⚡ MATRIZ DE DISPARO DE REFLEXOS AUTÔNOMOS (ANTI-"GARÇOM PASSIVO")
+## 4. ⚡ AUTONOMOUS DOMAIN-AGNOSTIC TRIGGER MATRIX
 
-O agente AGI/ASI é estritamente proibido de aguardar palavras-chave do usuário ("pedir por favor") para ativar capacidades vitais de engenharia. As seguintes 8 capacidades são disparadas **autonomamente pelo contexto técnico**:
-
-| Contexto Técnico Detectado no Turn | Skill Ativada Automaticamente | Ação Autônoma Obrigatória da AGI |
+| Detected Technical Context | Auto-Activated Skills | Mandatory Autonomous Action |
 |---|---|---|
-| **Prompt raso, breve ($\le 200$ chars) ou vago** | `agi-prompt-refiner` | Expande $X \to X \cup \{Y, W, Z\}$, estipulando invariantes, estados de erro e critérios de teste antes de gerar código. |
-| **Decisão de arquitetura com $\ge 2$ trade-offs** | `deep-planning-protocol` & `grill-me-layered` | Elabora matriz de trade-offs Graph-of-Thought e sonda premissas em `CONTRACTS.md` antes da implementação. |
-| **Criação / refatoração de componentes de UI** | `a11y-debugging` & `modern-web-guidance` | Audita contraste de cor (WCAG 2.2 AA), navegação por teclado e semântica nativa no Chrome DevTools MCP. |
-| **Lógica matemática, financeira ou algorítmica** | `popperian-invariance-testing` | Constrói testes metamórficos de escala assintótica ($N \ge 10^5$), deriva temporal e invariância de regime. |
-| **Streams, WebSockets, WebGL ou listeners async** | `memory-leak-debugging` | Implementa hooks explícitos de cleanup, desalocação de texturas/buffers e prevenção de vazamento de memória. |
-| **Início de módulo em novo domínio ou stack** | `technological-prospecting` | Mapeia o Named Reference Bar (SOTA) da indústria para evitar a injeção de padrões amadores ou obsoletos. |
-| **Conclusão de tarefas de média / alta complexidade** | `gauntlet-loop` & `adversarial-tribunal` | Executa auditoria adversarial interna ($Q \ge 9.0$) contra stubs, placeholders e regressões antes do fechamento. |
-| **Transição de marcos / múltiplos arquivos tocados** | `project-neural-map` | Atualiza transacionalmente o `PROJECT_BRAIN.md` com status de nós e decisões arquiteturais (`DEC-xxx`). |
-
-
+| Prompt $\le 200$ chars / ambiguous | `agi-prompt-refiner` | Expand $X \to X \cup \{Y, W, Z\}$ before generation. |
+| $\ge 2$ trade-offs / multi-module | `deep-planning-protocol` + `grill-me-layered` | Build trade-off matrix & formal contracts. |
+| Any code generation / implementation | `test-driven-development` | Red-Green-Refactor mandatory: failing test first. |
+| Refactoring / AST restructuring | `master-refactoring-pipeline` | Full pre-flight audit; zero placeholder law. |
+| Mathematical / algorithmic / state logic | `popperian-invariance-testing` | Metamorphic invariant stress tests ($N \ge 10^5$). |
+| Async / concurrent / streaming / WebGL | `memory-leak-debugging` | Implement explicit lifecycle cleanup hooks. |
+| New tech domain / library choice | `technological-prospecting` | Map Named Reference Bar (SOTA) baseline. |
+| UI / frontend creation or edit | `modern-web-guidance` + `a11y-debugging` | Audit semantics, keyboard flow, WCAG 2.2 AA. |
+| Visual design / aesthetics / tokens | `visual-synthesis-engine` | Enforce optical rigor and authentic styling. |
+| Kinetic / motion / interaction design | `interactive-kinetic-media-engine` | Lifecycle-safe animation and dynamic state. |
+| Audio assets / soundscapes needed | `youtube-audio-prospecting` | Real audio extraction (EBU R128 normalization). |
+| Video assets / motion graphics needed | `gemini-omni-video-generation` | Progressive camera physics and render specs. |
+| 3D spatial / shaders / meshes | `omni-multimodal-spatial-engine` | IBL HDRI lighting + bounding box normalization. |
+| Auth / API boundaries / subsystem contracts | `cross-sector-integration` | Formalize interface schemas & preconditions. |
+| Enterprise / multi-module scope | `corporate-swarm-os` + `deep-planning-protocol` | Instantiate CEO→Worker multi-agent hierarchy. |
+| Task completion / delivery milestone | `gauntlet-loop` + `adversarial-tribunal` | Run double-blind adversarial audit ($Q \ge 9.0$). |
+| $\ge 3$ files touched / state shifts | `project-neural-map` | Transactional update to `PROJECT_BRAIN.md`. |
