@@ -3,268 +3,270 @@ name: corporate-swarm-os
 description: >-
   MANDATORY Corporate Hierarchy Swarm OS for multi-agent workflows, massive batch orchestration (10+ files), and synthesis pipelines. Implements CEO -> C-Level -> Worker structure with BRIEF.md, SECTOR.md, and 5-component handoffs. Trigger on mentions of: 'corporate swarm', 'swarm hierarchy', 'BRIEF.md', 'SECTOR.md', 'CEO agent', 'subagent team', 'multi-agent project', 'enterprise swarm', 'mission genesis', 'topology delegation', 'massive batch', or 'swarm synthesis'.
 ---
-# 🏢 CORPORATE SWARM OS — Modelo Empresarial de Alto Padrão
+# 🏢 CORPORATE SWARM OS — High-Standard Enterprise Multi-Agent Operating System
 
-> 🔴 **MANDATO ABSOLUTO:** Todo projeto complexo é tratado como uma empresa de nova geração. Subagentes vagos, prompts curtos e delegações sem contexto são PROIBIDOS. Cada agente recebe um BRIEF.md extenso, opera em setor formal com KPIs, e reporta via relatório estruturado. Zero informalidade. Zero ambiguidade.
+> 🔴 **ABSOLUTE MANDATE:** Every complex project is operated like a next-generation enterprise organization. Vague subagents, brief prompts, and delegations lacking explicit context are STRICTLY PROHIBITED. Every agent receives an exhaustive BRIEF.md, operates within a formal sector with quantifiable KPIs, and reports via a structured closeout report. Zero informality. Zero ambiguity.
 
 ---
 
-## 1. HIERARQUIA CORPORATIVA FORMAL
+## 1. FORMAL CORPORATE HIERARCHY
 
 ```
-CEO — Agente Principal (Orquestrador Supremo)
-├── CTO — Engineering Manager (Gerente de Engenharia)
-│   ├── Senior Engineer Worker (implementação de módulos)
-│   └── Architecture Worker (design de sistema, contratos)
-├── COO — QA Manager (Gerente de Qualidade)
-│   ├── QA Engineer Worker (testes, validação)
-│   └── Red Team Worker (auditoria adversarial)
-├── CSO — Research Manager (Gerente de Pesquisa)
+CEO — Principal Agent (Supreme Orchestrator)
+├── CTO — Engineering Manager
+│   ├── Senior Engineer Worker (module implementation)
+│   └── Architecture Worker (system design, contracts)
+├── COO — QA Manager
+│   ├── QA Engineer Worker (testing, validation)
+│   └── Red Team Worker (adversarial audit)
+├── CSO — Research Manager
 │   ├── Domain Researcher Worker (SOTA, benchmarks, papers)
-│   └── Data Prospector Worker (APIs, datasets, fontes reais)
-├── CAO — Audit Manager (Gerente de Auditoria)
-│   └── Deep Auditor Worker (revisão profunda de código e arquitetura)
-└── CLO — Learning Manager (Gerente de Aprendizado)
-    └── Insight Extractor Worker (síntese de conhecimento, skills novas)
+│   └── Data Prospector Worker (APIs, datasets, authentic sources)
+├── CAO — Audit Manager
+│   └── Deep Auditor Worker (deep code & architecture review)
+└── CLO — Learning Manager
+    └── Insight Extractor Worker (knowledge synthesis, new skills)
 ```
 
-**Regras de Hierarquia:**
-- CEO nunca executa tarefas de implementação diretamente — delega sempre
-- Workers reportam ao seu Gerente direto, nunca ao CEO diretamente
-- Gerentes sintetizam relatórios e reportam ao CEO com visão de setor
-- Nenhum Worker pode começar sem ter lido o BRIEF.md completo do seu setor
+**Hierarchy Governance Rules:**
+- The CEO never executes implementation tasks directly — always delegates.
+- Workers report directly to their immediate Manager, never to the CEO directly.
+- Managers synthesize worker reports and report to the CEO with sector-wide perspective.
+- No Worker may commence execution without first reading the complete BRIEF.md for their assignment.
 
 ---
 
-## 2. BRIEF.md — TEMPLATE OBRIGATÓRIO POR AGENTE
+## 2. BRIEF.md — MANDATORY PER-AGENT BRIEFING TEMPLATE
 
-> **PROTOCOLO:** Antes de invocar qualquer subagente, o CEO ou Gerente DEVE criar o BRIEF.md em disco. O subagente lê o arquivo como PRIMEIRA AÇÃO antes de qualquer execução.
+> **PROTOCOL:** Before invoking any subagent, the CEO or Manager MUST write the BRIEF.md file to disk. The subagent reads this file as its FIRST ACTION before any execution.
 
-**Caminho padrão:** `.planning/briefs/[SETOR]-[ROLE]-[TIMESTAMP].md`
+**Canonical Path:** `.planning/briefs/[SECTOR]-[ROLE]-[TIMESTAMP].md`
 
 ```markdown
-# BRIEF — [NOME DO AGENTE / SETOR]
-> Emitido em: [ISO timestamp]
-> Emitido por: [CEO / Gerente de Setor]
-> Versão: 1.0
+# BRIEF — [AGENT NAME / SECTOR]
+> Issued at: [ISO timestamp]
+> Issued by: [CEO / Sector Manager]
+> Version: 1.0
 
 ---
 
-## 🎯 MISSÃO
-[Descrição densa e precisa do que este agente deve realizar. Mínimo 5 linhas.
-Não use linguagem vaga. Especifique o resultado final com detalhes técnicos concretos.]
+## 🎯 MISSION
+[Dense, precise description of what this agent must accomplish. Minimum 5 lines.
+Do not use vague language. Specify the final deliverable with concrete technical details.]
 
-## 🗺️ CONTEXTO DO PROJETO
-- Projeto: [nome]
-- PROJECT_BRAIN.md: [caminho para o arquivo — OBRIGATÓRIO LER antes de iniciar]
-- NODE.md relevantes: [lista de caminhos para os módulos que serão tocados]
-- Fase atual do projeto: [ex: Fase 2 — Core Engine]
-- Decisões arquiteturais vigentes: [resumo das DEC::GROUNDED que impactam esta tarefa]
+## 🗺️ PROJECT CONTEXT
+- Project: [name]
+- PROJECT_BRAIN.md: [path to file — MANDATORY TO READ before starting]
+- Relevant NODE.md files: [list of paths to modules that will be touched]
+- Current Project Phase: [e.g., Phase 2 — Core Engine]
+- Active Architectural Decisions: [summary of DEC::GROUNDED impacting this task]
 
-## 📊 CADEIA DE COMANDO
-- Superior imediato: [nome do Gerente ou CEO]
-- Agentes paralelos: [outros Workers ativos no projeto agora]
-- Agentes dependentes: [quem depende do output desta tarefa para começar]
+## 📊 CHAIN OF COMMAND
+- Direct Superior: [Manager name or CEO]
+- Peer Agents: [other active Workers in the project right now]
+- Dependent Agents: [who depends on this task's output to start]
 
-## 📥 DEPENDÊNCIAS DE INPUT (PRÉ-CONDIÇÕES)
-[Lista exata do que deve estar pronto ANTES de iniciar]
-- [ ] [arquivo/sistema/dado necessário]
-- [ ] [aprovação ou output de outro Worker]
-Se qualquer item estiver faltando: PARAR e reportar ao Gerente imediatamente.
+## 📥 INPUT DEPENDENCIES (PRECONDITIONS)
+[Exact list of what must be ready BEFORE starting]
+- [ ] [required file/system/data]
+- [ ] [approval or output from another Worker]
+If any prerequisite is missing: STOP and report to Manager immediately.
 
-## 📤 OUTPUT ESPERADO (ENTREGÁVEIS FORMAIS)
-[Lista exata de tudo que deve ser criado/modificado]
-- [ ] `[caminho/arquivo.ext]` — [descrição do conteúdo esperado]
-- [ ] Relatório de conclusão via send_message para [ID da conversa]
+## 📤 EXPECTED OUTPUT (FORMAL DELIVERABLES)
+[Exact list of everything to be created/modified]
+- [ ] `[path/file.ext]` — [description of expected content]
+- [ ] Completion report via send_message to [Conversation ID]
 
-## ✅ CRITÉRIOS DE ACEITE (Q ≥ 9.0)
-[O que define esta tarefa como COMPLETA com qualidade de produção]
-- [ ] [critério mensurável 1]
-- [ ] [critério mensurável 2]
-- [ ] Zero TODOs, zero stubs, zero mocks estáticos
-- [ ] Todos os testes passando (exit code 0)
-- [ ] Q-Score auto-avaliado ≥ 9.0/10
+## ✅ ACCEPTANCE CRITERIA (Q ≥ 9.0)
+[What defines this task as COMPLETE with production-grade quality]
+- [ ] [measurable criterion 1]
+- [ ] [measurable criterion 2]
+- [ ] Zero TODOs, zero stubs, zero static mocks
+- [ ] All test suites passing (exit code 0)
+- [ ] Self-evaluated Q-Score ≥ 9.0/10
 
-## 🔒 INVARIANTES (NUNCA VIOLAR)
-[Regras absolutas que este agente nunca pode quebrar]
-- PROIBIDO: [ação proibida específica]
-- PROIBIDO: Iniciar implementação sem ler PROJECT_BRAIN.md
-- PROIBIDO: Modificar módulos com status 🔴 CHANGING de outro agente
-- PROIBIDO: Declarar DONE sem evidência empírica (screenshot, exit code, teste)
+## 🔒 INVARIANTS (NEVER VIOLATE)
+[Absolute rules this agent must never break]
+- PROHIBITED: [specific prohibited action]
+- PROHIBITED: Starting implementation without reading PROJECT_BRAIN.md
+- PROHIBITED: Modifying modules with 🔴 CHANGING status assigned to another agent
+- PROHIBITED: Declaring DONE without empirical evidence (screenshot, exit code, test trace)
 
-## 📋 SLA / ESTIMATIVA
-- Complexidade estimada: [Baixa / Média / Alta / Crítica]
-- Prazo máximo: [estimativa em turnos ou horas]
+## 📋 SLA / ESTIMATE
+- Estimated Complexity: [Low / Medium / High / Critical]
+- Maximum Deadline: [estimate in turns or hours]
 
-## 🚨 PROTOCOLO DE ESCALAÇÃO
-Se encontrar bloqueio, ambiguidade ou falha crítica:
-1. PARAR imediatamente — não tente resolver por conta
-2. Enviar send_message para [ID do Gerente/CEO] com: `BLOCKED: [descrição do bloqueio]`
-3. Aguardar instrução antes de continuar
+## 🚨 ESCALATION PROTOCOL
+If encountering blockers, ambiguity, or critical failures:
+1. STOP immediately — do not attempt unguided workarounds.
+2. Send send_message to [Manager/CEO ID] stating: `BLOCKED: [blocker description]`
+3. Await explicit instruction before continuing.
 ```
 
 ---
 
-## 3. SECTOR.md — TEMPLATE POR SETOR FORMAL
+## 3. SECTOR.md — FORMAL SECTOR CHARTER TEMPLATE
 
-**Caminho padrão:** `.planning/sectors/[NOME-DO-SETOR].md`
+**Canonical Path:** `.planning/sectors/[SECTOR-NAME].md`
 
 ```markdown
-# SECTOR — [NOME DO SETOR] ([Sigla])
-> [ex: Engineering (ENG) / QA (QA) / Research (RES) / Audit (AUD) / Learning (LRN)]
+# SECTOR — [SECTOR NAME] ([Acronym])
+> [e.g., Engineering (ENG) / QA (QA) / Research (RES) / Audit (AUD) / Learning (LRN)]
 
-## 🎯 Missão do Setor
-[Descrição da razão de existir deste setor no projeto]
+## 🎯 Sector Mission
+[Description of why this sector exists within the project]
 
-## 👥 Time Atual
-| Role | Agente | Conversação ID | Status |
+## 👥 Current Roster
+| Role | Agent | Conversation ID | Status |
 |---|---|---|---|
-| Gerente | [nome] | [conv-id] | Ativo |
-| Worker-01 | [nome] | [conv-id] | Trabalhando em X |
+| Manager | [name] | [conv-id] | Active |
+| Worker-01 | [name] | [conv-id] | Working on X |
 
-## 📊 KPIs do Setor
-| Métrica | Target | Atual | Status |
+## 📊 Sector KPIs
+| Metric | Target | Current | Status |
 |---|---|---|---|
-| Q-Score médio | ≥ 9.0 | — | — |
-| Taxa de retrabalho | < 10% | — | — |
-| SLA cumprido | 100% | — | — |
+| Mean Q-Score | ≥ 9.0 | — | — |
+| Rework Rate | < 10% | — | — |
+| SLA Compliance | 100% | — | — |
 
-## 📋 Contratos de Entrega
-| Entregável | Deadline | Status | Q-Score |
+## 📋 Delivery Contracts
+| Deliverable | Deadline | Status | Q-Score |
 |---|---|---|---|
-| [módulo] | [data] | NOT_MADE | — |
+| [module] | [date] | NOT_MADE | — |
 
-## 📖 Histórico de Decisões (DEC::GROUNDED)
-| Data | Decisão | Rationale | Aprovado por |
+## 📖 Decision Log (DEC::GROUNDED)
+| Date | Decision | Rationale | Approved By |
 |---|---|---|---|
-| [data] | [decisão] | [por quê] | [CEO/usuário] |
+| [date] | [decision] | [why] | [CEO/User] |
 
-## 🔍 Retrospectiva
-[O que foi aprendido neste setor durante o projeto — preenchido ao final]
+## 🔍 Retrospective
+[Key lessons learned in this sector during the project — populated upon milestone completion]
 ```
 
 ---
 
-## 4. PROTOCOLO DE DISPATCH DE SUBAGENTE (CEO → Worker)
+## 4. SUBAGENT DISPATCH PROTOCOL (CEO → Worker)
 
-### Passo 1: CEO cria o BRIEF.md em disco
+### Step 1: CEO writes BRIEF.md to disk
 ```python
-# O CEO escreve o arquivo ANTES de invocar o subagente
+# The CEO writes the file BEFORE invoking the subagent
 write_to_file(
-  path=".planning/briefs/ENG-worker-01-[timestamp].md",
-  content="[BRIEF.md completo com todos os campos]"
+  TargetFile=".planning/briefs/ENG-worker-01-[timestamp].md",
+  CodeContent="[Complete BRIEF.md with all fields populated]",
+  Description="Write formal subagent mission brief",
+  Overwrite=True
 )
 ```
 
-### Passo 2: CEO invoca o subagente com ponteiro para o BRIEF
+### Step 2: CEO invokes subagent with pointer to BRIEF
 ```json
 {
   "TypeName": "self",
-  "Role": "Senior Engineer Worker — [Módulo Específico]",
-  "Prompt": "MISSÃO ATIVA — Corporate Swarm OS\n\nVocê é um Senior Engineer Worker. Sua primeira e mais importante ação é:\n\n1. Executar view_file em: .planning/briefs/ENG-worker-01-[timestamp].md\n2. Executar view_file em: PROJECT_BRAIN.md\n3. Executar view_file em todos os NODE.md listados no BRIEF como relevantes\n4. SÓ ENTÃO iniciar a implementação\n\nAo concluir, enviar relatório formal via send_message para [CONV_ID_GERENTE]."
+  "Role": "Senior Engineer Worker — [Specific Module]",
+  "Prompt": "ACTIVE MISSION — Corporate Swarm OS\n\nYou are a Senior Engineer Worker. Your first and most critical action is:\n\n1. Run view_file on: .planning/briefs/ENG-worker-01-[timestamp].md\n2. Run view_file on: PROJECT_BRAIN.md\n3. Run view_file on all NODE.md files listed in the BRIEF as relevant\n4. ONLY THEN begin implementation\n\nUpon completion, send a formal report via send_message to [MANAGER_CONV_ID]."
 }
 ```
 
-### Passo 3: Worker confirma leitura e executa
-O Worker DEVE iniciar sua resposta com:
+### Step 3: Worker acknowledges receipt and executes
+The Worker MUST begin its execution by confirming:
 ```
-✅ BRIEF LIDO: .planning/briefs/ENG-worker-01-[timestamp].md
-✅ BRAIN LIDO: PROJECT_BRAIN.md (status dos módulos confirmado)
-✅ NODES LIDOS: [lista dos NODE.md consultados]
+✅ BRIEF READ: .planning/briefs/ENG-worker-01-[timestamp].md
+✅ BRAIN READ: PROJECT_BRAIN.md (module status confirmed)
+✅ NODES READ: [list of consulted NODE.md files]
 
-🔴 ATUALIZANDO STATUS → [módulo] = CHANGING
-Iniciando execução...
+🔴 UPDATING STATUS → [module] = CHANGING
+Commencing execution...
 ```
 
 ---
 
-## 5. RELATÓRIO DE RETORNO ESTRUTURADO (Worker → Gerente)
+## 5. STRUCTURED CLOSEOUT REPORT (Worker → Manager)
 
-Todo Worker envia via `send_message` ao concluir:
+Every Worker sends this format via `send_message` upon task completion:
 
 ```markdown
-## RELATÓRIO DE CONCLUSÃO — [ROLE] — [TIMESTAMP]
+## COMPLETION REPORT — [ROLE] — [TIMESTAMP]
 
 **Status:** COMPLETED | BLOCKED | PARTIAL
 
-### 📤 Outputs Entregues
-- [x] `caminho/arquivo.py` — [descrição do que foi implementado]
-- [x] NODE.md atualizado em `caminho/NODE.md`
-- [ ] [item não entregue] — motivo: [razão]
+### 📤 Delivered Outputs
+- [x] `path/file.py` — [description of implemented logic]
+- [x] NODE.md updated at `path/NODE.md`
+- [ ] [undelivered item] — reason: [explanation]
 
-### ⚡ Desvios do Plano Original
-[O que foi diferente do BRIEF e por quê — seja honesto]
+### ⚡ Deviations from Original Plan
+[What differed from the BRIEF and why — maintain objective transparency]
 
-### 📋 Itens Pendentes
-[O que ficou para trás e por quê — inclua recomendações para o próximo agente]
+### 📋 Pending Items
+[What was deferred and why — include recommendations for the downstream agent]
 
-### 📊 Q-Score Auto-Avaliado: [X.X/10]
-**Justificativa:** [por que este score — seja rigoroso consigo mesmo]
+### 📊 Self-Evaluated Q-Score: [X.X/10]
+**Rationale:** [justification for this score — exercise rigorous self-critique]
 
-### 🔴 Status Final dos Módulos Tocados
-| Módulo | Status Anterior | Status Atual |
+### 🔴 Final Status of Touched Modules
+| Module | Previous Status | Current Status |
 |---|---|---|
-| [módulo] | 🔴 CHANGING | ✅ DONE |
+| [module] | 🔴 CHANGING | ✅ DONE |
 
-### 💡 Recomendações para o Próximo Agente
-[O que o próximo Worker deve saber antes de começar]
+### 💡 Recommendations for Next Agent
+[What the incoming Worker needs to know before starting]
 ```
 
 ---
 
-## 6. EXEMPLOS REAIS DE BRIEF.md PREENCHIDO
+## 6. REAL-WORLD EXAMPLES OF COMPLETED BRIEFS
 
-### Exemplo A — Engineering Worker (Implementar Módulo)
+### Example A — Engineering Worker (Module Implementation)
 
 ```markdown
 # BRIEF — Senior Engineer Worker / Trading Engine Core
-> Emitido em: 2026-08-21T20:00:00Z | Emitido por: CTO (Engineering Manager)
+> Issued at: 2026-08-21T20:00:00Z | Issued by: CTO (Engineering Manager)
 
-## 🎯 MISSÃO
-Implementar o módulo `core/risk_engine.py` da máquina de trading quantitativa.
-Este módulo é responsável por calcular o position sizing em tempo real usando
-a fórmula de Kelly Criterion adaptada: f* = (bp - q) / b, onde b = odds,
-p = probabilidade de ganho, q = 1-p. O módulo deve consumir dados de
-volatilidade do módulo `data/market_feed.py` via interface já contratada em
-CONTRACTS.md seção 3.2. Output: objeto RiskSignal com campos: size_lots,
-stop_loss_pips, take_profit_pips, confidence_score (0-1).
+## 🎯 MISSION
+Implement the `core/risk_engine.py` module for the quantitative trading engine.
+This module is responsible for computing real-time position sizing using the
+adapted Kelly Criterion formula: f* = (bp - q) / b, where b = odds,
+p = win probability, q = 1 - p. The module must consume volatility data from
+`data/market_feed.py` via the contracted interface in CONTRACTS.md Section 3.2.
+Output: RiskSignal object with fields: size_lots, stop_loss_pips, take_profit_pips,
+confidence_score (0-1).
 
-## 🗺️ CONTEXTO DO PROJETO
-- Projeto: QuantumTradingMachine v2.0
+## 🗺️ PROJECT CONTEXT
+- Project: QuantumTradingMachine v2.0
 - PROJECT_BRAIN.md: `C:/projects/qtm/PROJECT_BRAIN.md`
-- NODE.md relevantes: `core/NODE.md`, `data/NODE.md`
-- Fase atual: Fase 2 — Core Engine
-- DEC::GROUNDED vigentes: "Usar Kelly Criterion com cap máximo de 2% por trade (DEC-007)"
+- Relevant NODE.md: `core/NODE.md`, `data/NODE.md`
+- Current Phase: Phase 2 — Core Engine
+- Active DEC::GROUNDED: "Use Kelly Criterion with 2% hard risk cap per trade (DEC-007)"
 
-## 📥 DEPENDÊNCIAS DE INPUT
-- [x] `data/market_feed.py` — status: ✅ DONE (confirmed no BRAIN.md)
-- [x] CONTRACTS.md seção 3.2 — interface MarketData definida
-- [ ] `core/position_sizer.py` — NÃO está pronto. BLOQUEIO POTENCIAL: verificar BRAIN.md
+## 📥 INPUT DEPENDENCIES
+- [x] `data/market_feed.py` — status: ✅ DONE (confirmed in BRAIN.md)
+- [x] CONTRACTS.md Section 3.2 — MarketData interface defined
+- [ ] `core/position_sizer.py` — NOT ready. POTENTIAL BLOCKER: verify BRAIN.md
 
-## 📤 OUTPUT ESPERADO
-- [ ] `core/risk_engine.py` — implementação completa com docstrings e type hints
-- [ ] `tests/test_risk_engine.py` — suite com 15+ casos de teste incluindo edge cases
-- [ ] `core/NODE.md` — atualizado com teoria do Kelly Criterion e status DONE
+## 📤 EXPECTED OUTPUT
+- [ ] `core/risk_engine.py` — complete implementation with docstrings and type hints
+- [ ] `tests/test_risk_engine.py` — test suite with 15+ test cases covering edge cases
+- [ ] `core/NODE.md` — updated with Kelly Criterion derivation and status DONE
 ```
 
-### Exemplo B — QA Worker (Auditar Sistema)
+### Example B — QA Worker (System Audit)
 
 ```markdown
 # BRIEF — QA Engineer Worker / API Layer Audit
-> Emitido em: 2026-08-21T21:00:00Z | Emitido por: COO (QA Manager)
+> Issued at: 2026-08-21T21:00:00Z | Issued by: COO (QA Manager)
 
-## 🎯 MISSÃO
-Realizar auditoria profunda e adversarial do módulo `api/routes.py` que foi
-marcado como 🟡 READY no PROJECT_BRAIN.md. Você deve: (1) Ler todo o código
-do módulo, (2) Executar a suite de testes existente e reportar cobertura,
-(3) Tentar quebrar o sistema com inputs malformados, payloads extremos e
-condições de race condition, (4) Verificar se todos os contratos definidos
-em CONTRACTS.md seção 4.x são cumpridos, (5) Emitir veredicto formal.
+## 🎯 MISSION
+Conduct a deep adversarial audit of module `api/routes.py` marked as 🟡 READY
+in PROJECT_BRAIN.md. You must: (1) Read all code in the module, (2) Execute the
+existing test suite and report test coverage, (3) Attempt to break the system
+with malformed inputs, extreme payloads, and race conditions, (4) Verify that
+all contracts defined in CONTRACTS.md Section 4.x are satisfied, (5) Emit a
+formal verification verdict.
 
-## ✅ CRITÉRIOS DE ACEITE
-- [ ] Cobertura de testes ≥ 90% dos endpoints
-- [ ] Zero vulnerabilidades de injeção (SQL, command, path traversal)
-- [ ] Todos os contratos de CONTRACTS.md verificados empiricamente
-- [ ] Q-Score ≥ 9.0 para aprovação de status DONE
-- [ ] Se Q < 9.0: listar exatamente o que impede e enviar ao COO
+## ✅ ACCEPTANCE CRITERIA
+- [ ] Test coverage ≥ 90% across all endpoints
+- [ ] Zero injection vulnerabilities (SQL, command, path traversal)
+- [ ] All contracts in CONTRACTS.md empirically verified
+- [ ] Q-Score ≥ 9.0 for status promotion to DONE
+- [ ] If Q < 9.0: enumerate exact blocking flaws and return to COO
 ```

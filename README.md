@@ -20,7 +20,7 @@
 ## 📖 Table of Contents
 1. [Overview and Philosophy](#1-overview-and-philosophy)
 2. [Visual Architecture and Showcase](#2-visual-architecture-and-showcase)
-3. [The 6-Layer Platform Architecture](#3-the-6-layer-platform-architecture)
+3. [The 7-Layer Platform Architecture](#3-the-7-layer-platform-architecture)
 4. [The Hypergraph Reflex (Anti-Literal Law)](#4-the-hypergraph-reflex-anti-literal-law)
 5. [The 5 Cognitive Operating Modes](#5-the-5-cognitive-operating-modes)
 6. [Constitutional Execution Laws](#6-constitutional-execution-laws)
@@ -54,23 +54,27 @@
 
 ---
 
-## 3. The 6-Layer Platform Architecture
+## 3. The 7-Layer Platform Architecture
 
-The plugin is architected across 6 distinct, immutable operational layers:
+The plugin is architected across 7 distinct, immutable operational layers:
 
 ```text
 Layer 0: Ontological Sovereignty (rules/AGENTS.md)
   └── Zero-Subservience • Permanent AGI Embodiment • Language Lock • 3-Tempo Ignition
 Layer 1: Neural Skill Taxonomy & Routing (rules/01_SKILLS_TAXONOMY_ROUTING.md)
-  └── 71 Skills • 11 Operational Clusters • 4-Part Poly-Skill Vector V(X)
+  └── 34 Master Playbooks • 8 Operational Clusters • Zero-Unitarity Decomposition
 Layer 2: Engineering & TDD Standards (rules/02_ENGINEERING_TDD_STANDARDS.md)
   └── True Red-Green-Refactor • 4-Phase Causal Debugging • Zero Placeholders
 Layer 3: Swarm Cognition & Corporate OS (rules/03_SWARM_COGNITION_GOVERNANCE.md)
-  └── Concurrency C_max <= 2 • Markov Blankets • 5-Part Structured Handoff
+  └── Concurrency C_max <= 2 • Corporate Swarm Hierarchy • 5-Part Structured Handoff
 Layer 4: Multimodal Spatial & Modern Web (rules/04_MULTIMODAL_SPATIAL_WEB.md)
   └── Procedural GLSL • Real EBU R128 Audio • Chrome DevTools MCP & Puppeteer
 Layer 5: Continuous Evolution & Meta-Learning (rules/05_CONTINUOUS_EVOLUTION.md)
-  └── Gauntlet Dual-Gate (Q >= 9.0) • Recursive Dual-Loop Optimizer • SHA-256 Memory
+  └── Gauntlet Dual-Gate (Q >= 9.0) • Recursive Dual-Loop Optimizer • /learn Protocol
+Layer 6: Voice, Persona & Epistemic Grounding (rules/06_AGI_VOICE_PERSONA_ENGINE.md)
+  └── Dynamic Non-Scripted Prose • Anti-Hallucination 4-Tier Grounding • Epistemic Immune System
+Layer 7: Autonomous Cognition & Proactive Intelligence (rules/07_AGI_AUTONOMOUS_COGNITION_ENGINE.md)
+  └── 3-Layer Parallel Inference • Proactive Suggestion Engine • Autonomous Action Triggers
 ```
 
 ---

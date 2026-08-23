@@ -5,15 +5,15 @@ description: >-
 ---
 # 🎬 Interactive Kinetic Media, Scrollytelling & 3D Icon Synthesis Engine
 
-> **DOGMA AGI/ASI:** É estritamente proibido entregar websites com mídias inertes, transições abruptas ou ícones genéricos quando a missão exigir interatividade contemporânea de alto padrão. O sistema deve implementar física de interpolação fluida (Linear Interpolation / RAF), sincronização contínua de quadros de vídeo com a rolagem do usuário, profundidade de parallax multicamada, transformações de perspectiva 3D orientadas pelo cursor e ícones 3D táteis gerados sob medida com isolamento de canal alfa.
+> **AGI/ASI DOGMA:** Delivering websites with inert media, abrupt transitions, or generic flat icons when contemporary high-standard interactivity is required is STRICTLY PROHIBITED. The system must implement fluid interpolation physics (Linear Interpolation / RAF), frame-accurate scroll video scrubbing, multi-layer parallax depth, cursor-driven 3D perspective transforms, and bespoke 3D tactile icons generated with alpha channel isolation.
 
 ---
 
 ## 1. Frame-Accurate Scroll Video Scrubbing (Canvas & Video Pipeline)
 
-Permite que o vídeo avance ou retroceda quadro a quadro exatamente na velocidade do scroll do usuário, com inércia física amortecida e sem travamentos no decodificador do navegador.
+Enables video frames to advance or rewind in lockstep with the user's scroll speed, with damped physical inertia and zero browser decoder stutter.
 
-### A. Estrutura HTML5 & Viewport Sticky
+### A. HTML5 Structure & Sticky Viewport
 ```html
 <section class="scrub-scroll-track" id="scrub-container">
   <div class="scrub-sticky-viewport">
@@ -49,11 +49,11 @@ Permite que o vídeo avance ou retroceda quadro a quadro exatamente na velocidad
 </section>
 ```
 
-### B. Estilização CSS de Alta Fidelidade
+### B. High-Fidelity CSS Styling
 ```css
 .scrub-scroll-track {
   position: relative;
-  height: 450vh; /* Extensão da trilha de scroll */
+  height: 450vh; /* Scroll track length */
   background: #06080a;
 }
 
@@ -132,7 +132,7 @@ Permite que o vídeo avance ou retroceda quadro a quadro exatamente na velocidad
 }
 ```
 
-### C. Motor JavaScript de Scrubbing com Interpolação Linear (Lerp)
+### C. JavaScript Scrubbing Engine with Linear Interpolation (Lerp)
 ```javascript
 class VideoScrollEngine {
   constructor(trackSelector, videoSelector, chaptersSelector) {
@@ -142,7 +142,7 @@ class VideoScrollEngine {
     
     this.targetProgress = 0;
     this.currentProgress = 0;
-    this.lerpRate = 0.075; // Taxa de amortecimento inercial
+    this.lerpRate = 0.075; // Inertial damping rate
     this.isReady = false;
 
     this.bind();
@@ -173,19 +173,19 @@ class VideoScrollEngine {
   tick() {
     if (!this.isReady) return;
 
-    // Fórmula de Interpolação: P_t = P_t + (P_target - P_t) * lambda
+    // Interpolation formula: P_t = P_t + (P_target - P_t) * lambda
     this.currentProgress += (this.targetProgress - this.currentProgress) * this.lerpRate;
 
-    // Atualiza frame do vídeo
+    // Update video frame
     if (this.video.duration) {
       const targetTime = this.currentProgress * this.video.duration;
-      // Previne micro-jitter se delta for insignificante
+      // Prevent micro-jitter if delta is negligible
       if (Math.abs(this.video.currentTime - targetTime) > 0.005) {
         this.video.currentTime = targetTime;
       }
     }
 
-    // Atualiza Capítulos Narrativos
+    // Update narrative chapters
     this.chapters.forEach(chapter => {
       const start = parseFloat(chapter.dataset.start);
       const end = parseFloat(chapter.dataset.end);
@@ -200,7 +200,7 @@ class VideoScrollEngine {
   }
 }
 
-// Inicialização:
+// Initialization:
 // document.addEventListener('DOMContentLoaded', () => {
 //   new VideoScrollEngine('#scrub-container', '#scrubVideo', '.scrub-chapter');
 // });
@@ -208,9 +208,9 @@ class VideoScrollEngine {
 
 ---
 
-## 2. Scrollytelling com Capítulos Fixos (Sticky Storytelling Pin)
+## 2. Scrollytelling with Pinned Media (Sticky Storytelling Pin)
 
-Ideal para apresentações de portfólio de arquitetura, hardware de luxo ou ensaios visuais onde a narrativa à esquerda/direita progride enquanto a mídia central se transmuta:
+Ideal for architectural showcases, luxury hardware presentations, or visual essays where side-by-side narrative progresses while the center media transmutes:
 
 ```css
 .scrolly-split-section {
@@ -280,10 +280,10 @@ Ideal para apresentações de portfólio de arquitetura, hardware de luxo ou ens
 
 ---
 
-## 3. Parallax Multicamada & Morphing de Máscara (`clip-path`)
+## 3. Multi-Layer Parallax & Mask Morphing (`clip-path`)
 
-### A. Parallax Diferencial com Profundidade Visual (Multi-Plane Physics)
-Distribua elementos em planos com fatores de velocidade distintos para criar tridimensionalidade ótica:
+### A. Differential Multi-Plane Parallax Physics
+Distribute elements across depth planes with calibrated velocity multipliers to synthesize optical 3D depth:
 
 ```javascript
 class DifferentialParallax {
@@ -292,7 +292,7 @@ class DifferentialParallax {
       { el: document.querySelector('.plx-bg'), speed: 0.12 },
       { el: document.querySelector('.plx-mid'), speed: 0.38 },
       { el: document.querySelector('.plx-hero-img'), speed: 0.65 },
-      { el: document.querySelector('.plx-fore-text'), speed: -0.22 } // Contra-fluxo cinético
+      { el: document.querySelector('.plx-fore-text'), speed: -0.22 } // Counter-flow kinetic layer
     ];
     this.scrollY = window.scrollY;
     this.currentY = window.scrollY;
@@ -321,8 +321,8 @@ class DifferentialParallax {
 }
 ```
 
-### B. Transição de Máscara Expansiva (`clip-path` Cinema Reveal)
-Conforme o usuário rola, a mídia se expande de um card contido para a tela cheia:
+### B. Expanding Mask Transition (`clip-path` Cinema Reveal)
+As the user scrolls, media expands smoothly from a contained card to full viewport:
 
 ```css
 .cinema-expand-container {
@@ -350,7 +350,7 @@ Conforme o usuário rola, a mídia se expande de um card contido para a tela che
 ```
 
 ```javascript
-// Atualização de clip-path baseado em progresso
+// Clip-path update based on scroll progress
 function updateCinemaMask(progress) {
   const media = document.querySelector('.cinema-expand-media');
   if (!media) return;
@@ -367,7 +367,7 @@ function updateCinemaMask(progress) {
 
 ## 4. Cursor 3D Tilt, Magnetic Pull & Optical Spotlight
 
-### A. 3D Perspective Card Tilt com Spotlight Dinâmico
+### A. 3D Perspective Card Tilt with Dynamic Spotlight
 ```javascript
 function applyKineticTilt(cardsSelector) {
   const cards = document.querySelectorAll(cardsSelector);
@@ -381,7 +381,7 @@ function applyKineticTilt(cardsSelector) {
       const centerX = rect.width / 2;
       const centerY = rect.height / 2;
       
-      // Rotação máxima: 14 graus
+      // Maximum rotation: 14 degrees
       const rotateX = ((y - centerY) / centerY) * -14;
       const rotateY = ((x - centerX) / centerX) * 14;
 
@@ -428,7 +428,7 @@ function applyKineticTilt(cardsSelector) {
 }
 ```
 
-### B. Magnetic Attraction Physics para Botões e Ícones
+### B. Magnetic Attraction Physics for Buttons & Icons
 ```javascript
 function applyMagneticPull(elementsSelector) {
   const elements = document.querySelectorAll(elementsSelector);
@@ -439,7 +439,7 @@ function applyMagneticPull(elementsSelector) {
       const x = e.clientX - (rect.left + rect.width / 2);
       const y = e.clientY - (rect.top + rect.height / 2);
 
-      // Deslocamento magnético (força = 0.35)
+      // Magnetic displacement (force = 0.35)
       el.style.transform = `translate3d(${x * 0.35}px, ${y * 0.35}px, 0)`;
     });
 
@@ -452,29 +452,29 @@ function applyMagneticPull(elementsSelector) {
 
 ---
 
-## 5. Protocolo de Síntese de Ícones 3D / Vidro Líquido (Nano Banana Engine)
+## 5. 3D Icon & Liquid Glass Synthesis Protocol (Nano Banana Engine)
 
-Ao gerar ícones para produtos, features, navegação ou métricas do site:
+When generating icons for products, features, navigation, or telemetry indicators:
 
-### A. Fórmula Master de Prompt para Ícones 3D com Isolamento de Fundo
-$$\text{Prompt} = \text{Objeto Isométrico 3D} + \text{Física de Materiais (Vidro Líquido / Titânio / Ouro Champagne)} + \text{Iluminação de Estúdio & Rim Light} + \text{Fundo Sólido Branco ou Chroma Key Green} + \text{Sensor Macro 100MP}$$
+### A. Master Prompt Formula for 3D Icons with Background Isolation
+$$\text{Prompt} = \text{3D Isometric Object} + \text{Material Physics (Liquid Glass / Titanium / Champagne Gold)} + \text{Studio Lighting & Rim Light} + \text{Pure Solid White Background or Green Screen} + \text{100MP Macro Sensor}$$
 
-- **Exemplo 1 (Ícone de Segurança / Shield):**
+- **Example 1 (Security / Shield Icon):**
   > `Prompt:` `"Minimalist 3D isometric emblem of a biometric vault shield, sculpted in heavy frosted translucent optical glass with an internal glowing amber laser core, dark brushed titanium rim, isolated on pure solid white background, soft studio ground contact shadow, macro Hasselblad 100MP, ultra-crisp edges, 1:1 aspect ratio"`
   > `ImageName:` `"icon_security_shield"`
   > `AspectRatio:` `"1:1"`
 
-- **Exemplo 2 (Ícone de Processamento / Velocidade):**
+- **Example 2 (Processing / Quantum Speed Icon):**
   > `Prompt:` `"Minimalist 3D isometric icon of an optical quantum prism accelerator, layered refraction glass slices with iridescent rainbow caustics, matte obsidian base, isolated on pure solid white background, studio softbox lighting, ultra-sharp silhouette, 1:1 aspect ratio"`
   > `ImageName:` `"icon_quantum_speed"`
   > `AspectRatio:` `"1:1"`
 
-- **Exemplo 3 (Ícone de Arquitetura / Espaço):**
+- **Example 3 (Architecture / Spatial Icon):**
   > `Prompt:` `"Minimalist 3D isometric icon of an architectural cantilever pavilion, raw honed travertine stone and smoked glass panel, warm 3000K internal spotlight, isolated on pure solid white background, clean studio catalog render, 1:1 aspect ratio"`
   > `ImageName:` `"icon_spatial_living"`
   > `AspectRatio:` `"1:1"`
 
-### B. Script de Remoção de Fundo / Alpha Thresholding (`scratch/extract_icon_alpha.py`)
+### B. Background Removal / Alpha Thresholding Script (`scratch/extract_icon_alpha.py`)
 ```python
 import sys
 from PIL import Image
@@ -484,11 +484,11 @@ def extract_white_background(input_path, output_path, tolerance=240):
     img = Image.open(input_path).convert("RGBA")
     data = np.array(img)
     
-    # Mascara de pixels brancos ou quase brancos
+    # Mask of white or near-white pixels
     r, g, b, a = data[:,:,0], data[:,:,1], data[:,:,2], data[:,:,3]
     white_mask = (r >= tolerance) & (g >= tolerance) & (b >= tolerance)
     
-    # Converte fundo em transparente
+    # Convert background to transparent
     data[:,:,3][white_mask] = 0
     
     result = Image.fromarray(data)
@@ -500,7 +500,7 @@ if __name__ == "__main__":
         extract_white_background(sys.argv[1], sys.argv[2])
 ```
 
-### C. Encapsulamento Tátil do Ícone em CSS
+### C. Tactile Icon CSS Wrapper
 ```css
 .tactile-3d-icon {
   width: 64px;

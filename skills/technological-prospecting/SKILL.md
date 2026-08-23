@@ -50,7 +50,7 @@ You MUST invoke the `research` subagent (`invoke_subagent` with `TypeName: "rese
 {
   "TypeName": "research",
   "Role": "API & Protocol Prospector",
-  "Prompt": "TECH PROSPECTING: Pesquise especificações oficiais, schemas OpenAPI, repositórios GitHub e documentação técnica para [TECNOLOGIA/API]. Extraia endpoints, rate limits, autenticação e contratos."
+  "Prompt": "TECH PROSPECTING: Search official specifications, OpenAPI schemas, GitHub repositories, and technical documentation for [TECHNOLOGY/API]. Extract endpoints, rate limits, authentication schemes, and interface contracts."
 }
 ```
 - **For APIs:** Parse OpenAPI 3.0 / Swagger / GraphQL schemas, rate limit tiers, SLA guarantees, and authentication schemes.

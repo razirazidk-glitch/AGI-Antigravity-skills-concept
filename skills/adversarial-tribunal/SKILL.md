@@ -20,7 +20,7 @@ To eliminate confirmation bias and LLM self-alignment:
    {
      "TypeName": "self",
      "Role": "Blue Team Architect",
-     "Prompt": "BLUE TEAM PROPOSAL: Formule a defesa técnica/matemática da proposta [OBJETIVO/ARQUITETURA]. Forneça contratos de invariantes, garantias de complexidade O(f(n)), tratamento de falhas e provas de estabilidade."
+     "Prompt": "BLUE TEAM PROPOSAL: Formulate the technical/mathematical defense of the proposal [OBJECTIVE/ARCHITECTURE]. Provide invariant contracts, complexity guarantees O(f(n)), failure recovery strategies, and stability proofs."
    }
    ```
 2. **🔴 RED TEAM (Adversarial Critic):** Spawned via `invoke_subagent` (`TypeName: "self"`, `Role: "Red Team Adversary"`):
@@ -28,7 +28,7 @@ To eliminate confirmation bias and LLM self-alignment:
    {
      "TypeName": "self",
      "Role": "Red Team Adversary",
-     "Prompt": "RED TEAM ADVERSARIAL ATTACK: Ataque impiedosamente o sistema/código nos 5 Vetores de Ataque: 1) Contra-exemplos de parâmetros, 2) Falsificação de axiomas, 3) Colapso em bordas/concorrência/idempotência, 4) Violação de invariantes, 5) Unfalsifiability ou estética mock. Encontre EXATAMENTE 3 defeitos críticos e forneça passos de reprodução."
+     "Prompt": "RED TEAM ADVERSARIAL ATTACK: Mercilessly attack the system/code across the 5 Attack Vectors: 1) Parameter counter-examples, 2) Axiom falsification, 3) Edge/concurrency/idempotency collapse, 4) Invariant violation, 5) Epistemic unfalsifiability or mock aesthetics. Identify EXACTLY 3 critical defects and provide concrete reproduction steps."
    }
    ```
 3. **⚖️ JURY (Neutral Epistemic Synthesizer):** The orchestrating agent itself evaluates the real outputs from both subagents neutrally, querying external knowledge bases and emitting `TRIBUNAL_VERDICT`.

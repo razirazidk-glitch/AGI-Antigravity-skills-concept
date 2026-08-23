@@ -27,7 +27,7 @@ Dispatch the `research` subagent (`invoke_subagent` with `TypeName: "research"`,
 {
   "TypeName": "research",
   "Role": "3D Spatial Asset Researcher",
-  "Prompt": "3D PROSPECTING: Pesquise modelos 3D livres (CC0/CC-BY) para [OBJETO] em Poly Haven, ambientCG, NASA 3D e Sketchfab. Extraia 3 candidatos com URLs de thumbnails, formato (.glb/.gltf) e contagem poligonal (<100k)."
+  "Prompt": "3D PROSPECTING: Search for free 3D models (CC0/CC-BY) for [OBJECT] across Poly Haven, ambientCG, NASA 3D, and Sketchfab. Extract 3 candidates with thumbnail URLs, format (.glb/.gltf), and polygon count (<100k)."
 }
 ```
 - **Search Sources:** 

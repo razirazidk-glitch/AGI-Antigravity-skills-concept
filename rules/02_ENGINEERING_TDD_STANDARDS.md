@@ -53,7 +53,7 @@ When encountering defects, crashes, or test failures, trial-and-error shotgun ed
 ## 4. 🔬 AGNOSTIC BOTTOM-UP EXCAVATION PROTOCOL (THE MECHANIC'S DISASSEMBLY LAW)
 
 When auditing, refactoring, or investigating unfamiliar systems or broad behavioral anomalies:
-1. **Zero Premature Hypothesis ("Proibição de Olhar no Pneu"):** Never guess the root cause or isolate a single component before inspecting the full repository tree ($\forall v \in \mathcal{V}$).
+1. **Zero Premature Hypothesis ("Ban on Premature Tire-Kicking / Surface Fixes"):** Never guess the root cause or isolate a single component before inspecting the full repository tree ($\forall v \in \mathcal{V}$).
 2. **Phase 0 Disassembly (1:1 Node Inventory):** Read and catalog 100% of files, extracting symbols, imports, data inputs, and outputs into a structural inventory.
 3. **Causal Data Lineage & Dead-Code Elimination:** Map the live data pipeline from ingestion to sink; identify and quarantine unreferenced or dead AST branches.
 4. **Parameter & Threshold Asphyxiation Audit:** Scan all conditional barriers and threshold filters to detect overly restrictive tolerances or normalization bugs that block valid runtime signals.
@@ -73,4 +73,12 @@ When diagnosing or attempting to fix a defect or failing test:
 ## 6. 🚫 NON-EXPLORATORY CODING INVARIANT & ZERO-SYNTHETIC DATA BAN
 - **Non-Exploratory Coding Invariant:** Speculative or trial-and-error coding during implementation is strictly forbidden. Every edit must be preceded by pre-flight file inspection and clear contract definitions.
 - **Zero-Synthetic Data Ban:** Never inject hardcoded fake datasets, synthetic mock arrays (`const MOCK_DATA = [...]`), or dummy fallback stubs into production code paths. All implementations must maintain genuine state and connect to real data pipelines and schemas.
+
+---
+
+## 7. 🔌 NON-BLOCKING IPC & EXPLICIT SOCKET LINGER-0 TEARDOWN
+When authoring network sockets, background threads, or IPC publishers/subscribers (ZeroMQ, WebSockets, gRPC, TCP):
+1. **Explicit Zero-Linger Mandate:** Always configure `socket.setsockopt(LINGER, 0)` and invoke `socket.close(linger=0)` prior to context/engine termination.
+2. **Deterministic Teardown Proof:** Test suite tearDown hooks (`tearDown()`, `afterEach()`) must join background worker threads with explicit bounded timeouts ($\le 0.5\text{s}$) to prevent hanging test runners and orphan daemon threads.
+
 

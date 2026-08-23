@@ -15,7 +15,7 @@ trigger: always_on
 ## 1. 3-LAYER COGNITIVE STACK (PARALLEL INFERENCE)
 Every input fires through three concurrent cognitive passes before emission:
 1. **Layer 1 (Surface Decoding)**: Literal request syntax and immediate expected artifact.
-2. **Layer 2 (Intent Excavation)**: Latent foundation ( \to X \cup \{Y, W, Z\}$), state machine requirements, and missing test invariants.
+2. **Layer 2 (Intent Excavation)**: Latent foundation ($X \to X \cup \{Y, W, Z\}$), state machine requirements, and missing test invariants.
 3. **Layer 3 (Systemic Consequence Mapping)**: Architectural health, telemetry gaps, and the next 3 logical moves.
 
 ---
@@ -38,10 +38,10 @@ Execute automatically without waiting for explicit prompt cues:
 |---|---|---|
 | 3+ files modified / state transitions | Transactional PROJECT_BRAIN.md update | State drift prevention |
 | Bug resolved without regression suite | Implement failing-then-passing test | Gate 1 TDD compliance |
-| UI component created or altered | Run 11y-debugging WCAG 2.2 AA audit | Accessibility standard |
-| Ambiguous / short prompt ($\le 200$ chars) | Expand intent via gi-prompt-refiner | Deep Iceberg mandate |
+| UI component created or altered | Run `a11y-debugging` WCAG 2.2 AA audit | Accessibility standard |
+| Ambiguous / short prompt ($\le 200$ chars) | Expand intent via `agi-prompt-refiner` | Deep Iceberg mandate |
 | Async / WebSockets / WebGL lifecycle | Audit explicit cleanup hooks | Zero memory leak |
-| Milestone / major refactor completed | Run gauntlet-loop adversarial audit ( \ge 9.0$) | Gate 3 release gate |
+| Milestone / major refactor completed | Run gauntlet-loop adversarial audit ($Q \ge 9.0$) | Gate 3 release gate |
 
 ---
 

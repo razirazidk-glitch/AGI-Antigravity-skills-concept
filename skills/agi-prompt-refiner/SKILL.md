@@ -17,7 +17,7 @@ Analyze the user's brief input to extract:
 
 ## 2. AGI/ASI Formulation Rules
 When formatting the new prompt, it must adhere to the global AGI/ASI Neural Sector rigor:
-- **Anti-Hallucination & Zero-Preconception Invariant:** The refiner is STRICTLY PROHIBITED from inventing theoretical models, exotic frameworks (e.g., Schrödinger operators, LBM, unverified libraries), or diagnosing specific components ("apontar pro pneu") unless explicitly cited in the user's prompt or proven on disk.
+- **Anti-Hallucination & Zero-Preconception Invariant:** The refiner is STRICTLY PROHIBITED from inventing theoretical models, exotic frameworks (e.g., Schrödinger operators, LBM, unverified libraries), or prematurely blaming specific components ("pointing at the tire") unless explicitly cited in the user's prompt or proven on disk.
 - **Agnostic Bottom-Up Archaeology Mandate:** For audits, codebase investigations, or large-scale refactoring, instruct the agent to execute a 1:1 node disassembly ($\forall v \in \mathcal{V}$) and map raw data lineage before dispatching adversarial tribunals.
 - **Zero-Trust Falsification:** Instruct the executing agent to verify all assumptions before proceeding.
 - **Topological & Graph Mapping:** If the task involves code or architecture, instruct the agent to build an Abstract Syntax Tree (AST) or Directed Acyclic Graph (DAG) mental model.
@@ -46,30 +46,30 @@ Present the result to the user in the following structure:
 
 ### Example Refined Prompt Structure (Deep Audit & Archaeology)
 ```markdown
-/goal INICIAR EXCAVAÇÃO ARQUEOLÓGICA FORENSE E AUDITORIA 1:1 DE BAIXO PARA CIMA DO PROJETO [NOME].
+/goal INITIATE FORENSIC ARCHAEOLOGICAL EXCAVATION AND 1:1 BOTTOM-UP AUDIT OF PROJECT [NAME].
 
-### 🚫 1. LEI DO AGNOSTICISMO & ZERO-PRECONCEPÇÃO
-- Proibido formular hipóteses prematuras ou isolar um único componente antes de mapear 100% da árvore de arquivos.
-- Proibido inventar tecnologias não verificadas; todo diagnóstico deve nascer da evidência material coletada nó a nó.
+### 🚫 1. LAW OF AGNOSTICISM & ZERO PRECONCEPTION
+- Prohibited from formulating premature hypotheses or isolating a single component before mapping 100% of the file tree.
+- Prohibited from inventing unverified technologies; all diagnostics must originate from material evidence collected node-by-node.
 
-### 🛠️ 2. FASE 1: DESMONTAGEM MECÂNICA & INVENTÁRIO 1:1 (∀v ∈ V)
-1. **Catalogação por Nó:** Caminho, LOC, dependências de entrada, interfaces exportadas e mutabilidade.
-2. **Eliminação de Código Morto:** Análise de alcance no AST para purgar arquivos órfãos e lógicas zumbis.
-3. **Grafo de Linhagem de Dados:** Rastreamento exato: Ingestão de Dados -> Transformadores -> Consumidores -> Sinks.
+### 🛠️ 2. PHASE 1: MECHANICAL DISASSEMBLY & 1:1 INVENTORY (∀v ∈ V)
+1. **Per-Node Cataloging:** Path, LOC, inbound dependencies, exported interfaces, and mutability.
+2. **Dead Code Elimination:** AST reachability analysis to purge orphan files and zombie logic.
+3. **Data Lineage Graph:** Exact tracking: Data Ingestion -> Transformers -> Consumers -> Sinks.
 
-### 🔬 3. FASE 2: FORENSE DE ANOMALIAS MATERIAIS
-1. **Paridade Empírica:** Auditar divergências entre simulação/backtest e runtime de produção/live.
-2. **Calibração de Thresholds:** Identificar filtros excessivamente restritivos que bloqueiam sinais válidos.
-3. **Persistência & Telemetria:** Projetar/implementar banco de dados ACID/WAL e observabilidade estruturada nó a nó.
+### 🔬 3. PHASE 2: FORENSICS OF MATERIAL ANOMALIES
+1. **Empirical Parity:** Audit divergences between simulation/backtest and production/live runtime.
+2. **Threshold Calibration:** Identify overly restrictive filters that block valid runtime signals.
+3. **Persistence & Telemetry:** Design/implement ACID/WAL database persistence and structured node-by-node observability.
 
-### 🔴🔵 4. FASE 3: TRIBUNAL ADVERSARIAL VIA SUBAGENTES (C_max <= 2)
-Despachar Red Team e Blue Team operando exclusivamente sobre os nós anômalos identificados na Fase 1.
+### 🔴🔵 4. PHASE 3: ADVERSARIAL TRIBUNAL VIA SUBAGENTS (C_max <= 2)
+Dispatch Red Team and Blue Team operating exclusively upon anomalous nodes identified in Phase 1.
 
-### 📦 5. ENTREGÁVEIS OBRIGATÓRIOS
-1. PROJECT_BRAIN.md (Topologia viva e mapa causal de 100% dos nós).
-2. AUDIT_REPORT.md (Laudo forense das patologias eliminadas).
-3. ARCHITECTURE.md & CONTRACTS.md (Especificação institucional e contratos tipados).
-4. Suíte de Testes Automatizados (100% green, exit code 0).
+### 📦 5. MANDATORY DELIVERABLES
+1. PROJECT_BRAIN.md (Living topology and causal map of 100% of nodes).
+2. AUDIT_REPORT.md (Forensic report of eliminated pathologies).
+3. ARCHITECTURE.md & CONTRACTS.md (Institutional specification and typed contracts).
+4. Automated Test Suite (100% green, exit code 0).
 ```
 
 

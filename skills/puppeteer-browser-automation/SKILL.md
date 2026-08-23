@@ -31,17 +31,17 @@ The bundled Puppeteer MCP server exposes the following high-precision tools:
 
 ## 2. High-Resolution & Fullscreen Viewport Standard (MANDATORY)
 
-> 🔴 **PROIBIÇÃO DE RESOLUÇÃO 800x600 (LOW-RES BAN):**
-> É estritamente proibido chamar `puppeteer_screenshot` sem especificar dimensões ou usar a resolução padrão de 800x600.
-> Toda captura DEVE usar resolução **Full HD (1920x1080)** ou superior em tela cheia para garantir fidelidade visual, renderização de layouts responsivos e nitidez de tipografia.
+> 🔴 **800x600 RESOLUTION PROHIBITION (LOW-RES BAN):**
+> Calling `puppeteer_screenshot` without specifying explicit dimensions or defaulting to 800x600 is STRICTLY PROHIBITED.
+> All visual captures MUST use **Full HD (1920x1080)** resolution or higher in fullscreen mode to ensure optical fidelity, responsive layout rendering, and crisp typographic hierarchy.
 
-### Tabela de Resoluções Padrão:
-| Modo | Largura (`width`) | Altura (`height`) | Uso |
+### Standard Resolution Matrix:
+| Mode | Width (`width`) | Height (`height`) | Purpose |
 |---|---|---|---|
-| **🖥️ Full HD Desktop (Padrão Obrigatório)** | `1920` | `1080` | Dashboards, websites, landing pages, jogos WebGL em tela cheia |
-| **🖥️ 2K / Widescreen Ultra-HD** | `2560` | `1440` | Interfaces de alta densidade, editores gráficos, simuladores |
-| **📱 Mobile Full Breakpoint** | `390` | `844` | Validação mobile responsiva (iPhone 14/15 viewport) |
-| **📱 Tablet Breakpoint** | `820` | `1180` | Layouts para iPad / tablets |
+| **🖥️ Full HD Desktop (Mandatory Default)** | `1920` | `1080` | Dashboards, websites, landing pages, fullscreen WebGL applications |
+| **🖥️ 2K / Widescreen Ultra-HD** | `2560` | `1440` | High-density data interfaces, graphic editors, spatial simulators |
+| **📱 Mobile Full Breakpoint** | `390` | `844` | Mobile responsive verification (iPhone 14/15 viewport) |
+| **📱 Tablet Breakpoint** | `820` | `1180` | iPad / tablet layout verification |
 
 ---
 

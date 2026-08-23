@@ -6,14 +6,14 @@ description: >-
 # 🎬 GEMINI OMNI & VEO VIDEO GENERATION ENGINE (Senior Photorealism & Optical Physics)
 
 > 🔴 **ANTI-AI-LOOK & SENIOR PHOTOREALISM MANDATE:**
-> É expressamente proibido gerar vídeos com aspecto sintético, plástico, movimentos lineares de screensaver ou prompts com chavões vazios ("realistic, 8k, beautiful"). 
-> Toda geração DEVE seguir a **Fórmula de Óptica e Física de Materiais (Master Cinematography Codex)** para alcançar qualidade de longa-metragem cinematográfico (A24 / Denis Villeneuve / Roger Deakins tier).
+> Generating videos with synthetic, plastic looks, linear screensaver camera pans, or empty buzzword prompts ("realistic, 8k, beautiful") is STRICTLY PROHIBITED.
+> All generation MUST adhere to the **Optical & Material Physics Codex (Master Cinematography Codex)** to achieve feature-film cinematic quality (A24 / Denis Villeneuve / Roger Deakins tier).
 
 ---
 
-## 1. O Código dos 6 Pilares de Fotorealismo Sênior (Anti-Artificial)
+## 1. The 6 Pillars of Senior Photorealism (Anti-Artificial Codex)
 
-$$\text{Prompt}_{\text{Veo}} = \text{Sensor/Óptica} + \text{Física de Materiais} + \text{Iluminação de Estúdio} + \text{Química de Película} + \text{Micro-Dinâmica} + \text{Inércia de Câmera}$$
+$$\text{Prompt}_{\text{Veo}} = \text{Sensor/Optics} + \text{Material Physics} + \text{Studio Lighting} + \text{Film Stock Chemistry} + \text{Micro-Dynamics} + \text{Camera Inertia}$$
 
 ```
                                ┌──────────────────────────────────────────────┐
@@ -23,52 +23,52 @@ $$\text{Prompt}_{\text{Veo}} = \text{Sensor/Óptica} + \text{Física de Materiai
          ┌───────────────────┬────────────────────────┼────────────────────────┬───────────────────┐
          ▼                   ▼                        ▼                        ▼                   ▼
 ┌──────────────────┐┌───────────────────┐    ┌───────────────────┐    ┌───────────────────┐┌───────────────────┐
-│ 1. SENSOR & LENTE││ 2. FÍSICA MATERIAIS│   │ 3. LUZ & VOLUMETRIA│   │ 4. PELÍCULA KODAK ││ 5. DINÂMICA FLUIDA│
-│ Arri Alexa 65 LF ││ Titânio escovado, │    │ Chiaroscuro 3200K,│    │ Kodak Vision3 500T││ Refração caustics,│
-│ Panavision 40mm  ││ Travertino poroso,│    │ Softbox direcional│    │ Halation óptico,  ││ Inércia natural   │
-│ Anamorphic T2.8  ││ Vidro borossilic. │    │ Falloff de sombra │    │ Grão 35mm orgânico││ Steadicam 24fps   │
+│ 1. SENSOR & LENS ││ 2. MATERIAL PHYS  │    │ 3. LIGHT & VOLUME │    │ 4. FILM STOCK     ││ 5. FLUID DYNAMICS │
+│ Arri Alexa 65 LF ││ Brushed titanium, │    │ Chiaroscuro 3200K,│    │ Kodak Vision3 500T││ Caustic refraction│
+│ Panavision 40mm  ││ Porous travertine,│    │ Directional softbx│    │ Optical halation, ││ Natural inertia   │
+│ Anamorphic T2.8  ││ Borosilicate glass│    │ Shadow falloff    │    │ Organic 35mm grain││ Steadicam 24fps   │
 └──────────────────┘└───────────────────┘    └───────────────────┘    └───────────────────┘└───────────────────┘
 ```
 
-### 🚫 PROIBIÇÕES ABSOLUTAS DE PROMPT (Chavões Artificiais Banidos):
-* ❌ NUNCA use: `"ultra realistic"`, `"8k"`, `"photorealistic"`, `"hyper detailed"`, `"unreal engine"`, `"octane render"`, `"masterpiece"`, `"trending on artstation"`. *(Estes termos geram renderizações plásticas e saturadas).*
-* ❌ NUNCA use: Luzes neon aleatórias sem fonte física, peles enceradas sem textura, ou movimentos de câmera rápidos e lineares.
+### 🚫 ABSOLUTE PROMPT PROHIBITIONS (Banned Synthetic Clichés):
+* ❌ NEVER use: `"ultra realistic"`, `"8k"`, `"photorealistic"`, `"hyper detailed"`, `"unreal engine"`, `"octane render"`, `"masterpiece"`, `"trending on artstation"`. *(These buzzwords trigger plastic, over-saturated AI renders).*
+* ❌ NEVER use: Arbitrary neon lights without physical sources, waxy textures lacking micro-pores, or rapid linear camera pans.
 
 ---
 
-### 🎥 Pilar 1: Cinemática da Câmera, Sensores & Óptica Real
-* **Sensores de Cinema:** `ARRI Alexa 65 Large Format`, `RED V-Raptor 8K VV`, `Hasselblad H6D-100c Medium Format`.
-* **Lentes Anamórficas:** `Panavision C-Series Anamorphic 40mm T2.8`, `Cooke /i Full Frame Plus 65mm`, `Zeiss Master Prime 50mm f/1.3`.
-* **Óptica Física:** `Subtle barrel distortion at frame periphery`, `natural depth of field roll-off (no digital blur)`, `subtle anamorphic streak flaring`, `optical halation around specular highlights`.
+### 🎥 Pillar 1: Camera Kinematics, Sensors & Authentic Optics
+* **Cinema Sensors:** `ARRI Alexa 65 Large Format`, `RED V-Raptor 8K VV`, `Hasselblad H6D-100c Medium Format`.
+* **Anamorphic Lenses:** `Panavision C-Series Anamorphic 40mm T2.8`, `Cooke /i Full Frame Plus 65mm`, `Zeiss Master Prime 50mm f/1.3`.
+* **Physical Optics:** `Subtle barrel distortion at frame periphery`, `natural depth of field roll-off (no digital blur)`, `subtle anamorphic streak flaring`, `optical halation around specular highlights`.
 
-### 💎 Pilar 2: Química de Superfície & Micro-Texturas
-* **Materiais Tangíveis:** `Brushed dark titanium with micro-machining marks`, `hand-poured raw architectural concrete with formwork seam lines`, `honed porous travertine stone`, `cast borosilicate glass with refractive caustics`.
+### 💎 Pillar 2: Surface Chemistry & Micro-Textures
+* **Tangible Materials:** `Brushed dark titanium with micro-machining marks`, `hand-poured raw architectural concrete with formwork seam lines`, `honed porous travertine stone`, `cast borosilicate glass with refractive caustics`.
 
-### 💡 Pilar 3: Arquitetura de Iluminação (Roger Deakins Tier)
+### 💡 Pillar 3: Lighting Architecture (Roger Deakins Tier)
 * `Warm tungsten 3200K key light with subtle cool 5600K ambient daylight fill`, `single-source directional chiaroscuro lighting`, `volumetric atmospheric haze with natural particulate diffusion`.
 
-### 🎨 Pilar 4: Ciência de Cor & Película Cinematográfica
+### 🎨 Pillar 4: Color Science & Photochemical Film Stocks
 * `Kodak Vision3 500T 5219 film stock color science`, `Kodak Portra 400 natural skin tonality`, `fine 35mm photochemical film grain`, `uncompressed shadow dynamic range`.
 
-### ⏱️ Pilar 5: Cinemática com Inércia Natural & Fluidodinâmica
+### ⏱️ Pillar 5: Kinematics with Natural Inertia & Fluid Dynamics
 * `Slow hydraulic Chapman dolly tracking on steel rails`, `smooth 3-axis gyro-stabilized Steadicam drift with 0.5-degree natural operator breathing inertia`, `Navier-Stokes fluid dynamic surface ripples on wet ground`, `rigid body geometric consistency across all frames`, `24fps cinematic film cadence`.
 
 ---
 
-## 2. Biblioteca de Prompts Sênior Fotorealistas (Anti-Generic Master Templates)
+## 2. Senior Photorealistic Prompt Library (Anti-Generic Master Templates)
 
-### A. Arquitetura Noturna & Monumental (Ex: Museu do Louvre / Sanctuaire)
+### A. Monumental & Nocturnal Architecture (e.g., Louvre Museum / Sanctuary)
 > `"Cinematic slow hydraulic dolly-in tracking shot through the deserted Cour Napoléon at night, the glass pyramid illuminated by warm 3000K internal museum spotlights, gentle rain creating refractive optical caustics across triangular glass panes, puddles on dark wet granite parvis reflecting golden light, volumetric misty haze drifting in cool Parisian air, shot on Arri Alexa 65 with Panavision Anamorphic 40mm T2.8 lens, Kodak Vision3 500T color science, fine organic 35mm film grain, 24fps cinematic cadence, zero structural warping."`
 
-### B. Product & Hardware Showcase: Dispositivo / Tecnologia Monolítica Flutuante
+### B. Hardware & Product Showcase: Floating Monolithic Device / Technology
 > `"Macro studio tracking shot on a motorized rail slowly orbiting a dark obsidian titanium flagship device levitating in mid-air, a harsh single softbox key light sweeping across the micro-beveled edges and matte ceramic glass back, subtle caustic light refraction through an internal borosilicate prism, Hasselblad H6D-100c medium format, 100mm macro probe lens, f/2.8 shallow depth of field with creamy optical bokeh, neutral dark graphite studio background, rigid body geometry, 24fps."`
 
-### C. Interior, Arquitetura & Espaços Físicos
+### C. Interior, Architecture & Physical Spaces
 > `"Slow architectural Steadicam push-in through a grand salon of warm walnut timber slats and floor-to-ceiling glass looking out at misty pines, natural morning light casting soft shadows across low seating and polished concrete floors, atmospheric dust motes dancing in soft volumetric light beams, Roger Deakins-style natural color palette, Kodak Portra 400 aesthetic, graceful 24fps motion."`
 
 ---
 
-## 3. Os 3 Métodos de Execução & Geração de Vídeo
+## 3. The 3 Execution & Video Generation Methods
 
 ```
                  ┌─────────────────────────────────────────────────────────────┐
@@ -84,48 +84,48 @@ $$\text{Prompt}_{\text{Veo}} = \text{Sensor/Óptica} + \text{Física de Materiai
 └─────────────────────────┘            └─────────────────────────┘            └─────────────────────────┘
 ```
 
-### 🕵️ Modo 1: Google Veo Dedicated Studio Web Automation (MANDATÓRIO / Zero-Key Engine)
-Quando o usuário solicitar um vídeo ou quando a esteira AGI/ASI exigir vídeo real:
-> 🔴 **REGRA DE EXECUÇÃO OBRIGATÓRIA DA IA:**
-> A IA **NUNCA DEVE APENAS DESCREVER** ou tentar digitar no chat padrão. Ela **DEVE EXECUTAR DIRETAMENTE VIA `run_command`** o script oficial do estúdio:
+### 🕵️ Mode 1: Google Veo Dedicated Studio Web Automation (MANDATORY / Zero-Key Engine)
+When the user requests video generation or when the AGI/ASI pipeline requires real video:
+> 🔴 **MANDATORY AI EXECUTION RULE:**
+> The agent **MUST NEVER MERELY DESCRIBE** or attempt to type into standard chat. It **MUST EXECUTE DIRECTLY VIA `run_command`** using the official studio runner script:
 
 ```bash
-# Execução direta com prompt cinemático fotorealista e anexo de imagem 2D:
+# Direct execution with cinematic photorealistic prompt and 2D image attachment:
 python skills/gemini-omni-video-generation/scripts/generate_video_veo_studio.py \
   --prompt "Cinematic slow hydraulic dolly-in tracking shot through the deserted Cour Napoléon at night, the glass pyramid illuminated by warm 3000K internal museum spotlights, gentle rain creating refractive optical caustics across triangular glass panes, puddles on dark wet granite parvis reflecting golden light, volumetric misty haze drifting in cool Parisian air, shot on Arri Alexa 65 with Panavision Anamorphic 40mm T2.8 lens, Kodak Vision3 500T color science, fine organic 35mm film grain, 24fps cinematic cadence, zero structural warping" \
   --image "assets/images/hero.jpg" \
   --output "assets/videos/veo_studio_master.mp4"
 ```
 
-* **O que o Script Executa Automaticamente:**
-  1. **Navegação Direta ao Estúdio:** Acessa `https://gemini.google.com/videos` (ou clica na aba `[🎥 Videos]` na barra lateral).
-  2. **Ativação da Tag `[🎥 Videos]`:** Garante que o input contenha a tag de vídeo ativa (`data-placeholder="Describe your video"`).
-  3. **Anexo de Imagem (Image-to-Video):** Faz o upload da foto gerada no Nano Banana via `page.set_input_files("input[type='file']", image_path)`.
-  4. **Captura do Link Permanente do Chat:** Extrai o URL permanente do chat (`page.url`) para que o usuário possa acessar a conversa no Gemini a qualquer momento.
-  5. **Espera Segura de Síntese (até 150s):** Mantém a conexão ativa sem fechar o navegador prematuramente enquanto o Veo renderiza o vídeo.
-  6. **Interceptação de Stream Binário:** Intercepta os pacotes brutos do vídeo (`contribution.usercontent.google.com` ou `googlevideo.com`), salva o `.mp4` real em disco e valida que o arquivo possui tamanho $> 1.0\,\text{MB}$.
+* **What the Script Automatically Executes:**
+  1. **Direct Navigation to Studio:** Accesses `https://gemini.google.com/videos` (or clicks the `[🎥 Videos]` tab in sidebar).
+  2. **Video Tag Activation `[🎥 Videos]`:** Ensures the input field activates video mode (`data-placeholder="Describe your video"`).
+  3. **Image Attachment (Image-to-Video):** Uploads the 2D reference photo via `page.set_input_files("input[type='file']", image_path)`.
+  4. **Chat Permanent Link Extraction:** Captures the permanent conversation URL (`page.url`) for user inspection.
+  5. **Secure Synthesis Wait (up to 150s):** Maintains active socket connection while Veo renders without premature timeouts.
+  6. **Binary Stream Interception:** Captures raw binary packets (`contribution.usercontent.google.com` or `googlevideo.com`), writes real `.mp4` to disk, and verifies file size $> 1.0\,\text{MB}$.
 
-* **Comando para o Usuário Abrir a Biblioteca de Vídeos Gerados:**
+* **Command to Open the Generated Video Library:**
 ```bash
 python skills/gemini-omni-video-generation/scripts/open_gemini_library.py
 ```
 
-### 🚀 Modo 2: Google Veo 3.1 API Oficial (LRO Polling)
-Quando as chaves `GEMINI_API_KEY` ou `GOOGLE_API_KEY` estiverem configuradas no ambiente:
-* Envia requisição assíncrona ao endpoint `veo-3.1-generate-001:predictLongRunning` e aguarda o polling reativo da operação.
+### 🚀 Mode 2: Official Google Veo 3.1 API (LRO Polling)
+When `GEMINI_API_KEY` or `GOOGLE_API_KEY` is present in the environment:
+* Dispatches async request to `veo-3.1-generate-001:predictLongRunning` endpoint and handles reactive LRO polling.
 
-### 🎬 Modo 3: Multi-Shot Master Presentation Synthesizer (FFmpeg + Áudio Real do YouTube)
-* Gera apresentações completas multi-cenas com letterbox Cinemascope 2.39:1, transições em crossfade e trilha acústica real extraída via `yt-dlp`.
+### 🎬 Mode 3: Multi-Shot Master Presentation Synthesizer (FFmpeg + Authentic YouTube Audio)
+* Generates multi-scene master presentations with 2.39:1 Cinemascope letterboxing, crossfade transitions, and authentic telemetry soundscapes extracted via `yt-dlp`.
   `python skills/gemini-omni-video-generation/scripts/generate_video.py --mode trailer --scenes_json scenes.json --output assets/videos/trailer.mp4`
 
 ---
 
-## 4. Pipeline de Integração Web & Desempenho (Zero-Lag Video)
+## 4. Web Integration & Performance Pipeline (Zero-Lag Video)
 
-Ao incorporar vídeos gerados em aplicações web e frontends de alto padrão:
+When integrating generated video into web applications:
 
-### 1. Síntese do Poster Frame Obrigatório (Nano Banana Engine)
-Antes de carregar o vídeo, gere o poster de alta resolução via `generate_image` para evitar flash de tela preta:
+### 1. Mandatory Poster Frame Synthesis
+Before video load, generate a high-resolution poster via `generate_image` to eliminate black flash:
 ```html
 <div class="omni-cinematic-video-frame">
   <video 
@@ -147,7 +147,7 @@ Antes de carregar o vídeo, gere o poster de alta resolução via `generate_imag
 </div>
 ```
 
-### 2. Estilos CSS com Liquid Glass & Profundidade Óptica
+### 2. CSS Styling with Liquid Glass & Optical Depth
 ```css
 .omni-cinematic-video-frame {
   position: relative;
@@ -208,10 +208,10 @@ Antes de carregar o vídeo, gere o poster de alta resolução via `generate_imag
 }
 ```
 
-### 3. Integração com WebGL / Three.js (Texturas de Vídeo Espaciais)
-Para projetos 3D e computação espacial:
+### 3. WebGL / Three.js Integration (Spatial Video Textures)
+For 3D projects and spatial computing:
 ```javascript
-// Criar textura dinâmica de vídeo em tempo real
+// Create dynamic real-time video texture
 const video = document.createElement('video');
 video.src = 'assets/videos/screen_feed.mp4';
 video.autoplay = true;
@@ -239,29 +239,29 @@ const screenMaterial = new THREE.MeshPhysicalMaterial({
 
 ---
 
-## 5. Pipeline Híbrido: Nano Banana ➔ Veo 3.1 (Image-to-Video & Parallax Spatial)
+## 5. Hybrid Pipeline: 2D Generative Atoms ➔ Veo 3.1 (Image-to-Video & Spatial Parallax)
 
 ```
                  ┌─────────────────────────────────────────────────────────────┐
-                 │       FUSÃO MULTIMODAL NANO BANANA + VEO 3.1                │
+                 │       MULTIMODAL FUSION: 2D ATOM + VEO 3.1                  │
                  └──────────────────────────────┬──────────────────────────────┘
                                                 │
          ┌──────────────────────────────────────┼──────────────────────────────────────┐
          ▼                                      ▼                                      ▼
 ┌─────────────────────────┐            ┌─────────────────────────┐            ┌─────────────────────────┐
-│ 1. NANO BANANA (2D ATOM)│            │ 2. VEO 3.1 (I2V ANIM)   │            │ 3. SPATIAL PARALLAX WEB │
-│ • Cenários 8K em estúdio│ ➔ Anexa ➔  │ • Animação da imagem    │ ➔ Rigging ➔│ • Camadas Z0, Z1, Z2    │
-│ • Props PNG recortados  │   na tela  │ • Física de fluidos/luz │  no layout │ • Iluminação no cursor  │
-│ • Texturas PBR albedo   │   do Veo   │ • Câmera 3D cinemática  │  frontend  │ • Micro-interações Awwwards│
+│ 1. 2D IMAGE ASSET       │            │ 2. VEO 3.1 (I2V ANIM)   │            │ 3. SPATIAL PARALLAX WEB │
+│ • High-detail 2D scene  │ ➔ Attach ➔ │ • Temporal animation    │ ➔ Rigging ➔│ • Layers Z0, Z1, Z2     │
+│ • Transparent PNG props │   to Veo   │ • Fluid/light physics   │  in UI     │ • Cursor lighting       │
+│ • PBR albedo textures   │   canvas   │ • Cinematic 3D camera   │  layout    │ • Awwwards micro-effects│
 └─────────────────────────┘            └─────────────────────────┘            └─────────────────────────┘
 ```
 
-### Regras do Pipeline Image-to-Video:
-1. **Âncora Estrutural (Nano Banana):** Gere a imagem base com composição rigorosa, texturas tangíveis (vidro borossilicato, mármore, titânio) e iluminação cinemática.
-2. **Animação Temporal (Veo 3.1):** Envie a imagem gerada pelo Nano Banana como anexo de referência para o Veo com prompt de micro-movimentos físicos:
+### Image-to-Video Pipeline Rules:
+1. **Structural Anchor:** Generate the base 2D image with rigorous composition, tangible materials (borosilicate glass, travertine, titanium), and cinematic lighting.
+2. **Temporal Animation (Veo 3.1):** Attach the 2D image as reference to Veo with physical micro-movement prompts:
    - `Prompt:` *"Animate this reference image: slow cinematic camera push-in, subtle rain drops falling with light refraction caustics across the glass pyramid, water puddles rippling on the ground, golden volumetric atmospheric haze drifting, rigid architectural consistency, 60fps fluid cinematic motion."*
-3. **Disposição Espacial em Camadas (Frontend):** 
-   - Camada $Z_0$ (Fundo): Vídeo de ambientação do Veo em loop com `object-fit: cover`.
-   - Camada $Z_1$ (Plano Médio): Elementos gráficos e mapas em SVG interativo.
-   - Camada $Z_2$ (Primeiro Plano): Elementos recortados em PNG (estátuas, badges, cartões de vidro líquido) com translações relativas ao scroll e posição do mouse (`transform: translate3d(x, y, z)`).
+3. **Spatial Layer Rigging (Frontend):** 
+   - Layer $Z_0$ (Background): Ambient Veo video looping with `object-fit: cover`.
+   - Layer $Z_1$ (Midground): Interactive SVG maps and graphic telemetry elements.
+   - Layer $Z_2$ (Foreground): Transparent PNG cutouts (props, cards, liquid glass panels) with mouse and scroll-reactive parallax (`transform: translate3d(x, y, z)`).
 

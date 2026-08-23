@@ -3,47 +3,47 @@ name: project-neural-map
 description: >-
   MANDATORY recursive long-term memory and session state persistence protocol implementing PROJECT_BRAIN.md, transactional state schemas, and SHA-256 session handoff cryptography. Trigger on mentions of: 'project brain', 'neural map', 'PROJECT_BRAIN.md', 'NODE.md', 'module status', 'long-term memory', 'cognitive memory', 'state schema', 'save state', 'persist session', 'session handoff', 'state hash', or at the start of any turn in an active multi-module project.
 ---
-# 🧠 PROJECT NEURAL MAP — Memória Recursiva de Longo Prazo
+# 🧠 PROJECT NEURAL MAP — Recursive Long-Term System Memory
 
-> 🔴 **LEI ABSOLUTA:** Em qualquer projeto ativo com PROJECT_BRAIN.md existente, a PRIMEIRA AÇÃO OBRIGATÓRIA de qualquer turno é executar `view_file` no `PROJECT_BRAIN.md` e nos `NODE.md` dos módulos que serão tocados. PROIBIDO iniciar qualquer modificação sem ter lido o mapa. Sem leitura = sem permissão de execução.
-
----
-
-## 1. Visão Geral & Os 4 Status Dinâmicos
-
-```
-🔴 CHANGING  — Este núcleo está sendo modificado AGORA. Nenhum outro agente pode tocá-lo.
-               → Worker responsável: [nome] | Iniciado em: [timestamp]
-               → Bloqueio automático para outros agentes
-
-✅ DONE      — Implementado, testado, Q-Score ≥ 9.0 confirmado empiricamente.
-               → Estável. Modificações só com BRIEF.md explícito novo.
-
-⬜ NOT_MADE  — Existe no ARCHITECTURE.md mas ainda não foi implementado.
-               → Aguardando disponibilidade de Worker ou dependências.
-
-🟡 READY     — Implementado mas aguardando revisão, testes ou aprovação final.
-               → Próximo passo: QA Worker deve auditar e mover para DONE ou devolver.
-```
+> 🔴 **ABSOLUTE LAW:** In any active project with an existing `PROJECT_BRAIN.md`, the FIRST MANDATORY ACTION of any turn is to run `view_file` on `PROJECT_BRAIN.md` and on the `NODE.md` files of all modules that will be modified. Initiating any code modification without first reading the map is STRICTLY PROHIBITED. No read = zero permission to modify.
 
 ---
 
-## PROTOCOLO DE CRIAÇÃO (Início de Projeto)
+## 1. Overview & The 4 Dynamic States
 
-### Quando criar
-Imediatamente após a aprovação dos 5 documentos do `deep-planning-protocol`, ANTES de qualquer linha de código.
-
-### Quem cria
-O CEO Agent (Agente Principal) cria o `PROJECT_BRAIN.md` e um `NODE.md` vazio (status `⬜ NOT_MADE`) para cada módulo definido no `ARCHITECTURE.md`.
-
-### Localização
 ```
-[raiz-do-projeto]/
-  PROJECT_BRAIN.md          ← Índice global (SEMPRE na raiz)
-  [modulo-a]/
-    NODE.md                  ← Doc técnica do módulo A
-  [modulo-b]/
-    NODE.md                  ← Doc técnica do módulo B
+🔴 CHANGING  — This core module is being actively modified RIGHT NOW. No other agent may touch it.
+               → Responsible Worker: [name] | Commenced at: [timestamp]
+               → Automatic write-lock for peer agents.
+
+✅ DONE      — Fully implemented, tested, and certified with empirical Q-Score ≥ 9.0.
+               → Stable. Modifications permitted only under a new explicit BRIEF.md.
+
+⬜ NOT_MADE  — Specified in ARCHITECTURE.md but not yet implemented.
+               → Pending Worker availability or upstream dependencies.
+
+🟡 READY     — Implemented and awaiting adversarial review, test verification, or approval.
+               → Next step: QA Worker audits and promotes to DONE or returns for rework.
+```
+
+---
+
+## INITIALIZATION PROTOCOL (Project Genesis)
+
+### When to Create
+Immediately upon user approval of the 5 planning documents from `deep-planning-protocol`, and BEFORE writing a single line of implementation code.
+
+### Ownership
+The Principal Agent (CEO Agent) instantiates `PROJECT_BRAIN.md` and an empty `NODE.md` (status `⬜ NOT_MADE`) for every module defined in `ARCHITECTURE.md`.
+
+### File Topology
+```
+[project-root]/
+  PROJECT_BRAIN.md          ← Global neural index (ALWAYS at project root)
+  [module-a]/
+    NODE.md                  ← Technical module specification for Module A
+  [module-b]/
+    NODE.md                  ← Technical module specification for Module B
   .planning/
     ARCHITECTURE.md
     RESEARCH.md
@@ -55,17 +55,17 @@ O CEO Agent (Agente Principal) cria o `PROJECT_BRAIN.md` e um `NODE.md` vazio (s
 ## TEMPLATE: PROJECT_BRAIN.md
 
 ```markdown
-# 🧠 PROJECT BRAIN — [Nome do Projeto]
-> Criado em: [ISO timestamp]
-> CEO: [Agente responsável]
-> Última atualização: [timestamp] por [agente/role]
-> Versão: [X.Y]
+# 🧠 PROJECT BRAIN — [Project Name]
+> Created at: [ISO timestamp]
+> CEO Orchestrator: [Principal Agent]
+> Last updated: [timestamp] by [agent/role]
+> Version: [X.Y]
 
 ---
 
-## 📊 DASHBOARD DE STATUS DOS NÚCLEOS
+## 📊 CORE MODULES STATUS DASHBOARD
 
-| Núcleo | Caminho | Status | Agente Responsável | Última Mudança | Q-Score |
+| Module Core | Path | Status | Assigned Agent | Last Transition | Q-Score |
 |---|---|---|---|---|---|
 | Core Engine | `core/engine.py` | ⬜ NOT_MADE | — | — | — |
 | Data Layer | `data/feed.py` | ⬜ NOT_MADE | — | — | — |
@@ -73,52 +73,52 @@ O CEO Agent (Agente Principal) cria o `PROJECT_BRAIN.md` e um `NODE.md` vazio (s
 | UI Dashboard | `ui/app.tsx` | ⬜ NOT_MADE | — | — | — |
 | Risk Engine | `core/risk.py` | ⬜ NOT_MADE | — | — | — |
 
-**Legenda:** 🔴 CHANGING | ✅ DONE | ⬜ NOT_MADE | 🟡 READY
+**Legend:** 🔴 CHANGING | ✅ DONE | ⬜ NOT_MADE | 🟡 READY
 
 ---
 
-## 🏢 ORGANOGRAMA ATIVO
+## 🏢 ACTIVE MULTI-AGENT TOPOLOGY
 
 ```
-CEO — [Agente Principal]
-├── CTO (ENG) — [Gerente de Engenharia] — Conversação: [conv-id]
-│   ├── ENG-Worker-01 — [módulo ativo] — Conv: [conv-id]
-│   └── ENG-Worker-02 — [módulo ativo] — Conv: [conv-id]
-├── COO (QA) — [Gerente de QA] — Conv: [conv-id]
-│   └── QA-Worker-01 — aguardando ENG-Worker-01
-├── CSO (RES) — [Gerente de Pesquisa] — Conv: [conv-id]
-│   └── RES-Worker-01 — COMPLETO
-├── CAO (AUD) — inativo até Fase 4
-└── CLO (LRN) — inativo até Fase 5
+CEO — [Principal Orchestrator]
+├── CTO (ENG) — [Engineering Manager] — Conv: [conv-id]
+│   ├── ENG-Worker-01 — [active module] — Conv: [conv-id]
+│   └── ENG-Worker-02 — [active module] — Conv: [conv-id]
+├── COO (QA) — [QA Manager] — Conv: [conv-id]
+│   └── QA-Worker-01 — Awaiting ENG-Worker-01
+├── CSO (RES) — [Research Manager] — Conv: [conv-id]
+│   └── RES-Worker-01 — COMPLETED
+├── CAO (AUD) — Inactive until Phase 4
+└── CLO (LRN) — Inactive until Phase 5
 ```
 
 ---
 
-## 📋 DECISÕES ARQUITETURAIS (DEC::GROUNDED — REGISTRO IMUTÁVEL)
+## 📋 ARCHITECTURAL DECISION REGISTRY (DEC::GROUNDED — IMMUTABLE LOG)
 
-> Estas decisões NÃO podem ser revertidas sem refatoração formal e aprovação do CEO.
+> These decisions CANNOT be reverted without formal refactoring proposals and CEO sign-off.
 
-| ID | Decisão | Rationale | Data | Aprovado por |
+| ID | Decision | Technical Rationale | Date | Approved By |
 |---|---|---|---|---|
-| DEC-001 | [Usar FastAPI em vez de Flask] | [Performance assíncrona + OpenAPI automático] | 2026-08-21 | Usuário |
-| DEC-002 | [PostgreSQL como banco principal] | [ACID compliance + suporte a JSONB] | 2026-08-21 | CEO |
+| DEC-001 | [Use FastAPI instead of Flask] | [Async performance + automatic OpenAPI generation] | 2026-08-21 | User |
+| DEC-002 | [PostgreSQL as primary datastore] | [ACID compliance + JSONB document capabilities] | 2026-08-21 | CEO |
 
 ---
 
-## 📈 Q-SCORE POR MÓDULO
+## 📈 MODULE QUALITY SCORE (Q-SCORE) REGISTRY
 
-| Módulo | Q-Score | Gate | Auditado por | Data |
+| Module | Q-Score | Quality Gate | Auditor | Date |
 |---|---|---|---|---|
 | `core/engine.py` | — | ⏳ Pending | — | — |
 | `data/feed.py` | — | ⏳ Pending | — | — |
 
-**Release Gate:** Nenhum módulo pode ser declarado DONE sem Q ≥ 9.0 auditado por QA Worker.
+**Release Firewall:** No module may transition to DONE without verified Q ≥ 9.0 certified by QA audit.
 
 ---
 
-## 🔗 ÍNDICE DE NODE.md
+## 🔗 NODE.md DIRECTORY INDEX
 
-| Módulo | NODE.md | Última atualização |
+| Module | NODE.md Path | Last Synchronized |
 |---|---|---|
 | Core Engine | `core/NODE.md` | — |
 | Data Layer | `data/NODE.md` | — |
@@ -126,128 +126,127 @@ CEO — [Agente Principal]
 
 ---
 
-## 📜 LOG DE MUDANÇAS RECENTES (últimas 10)
+## 📜 RECENT STATE TRANSITION LOG (Last 10 Events)
 
-| Timestamp | Agente | Ação | Módulo | Status Anterior → Novo |
+| Timestamp | Agent | Action | Target Module | Transition |
 |---|---|---|---|---|
-| [ts] | ENG-Worker-01 | Criou arquivo | `core/engine.py` | ⬜ → 🔴 |
-| [ts] | ENG-Worker-01 | Implementação completa | `core/engine.py` | 🔴 → 🟡 |
-| [ts] | QA-Worker-01 | Auditoria aprovada | `core/engine.py` | 🟡 → ✅ |
+| [ts] | ENG-Worker-01 | Created scaffold | `core/engine.py` | ⬜ → 🔴 |
+| [ts] | ENG-Worker-01 | Completed implementation | `core/engine.py` | 🔴 → 🟡 |
+| [ts] | QA-Worker-01 | Certified test pass | `core/engine.py` | 🟡 → ✅ |
 ```
 
 ---
 
-## TEMPLATE: NODE.md (por módulo)
+## TEMPLATE: NODE.md (Per-Module Specification)
 
 ```markdown
-# 🔵 NODE — [Nome do Módulo]
-> Caminho: `[caminho/relativo/do/modulo]`
+# 🔵 NODE — [Module Name]
+> Path: `[relative/path/to/module]`
 > Status: [🔴 CHANGING | ✅ DONE | ⬜ NOT_MADE | 🟡 READY]
-> Agente Responsável: [nome do Worker atual ou "—"]
-> Última atualização: [timestamp] por [agente]
+> Assigned Agent: [Current Worker or "—"]
+> Last updated: [timestamp] by [agent]
 
 ---
 
-## 🎯 Propósito
-[Uma frase densa e precisa descrevendo o que este módulo faz no sistema]
+## 🎯 Purpose
+[One dense, precise sentence describing the exact role of this module in the system]
 
-## 🔬 Teoria Técnica Profunda
-[Explicação completa de COMO e POR QUÊ este módulo funciona desta forma.
-Inclua: algoritmos utilizados, fórmulas matemáticas se aplicável, padrões de design
-escolhidos, trade-offs considerados, e por que esta implementação foi preferida
-sobre as alternativas. Mínimo 8-10 linhas de conteúdo técnico denso.]
+## 🔬 Deep Technical Theory
+[Comprehensive explanation of HOW and WHY this module operates this way.
+Include: underlying algorithms, mathematical derivations, selected design patterns,
+evaluated trade-offs, and why this design was chosen over alternatives. Minimum 8-10 lines of dense technical content.]
 
-## 📥 Dependências (Upstream)
-[O que este módulo consome — imports, APIs, módulos upstream]
-- `[módulo/arquivo]` — [o que usa daqui]
-- `[API externa]` — [endpoint específico consumido]
+## 📥 Inbound Dependencies (Upstream)
+[What this module consumes — imports, public APIs, upstream modules]
+- `[module/file]` — [contracted interface consumed]
+- `[external API]` — [specific endpoint consumed]
 
-## 📤 Dependentes (Downstream)
-[Quem depende deste módulo — módulos que importam daqui]
-- `[módulo]` — [o que consome daqui]
+## 📤 Outbound Dependents (Downstream)
+[Subsystems that depend on this module — downstream importers]
+- `[module]` — [contracted interface provided]
 
-## 🔒 Invariantes (Contratos Imutáveis)
-[O que NUNCA pode ser violado neste módulo]
-- INV-001: [invariante formal]
-- INV-002: [invariante formal]
+## 🔒 Invariants (Immutable Contracts)
+[Rules that must NEVER be breached within this module]
+- INV-001: [formal invariant contract]
+- INV-002: [formal invariant contract]
 
-## 📊 Q-Score Atual: [X.X/10]
-**Gate:** [PASSED ≥ 9.0 | PENDING | FAILED < 7.0]
-**Auditado por:** [QA Worker] em [data]
-**Pontos de melhoria identificados:** [lista se Q < 9.0]
+## 📊 Current Q-Score: [X.X/10]
+**Quality Gate:** [PASSED ≥ 9.0 | PENDING | FAILED < 7.0]
+**Audited by:** [QA Worker] on [date]
+**Identified Remediation Vectors:** [list if Q < 9.0]
 
-## 📖 Histórico de Mudanças
-| Timestamp | Agente | Mudança | Motivo |
+## 📖 Version & Evolution History
+| Timestamp | Agent | Modification | Concrete Rationale |
 |---|---|---|---|
-| [ts] | ENG-Worker-01 | Criação inicial | Fase 2 do projeto |
-| [ts] | ENG-Worker-02 | Adicionado cache | Performance: latência reduziu 40% |
+| [ts] | ENG-Worker-01 | Initial implementation | Phase 2 milestone |
+| [ts] | ENG-Worker-02 | Added LRU caching | Reduced P99 latency by 40% |
 
-## 🔴 Pendências Abertas
-[O que ainda falta implementar ou melhorar neste módulo]
-- [ ] [pendência 1]
-- [ ] [pendência 2]
+## 🔴 Open Items & Blockers
+[Remaining work or optimization targets for this module]
+- [ ] [pending item 1]
+- [ ] [pending item 2]
 
-## 💡 Notas para o Próximo Agente
-[Armadilhas conhecidas, suposições feitas, coisas não óbvias que o próximo Worker deve saber]
+## 💡 Engineering Notes for Next Agent
+[Known pitfalls, subtle edge cases, unverified assumptions, and non-obvious context]
 ```
 
 ---
 
-## PROTOCOLO DE ATUALIZAÇÃO DE STATUS
+## STATE TRANSITION GOVERNANCE RULES
 
-### Regra 1: Ao INICIAR trabalho em um módulo
+### Rule 1: Upon INITIATING work on a module
 ```
-1. Ler PROJECT_BRAIN.md — verificar status atual do módulo
-2. Se status ≠ 🔴 CHANGING: atualizar NODE.md → status = 🔴 CHANGING
-3. Atualizar PROJECT_BRAIN.md → Dashboard de Status
-4. Atualizar log de mudanças com timestamp e agente
-```
-
-### Regra 2: Ao CONCLUIR trabalho em um módulo
-```
-1. Atualizar NODE.md com todo o conhecimento gerado (teoria, invariantes, histórico)
-2. Status → 🟡 READY (aguardando QA) OU ✅ DONE (se auto-aprovado com evidência)
-3. Atualizar PROJECT_BRAIN.md → Dashboard + Q-Score + Log
-4. Reportar ao Gerente via send_message
+1. Read PROJECT_BRAIN.md — inspect current global module states.
+2. If status ≠ 🔴 CHANGING: update NODE.md → status = 🔴 CHANGING.
+3. Update PROJECT_BRAIN.md → Core Modules Status Dashboard.
+4. Append an entry to the State Transition Log with timestamp and agent ID.
 ```
 
-### Regra 3: Conflito de Acesso (módulo já em 🔴 CHANGING)
+### Rule 2: Upon COMPLETING work on a module
 ```
-1. PARAR imediatamente — não modificar o módulo
-2. Reportar ao Gerente: "CONFLITO: [módulo] está CHANGING por [agente]"
-3. Aguardar resolução antes de qualquer ação
+1. Update NODE.md with generated knowledge (theory, invariants, history).
+2. Set Status → 🟡 READY (awaiting QA) OR ✅ DONE (if empirically proven with test trace).
+3. Update PROJECT_BRAIN.md → Dashboard + Q-Score + State Log.
+4. Report completion to Manager via send_message.
 ```
 
-### Regra 4: Frequência de Atualização do BRAIN.md
-- Workers atualizam seus NODE.md locais a cada mudança significativa
-- Gerentes sincronizam o PROJECT_BRAIN.md a cada turno (após receber relatório de Worker)
-- O BRAIN.md deve sempre refletir o estado real atual — nunca o estado planejado
+### Rule 3: Concurrency Conflicts (Module already 🔴 CHANGING)
+```
+1. STOP immediately — do not modify the file.
+2. Report to Manager: "LOCK CONFLICT: [module] is currently CHANGING by [agent]".
+3. Await explicit routing before proceeding.
+```
+
+### Rule 4: BRAIN.md Synchronization Frequency
+- Workers synchronize their local `NODE.md` upon every significant atomic change.
+- Managers synchronize `PROJECT_BRAIN.md` each turn upon receiving worker reports.
+- `PROJECT_BRAIN.md` must ALWAYS reflect actual disk/runtime state — never planned state.
 
 ---
 
-## PROTOCOLO DE LEITURA OBRIGATÓRIA
+## MANDATORY PRE-FLIGHT READ PROTOCOL
 
 ```
-CONTEXTO ATIVO DETECTADO: PROJECT_BRAIN.md existe neste workspace
+ACTIVE REPO CONTEXT DETECTED: PROJECT_BRAIN.md exists in workspace.
 
-AÇÃO OBRIGATÓRIA ANTES DE QUALQUER OUTRA:
+MANDATORY FIRST ACTION BEFORE ANY CODE GENERATION:
 
-1. view_file("PROJECT_BRAIN.md") → Entender status de TODOS os módulos
-2. view_file("[módulo-alvo]/NODE.md") → Para cada módulo que será tocado
-3. Verificar: algum módulo-alvo está 🔴 CHANGING por outro agente?
-   → SIM: PARAR e reportar conflito
-   → NÃO: Continuar com execução
+1. view_file("PROJECT_BRAIN.md") → Check global topology and module states.
+2. view_file("[target-module]/NODE.md") → Inspect technical contracts for target modules.
+3. Verify: is any target module marked 🔴 CHANGING by another worker?
+   → YES: STOP immediately and report lock conflict.
+   → NO: Proceed with execution.
 
-PROIBIDO: Qualquer modificação de arquivo sem ter completado os passos acima.
+PROHIBITION: Any file modification without completing the steps above is a constitutional violation.
 ```
 
 ---
 
-## INTEGRAÇÃO COM CORPORATE SWARM OS
+## INTEGRATION WITH CORPORATE SWARM OS
 
-O Neural Map é o sistema nervoso central do Corporate Swarm OS:
-- **CEO** usa o BRAIN.md para monitorar o projeto inteiro
-- **Gerentes** atualizam o BRAIN.md após cada relatório de Worker
-- **Workers** atualizam seus NODE.md locais durante execução
-- **QA Workers** registram Q-Scores no BRAIN.md após auditoria
-- **Audit Workers** leem o histórico do BRAIN.md para detectar inconsistências
+The Neural Map serves as the central nervous system for Corporate Swarm OS:
+- **CEO** uses `PROJECT_BRAIN.md` to govern enterprise project status.
+- **Managers** synchronize `PROJECT_BRAIN.md` upon receiving Worker deliverables.
+- **Workers** update their local `NODE.md` throughout execution.
+- **QA Workers** register audited Q-Scores in `PROJECT_BRAIN.md`.
+- **Audit Workers** traverse `PROJECT_BRAIN.md` history to detect architectural drift.

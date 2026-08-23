@@ -16,7 +16,7 @@ This skill outlines the process for researching, vetting, extracting, and integr
   {
     "TypeName": "research",
     "Role": "Acoustic Intelligence Researcher",
-    "Prompt": "AUDIO PROSPECTING: Pesquise vídeos autênticos de alta fidelidade no YouTube para [CONCEITO ACÚSTICO]. Extraia IDs e URLs para processamento via yt-dlp e ffmpeg."
+    "Prompt": "AUDIO PROSPECTING: Search authentic high-fidelity YouTube recordings for [ACOUSTIC CONCEPT]. Extract video IDs and URLs for signal processing via yt-dlp and ffmpeg."
   }
   ```
 
@@ -26,8 +26,8 @@ This skill outlines the process for researching, vetting, extracting, and integr
 - Apply normalization, DC offset removal, and trim silence/noise if needed.
 
 ### 3. Anti-Synthetic Mandate (Authenticity First - Dual Classification)
-- **Micro-interações de UI / Feedback Háptico (< 50ms):** Permitido WebAudio API (`AudioContext`) para cliques mecânicos instantâneos e beeps táteis.
-- **Ambientação, SFX de Produção e Telemetria de Domínio:** Expressamente PROIBIDO o uso de osciladores sintéticos rudimentares. Todos os efeitos sonoros realistas, motores, vozes, música e ambientação DEVEM ser prospectados e extraídos de gravações autênticas via `yt-dlp` e `ffmpeg`.
+- **UI Micro-Interactions / Haptic Feedback (< 50ms):** Procedural Web Audio API (`AudioContext`) oscillators permitted for instant mechanical clicks and tactile interface beeps.
+- **Ambience, Production SFX & Domain Telemetry:** Using rudimentary synthetic oscillators is strictly FORBIDDEN. All realistic sound effects, vehicle engines, voices, environmental soundscapes, and domain audio MUST be prospected and extracted from authentic physical recordings via `yt-dlp` and `ffmpeg`.
 
 ### 4. Integration & Spatial Audio Rigging
 - Place finalized audio assets into `public/audio/` or `assets/audio/`.

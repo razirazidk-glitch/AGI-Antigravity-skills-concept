@@ -49,7 +49,7 @@ Subject \(H\) to the metamorphic transformation matrix:
    {
      "TypeName": "self",
      "Role": "Popperian Falsifier",
-     "Prompt": "FALSIFICATION RUN: Execute testes de invariância metamórfica contra o módulo [NOME]. Teste regimes de borda, scale transform (10x, 100x), injeção de ruído e verifique se as invariantes físicas/matemáticas sobrevivem. Retorne relatório de falsificação e exit codes."
+     "Prompt": "FALSIFICATION RUN: Execute metamorphic invariance tests against module [NAME]. Test edge regimes, scale transformations (10x, 100x), noise injection, and verify whether physical/mathematical invariants survive. Return a formal falsification report and command exit codes."
    }
    ```
 

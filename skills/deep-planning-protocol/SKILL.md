@@ -5,201 +5,201 @@ description: >-
 ---
 # 📐 DEEP PLANNING PROTOCOL — 5-Document Pre-Flight Gate
 
-> 🔴 **LEI ABSOLUTA:** É expressamente PROIBIDO escrever qualquer linha de código, criar qualquer arquivo de implementação ou instanciar qualquer subagente de engenharia sem que os 5 documentos abaixo estejam 100% completos e aprovados pelo usuário. Zero exceções. Zero shortcuts. O planejamento é a fundação; código sem planejamento é ruído.
+> 🔴 **ABSOLUTE LAW:** Writing any implementation code, creating any production source files, or instantiating engineering subagents without having all 5 pre-flight planning documents 100% complete and explicitly approved by the user is STRICTLY PROHIBITED. Zero exceptions. Zero shortcuts. Planning is the bedrock; code written without planning is entropy.
 
 ---
 
-## GATILHO DE ATIVAÇÃO
+## ACTIVATION TRIGGERS
 
-Esta skill é ativada OBRIGATORIAMENTE quando:
-- Qualquer projeto novo com 3+ arquivos de implementação
-- Qualquer refatoração arquitetural significativa
-- Qualquer novo sistema, motor ou plataforma
-- `/grill-me` foi concluído e as respostas foram coletadas
-- Usuário diz "vamos começar", "implementar" ou equivalente após discussão de design
-
----
-
-## OS 5 DOCUMENTOS OBRIGATÓRIOS
-
-Todos os 5 documentos são criados em sequência pelo agente. O usuário aprova ao final.
+This skill is MANDATORILY activated when:
+- Any new project with 3+ implementation files is initiated
+- Any significant architectural refactoring is undertaken
+- Any new subsystem, engine, or platform layer is introduced
+- `/grill-me` alignment interview has concluded and answers were synthesized
+- The user states "let's begin", "start implementing", or equivalent following design discussions
 
 ---
 
-### 📄 DOCUMENTO 1 — ARCHITECTURE.md
+## THE 5 MANDATORY PLANNING DOCUMENTS
 
-**Propósito:** Estrutura técnica completa e irrevogável do sistema.
+All 5 documents are generated sequentially by the agent in `.planning/`. The user approves them prior to implementation.
 
-**Campos obrigatórios:**
+---
+
+### 📄 DOCUMENT 1 — ARCHITECTURE.md
+
+**Purpose:** Comprehensive, irrevocable technical structure of the system.
+
+**Mandatory Fields:**
 ```markdown
-# ARCHITECTURE — [Nome do Projeto]
-> Criado em: [timestamp] | Aprovado por: [usuário] em [data]
+# ARCHITECTURE — [Project Name]
+> Created at: [timestamp] | Approved by: [user] on [date]
 
-## Stack Tecnológica
-- Linguagem(s): [com versões exatas]
-- Framework(s): [com versões exatas]
-- Banco de dados: [tecnologia + versão]
-- Infraestrutura: [onde será executado]
+## Technology Stack
+- Language(s): [with exact versions]
+- Framework(s): [with exact versions]
+- Database / Storage: [technology + version]
+- Infrastructure / Runtime: [execution environment]
 
-## Diagrama de Componentes
-[Diagrama Mermaid ou ASCII art mostrando todos os módulos e suas conexões]
+## Component Diagram
+[Mermaid diagram or ASCII topology depicting all modules and their interconnections]
 
-## Fluxo de Dados Principal
-[Sequência de chamadas, eventos e transformações de dados end-to-end]
+## Primary Data Flow
+[End-to-end call sequence, event cycles, and data transformations]
 
-## Padrões Arquiteturais Adotados
-[Ex: Event-Driven, CQRS, Clean Architecture — com justificativa]
+## Architectural Patterns Adopted
+[e.g., Event-Driven, CQRS, Clean Architecture — with formal rationale]
 
-## Decisões Irrevogáveis (DEC::LOCKED)
-[Decisões que NÃO podem ser revertidas sem refatoração total]
+## Irrevocable Decisions (DEC::LOCKED)
+[Decisions that CANNOT be reversed without total system rewrite]
 
-## Pontos de Extensão Futuros
-[Onde o sistema foi projetado para crescer sem reescritas]
+## Future Extension Vectors
+[Where the system is architected to scale without breaking contracts]
 ```
 
 ---
 
-### 📄 DOCUMENTO 2 — RESEARCH.md
+### 📄 DOCUMENT 2 — RESEARCH.md
 
-**Propósito:** Estado da arte, benchmarks globais e análise de alternativas.
+**Purpose:** State of the Art (SOTA), global industry benchmarks, and comparative alternatives analysis.
 
-**Campos obrigatórios:**
+**Mandatory Fields:**
 ```markdown
-# RESEARCH — [Nome do Projeto]
+# RESEARCH — [Project Name]
 
-## Estado da Arte (SOTA)
-[As melhores soluções existentes no mundo para este problema]
+## State of the Art (SOTA)
+[The best existing solutions in industry/academia for this problem domain]
 
-## Referências Técnicas Consultadas
-[Papers, docs, repositórios, artigos com links]
+## Consulted Technical References
+[Papers, official documentation, reference repositories, articles with URLs]
 
-## Bibliotecas Avaliadas
-| Biblioteca | Prós | Contras | Decisão |
+## Evaluated Libraries & Frameworks
+| Library | Pros | Cons | Decision |
 |---|---|---|---|
-| lib-A | ... | ... | ADOTADA |
-| lib-B | ... | ... | REJEITADA |
+| lib-A | ... | ... | ADOPTED |
+| lib-B | ... | ... | REJECTED |
 
-## Trade-offs Fundamentais
-[As 3-5 tensões de design mais importantes e como foram resolvidas]
+## Fundamental Trade-offs
+[The 3-5 most critical design tensions and how they were resolved]
 
-## Benchmark de Performance Esperada
-[Métricas baseline: latência, throughput, uso de memória esperado]
+## Expected Performance Benchmarks
+[Baseline metrics: latency targets, throughput, memory envelope]
 
-## Anti-Padrões Identificados
-[O que NÃO fazer neste domínio e por quê]
+## Identified Anti-Patterns
+[What NOT to do in this technical domain and why]
 ```
 
 ---
 
-### 📄 DOCUMENTO 3 — CONTRACTS.md
+### 📄 DOCUMENT 3 — CONTRACTS.md
 
-**Propósito:** Contratos formais de interface entre módulos — o "handshake" entre componentes.
+**Purpose:** Formal interface contracts between subsystems — the immutable handshake across boundaries.
 
-**Campos obrigatórios:**
+**Mandatory Fields:**
 ```markdown
-# CONTRACTS — [Nome do Projeto]
+# CONTRACTS — [Project Name]
 
-## Contratos de Interface por Módulo
+## Inter-Module Interface Contracts
 
-### [Módulo A] → [Módulo B]
-- **Input:** [tipo exato, formato, schema]
-- **Output:** [tipo exato, formato, schema]
-- **Pré-condição:** [o que deve ser verdade antes da chamada]
-- **Pós-condição:** [o que é garantido após a chamada]
-- **Invariante:** [o que nunca muda durante a execução]
-- **Side-effects:** [efeitos colaterais esperados — I/O, estado global, etc.]
-- **Erros possíveis:** [lista de falhas e como são sinalizadas]
+### [Module A] → [Module B]
+- **Input:** [exact type, schema, payload format]
+- **Output:** [exact type, schema, payload format]
+- **Precondition:** [what must hold true prior to invocation]
+- **Postcondition:** [what is guaranteed upon completion]
+- **Invariant:** [what must never change throughout execution]
+- **Side Effects:** [expected side effects — I/O, state mutations, etc.]
+- **Failure Modes:** [enumerated error taxonomy and signaling mechanism]
 
-## Contratos de Dados
+## Data Schemas & Types
 
-### [Entidade / Schema]
+### [Entity / Schema Name]
 ```typescript
-// Definição formal do tipo
-interface [Nome] {
-  field: type; // invariante: [restrição]
+// Formal type definition
+interface [Name] {
+  field: type; // invariant: [constraint]
 }
 ```
 
-## Contratos de Comportamento Assíncrono
-[Garantias de ordering, idempotência, retry e at-least-once vs exactly-once]
+## Asynchronous & Concurrency Contracts
+[Ordering guarantees, idempotency keys, retry budgets, at-least-once vs exactly-once semantics]
 ```
 
 ---
 
-### 📄 DOCUMENTO 4 — RISKS.md
+### 📄 DOCUMENT 4 — RISKS.md
 
-**Propósito:** Mapeamento completo de riscos técnicos e de negócio com mitigações concretas.
+**Purpose:** Exhaustive taxonomy of technical and architectural risks paired with concrete deterministic mitigations.
 
-**Campos obrigatórios:**
+**Mandatory Fields:**
 ```markdown
-# RISKS — [Nome do Projeto]
+# RISKS — [Project Name]
 
-## Matriz de Riscos
+## Risk Matrix
 
-| Risk ID | Descrição | Probabilidade | Impacto | Mitigação | Owner |
+| Risk ID | Description | Likelihood | Impact | Concrete Mitigation | Owner |
 |---|---|---|---|---|---|
-| R-001 | [descrição] | Alta/Média/Baixa | Crítico/Alto/Médio/Baixo | [ação concreta] | [setor] |
+| R-001 | [description] | High/Med/Low | Critical/High/Med/Low | [actionable mitigation] | [sector] |
 
-## Riscos Técnicos Críticos
-[Detalhamento dos top-3 riscos com plano de contingência passo-a-passo]
+## Critical Technical Risks
+[Deep-dive into top-3 risks with step-by-step contingency protocols]
 
-## Riscos de Arquitetura
-[Decisões que podem se tornar gargalos ou pontos únicos de falha]
+## Architectural Single Points of Failure (SPOF)
+[Decisions that could become bottlenecks or single points of failure]
 
-## Plano de Rollback
-[Se tudo der errado na fase X, como reverter para estado estável]
+## Rollback Specification
+[Deterministic procedure to restore pristine state if phase execution fails]
 
-## Suposições Perigosas (DEC::SPECULATIVE)
-[O que estamos assumindo sem evidência — e como vamos validar]
+## Dangerous Assumptions (DEC::SPECULATIVE)
+[Unverified assumptions — and the empirical tests designed to falsify them]
 ```
 
 ---
 
-### 📄 DOCUMENTO 5 — TIMELINE.md
+### 📄 DOCUMENT 5 — TIMELINE.md
 
-**Propósito:** DAG de tarefas com dependências, estimativas e gates de qualidade.
+**Purpose:** Directed Acyclic Graph (DAG) of tasks with strict dependency edges, milestones, and quality gates.
 
-**Campos obrigatórios:**
+**Mandatory Fields:**
 ```markdown
-# TIMELINE — [Nome do Projeto]
+# TIMELINE — [Project Name]
 
-## DAG de Execução
+## Execution DAG
 
 ```mermaid
 graph TD
-    A[Fase 1: Fundação] --> B[Fase 2: Core Engine]
-    A --> C[Fase 2: Data Layer]
-    B --> D[Fase 3: API Layer]
+    A[Phase 1: Foundation] --> B[Phase 2: Core Engine]
+    A --> C[Phase 2: Data Layer]
+    B --> D[Phase 3: API Layer]
     C --> D
-    D --> E[Fase 4: UI/Integração]
-    E --> F[Fase 5: QA & Red Team]
-    F --> G[Release]
+    D --> E[Phase 4: UI/Integration]
+    E --> F[Phase 5: QA & Red Team]
+    F --> G[Release Milestone]
 ```
 
-## Milestones com Gates de Qualidade
+## Milestones & Tri-Gate Criteria
 
-| Milestone | Deliverables | Gate | Q-Score Mínimo |
+| Milestone | Deliverables | Quality Gate | Minimum Q-Score |
 |---|---|---|---|
-| M1: Fundação | ARCHITECTURE.md aprovado, scaffolding criado | Revisão manual | — |
-| M2: Core | Engine funcionando com dados reais | Gate 1: exit code 0 | 7.0 |
-| M3: Integração | API + UI conectados | Gate 2: screenshot HD | 8.0 |
-| M4: Release | Red Team 0 falhas críticas | Gate 3: Tribunal | 9.0 |
+| M1: Foundation | ARCHITECTURE.md approved, scaffolding established | Manual Review | — |
+| M2: Core Engine | Engine operating against authentic data | Gate 1: exit code 0 | 7.0 |
+| M3: Integration | API + UI connected and verified | Gate 2: Full HD visual proof | 8.0 |
+| M4: Release | Red Team zero critical defects | Gate 3: Adversarial Tribunal | 9.0 |
 
-## Dependências Externas
-[APIs de terceiros, datasets, credenciais — o que precisa estar disponível antes]
+## External Dependencies
+[Third-party APIs, authentic datasets, credentials required prior to kickoff]
 
-## Critério de "DONE" do Projeto
-[Definição formal e mensurável de quando o projeto está completo]
+## Formal Definition of "DONE"
+[Objective, measurable verification criteria determining total project completion]
 ```
 
 ---
 
-## PROTOCOLO DE EXECUÇÃO
+## EXECUTION PROTOCOL
 
-### Passo 1: Gerar os 5 Documentos
-O agente executa em sequência, criando cada documento em disco dentro do projeto:
+### Step 1: Generate All 5 Documents
+The agent creates each document on disk in `.planning/`:
 ```
-[raiz-do-projeto]/
+[project-root]/
   .planning/
     ARCHITECTURE.md
     RESEARCH.md
@@ -208,38 +208,38 @@ O agente executa em sequência, criando cada documento em disco dentro do projet
     TIMELINE.md
 ```
 
-### Passo 2: Apresentar ao Usuário
-Após criar todos os 5, o agente apresenta um resumo e **PARA COMPLETAMENTE**.
+### Step 2: Present Summary to the User
+After creating all 5 documents, the agent presents a structured summary and **STOPS IMMEDIATELY**:
 
 ```
-✅ PLANEJAMENTO COMPLETO — 5/5 documentos gerados
+✅ PRE-FLIGHT PLANNING COMPLETE — 5/5 documents generated
 
-📄 ARCHITECTURE.md — [N] componentes mapeados, stack definida
-📄 RESEARCH.md — [N] alternativas avaliadas, [N] bibliotecas analisadas
-📄 CONTRACTS.md — [N] contratos de interface formalizados
-📄 RISKS.md — [N] riscos identificados, top-3 com mitigação
-📄 TIMELINE.md — [N] milestones, [N] gates de qualidade
+📄 ARCHITECTURE.md — [N] components mapped, stack defined
+📄 RESEARCH.md — [N] alternatives evaluated, [N] libraries analyzed
+📄 CONTRACTS.md — [N] interface contracts formalized
+📄 RISKS.md — [N] risks identified, top-3 with mitigations
+📄 TIMELINE.md — [N] milestones, [N] quality gates established
 
-⛔ EXECUÇÃO BLOQUEADA até aprovação explícita.
-Revise os documentos e confirme: "aprovado" ou solicite ajustes.
+⛔ EXECUTION HALTED until explicit user approval.
+Review the planning documents and state: "Approved" or request specific adjustments.
 ```
 
-### Passo 3: Aguardar Aprovação Explícita
-O agente não escreve uma única linha de código de implementação até receber confirmação.
+### Step 3: Await Explicit Approval
+The agent will NOT write a single line of implementation code until the user approves.
 
-### Passo 4: Instanciar o PROJECT_BRAIN.md
-Após aprovação, antes de qualquer código, instanciar o mapa neural do projeto (`project-neural-map`).
+### Step 4: Instantiate PROJECT_BRAIN.md
+Upon approval, and before generating code, initialize the project neural memory map (`project-neural-map`).
 
 ---
 
-## GATE DE QUALIDADE DOS DOCUMENTOS
+## DOCUMENT QUALITY GATE
 
-Antes de apresentar ao usuário, o agente auto-audita cada documento:
+Before presenting to the user, the agent self-audits each document:
 
-- [ ] ARCHITECTURE.md: possui diagrama de componentes + decisões irrevogáveis documentadas
-- [ ] RESEARCH.md: pelo menos 3 alternativas avaliadas + trade-offs documentados  
-- [ ] CONTRACTS.md: todas as interfaces entre módulos têm pré/pós-condições formais
-- [ ] RISKS.md: top-3 riscos com plano de contingência passo-a-passo
-- [ ] TIMELINE.md: DAG em Mermaid + gates de qualidade com Q-Score mínimo por milestone
+- [ ] ARCHITECTURE.md: Contains component diagram + documented irrevocable decisions.
+- [ ] RESEARCH.md: Evaluates at least 3 alternatives + documents trade-offs.
+- [ ] CONTRACTS.md: Every inter-module interface includes explicit pre/postconditions.
+- [ ] RISKS.md: Top-3 risks accompanied by step-by-step contingency protocols.
+- [ ] TIMELINE.md: Mermaid DAG + quality gates with minimum Q-Score per milestone.
+If any checklist item fails, the agent rectifies the document before presenting it.
 
-Se qualquer item falhar no checklist, o agente completa antes de apresentar.

@@ -5,64 +5,64 @@ description: >-
 ---
 # 🧠 META-SKILL SYNTHESIS (Dual-Scope Machine Self-Learning)
 
-**DOGMA CENTRAL:** A inteligência AGI/ASI não repete o mesmo esforço arquitetural duas vezes. Ao conquistar uma nova fronteira de complexidade ou resolver problemas específicos, o sistema sintetiza e categoriza o aprendizado em duas camadas estritamente isoladas para impedir o vício de **Overfitting/Benchmaxing**.
+**CENTRAL DOGMA:** An AGI/ASI engineering intelligence never repeats the same architectural struggle twice. Upon conquering a new complexity frontier or resolving non-trivial causal pathologies, the system synthesizes and categorizes the discovered heuristic across two strictly isolated layers to prevent **Overfitting / Benchmaxing**.
 
 ---
 
-## 1. 🧭 Bifurcação de Escopo de Síntese (As 2 Camadas de Aprendizado)
+## 1. 🧭 Synthesis Scope Bifurcation (The 2 Learning Layers)
 
-Antes de persistir qualquer aprendizado, classifique rigorosamente a camada:
+Before persisting any lesson or crystallized rule, rigorously classify the target scope layer:
 
-### Camada 1: Escopo Nichado / Local (Workspace & Projeto)
-- **Critério:** Convenções de stack local (ex: Next.js, Django, Rust, Tailwind), schemas de banco de dados específicos do cliente, pipelines de build/CI do repositório, scripts de migração locais ou regras de negócio pontuais.
-- **Caminhos Canônicos:**
-  - Rules Locais: `<workspace_root>/.agents/rules/<rule-name>.md`
-  - Skills Locais: `<workspace_root>/.agents/skills/<skill-name>/SKILL.md`
-- **Isolamento:** Permanece estritamente contido no workspace. **NUNCA** deve contaminar o núcleo AGI global.
+### Layer 1: Niche / Local Scope (Workspace & Project Specific)
+- **Criteria:** Local stack conventions (e.g., Next.js, Django, Rust, Tailwind), customer-specific database schemas, repository-specific build/CI workflows, local migration scripts, or bespoke domain business rules.
+- **Canonical Paths:**
+  - Local Rules: `<workspace_root>/.agents/rules/<rule-name>.md`
+  - Local Skills: `<workspace_root>/.agents/skills/<skill-name>/SKILL.md`
+- **Isolation:** Strictly confined within the active workspace. **NEVER** pollute the global core plugin.
 
-### Camada 2: Escopo AGI/ASI Universal (Global Plugin `agi-antigravity-core`)
-- **Critério:** Leis invariantes de primeiro princípio, métodos de raciocínio System 2, epistemologia, defesas cognitivas contra alucinações, protocolos TDD universais, ou heurísticas aplicáveis a QUALQUER contexto diário.
-- **Caminhos Canônicos:**
+### Layer 2: Universal AGI/ASI Scope (Global Plugin `agi-antigravity-core`)
+- **Criteria:** First-principle invariant laws, System 2 reasoning methodologies, epistemic grounding, anti-hallucination cognitive defenses, universal TDD protocols, or heuristics applicable to ANY daily engineering domain.
+- **Canonical Paths:**
   - Master Rules: `~/.gemini/config/plugins/agi-antigravity-core/rules/<rule-name>.md`
   - Master Skills: `~/.gemini/config/plugins/agi-antigravity-core/skills/<skill-name>/SKILL.md`
-- **Registro:** Atualizar `rules/AGENTS.md` e `rules/01_SKILLS_TAXONOMY_ROUTING.md`.
+- **Registration:** Synchronize updates in `rules/AGENTS.md` and `rules/01_SKILLS_TAXONOMY_ROUTING.md`.
 
 ---
 
-## 2. 🛡️ Filtro de Destilação Anti-Overfitting & Anti-Benchmaxing
+## 2. 🛡️ Anti-Overfitting & Anti-Benchmaxing Distillation Filter
 
-O maior risco do self-learning é o **overfitting**, onde uma regra excessivamente específica aprendida em um projeto (ex: "sempre estruturar páginas de site com componente X") é injetada globalmente e repetida rigidamente em situações inadequadas.
+The greatest failure mode of machine self-learning is **overfitting**, where a hyper-specific heuristic learned in one domain (e.g., "always structure websites using component X") is injected globally and rigidly applied out of context.
 
-### O Teste da Invariância Universal:
-Ao propor um aprendizado para a **Camada 2 (Global)**, o agente deve submeter o conceito a 3 filtros eliminatórios:
-1. **Filtro da Independência de Stack:** Este princípio é verdadeiro em C++, Python, Rust, TypeScript, Verilog ou Sistemas Distribuídos? (Se depender de um framework específico $\to$ Camada 1 Local).
-2. **Filtro da Não-Prescrição Estética/Comportamental:** O aprendizado impõe um formato rígido ou prescreve uma heurística adaptativa de raciocínio? (Se prescrever templates fixos $\to$ rejeitar ou tornar adaptativo).
-3. **Filtro da Resiliência Diária:** A aplicação desta regra em um domínio totalmente divergente (ex: física quântica vs design frontend) causaria interferência destrutiva? (Se sim $\to$ Camada 1 Local).
-
----
-
-## 3. ⚡ Gatilho Proativo de Recomendação Pós-Milestone
-
-Ao concluir:
-1. Um marco arquitetural desafiador (ex: refatoração massiva de 10+ nós);
-2. A resolução de um bug causal de difícil diagnóstico;
-3. A correção de um vício cognitivo apontado pelo usuário;
-
-O agente **DEVE** sugerir formalmente a execução do `/learn` ao usuário com o rascunho de categorização:
-> *"Superamos este desafio crítico. Recomendo rodar `/learn` para registrarmos este aprendizado na Camada 1 (Local) ou Camada 2 (Global AGI/ASI) sem risco de overfitting."*
+### The Universal Invariance Test:
+When proposing a synthesis for **Layer 2 (Global Scope)**, the agent must subject the candidate heuristic to 3 elimination filters:
+1. **Stack Independence Filter:** Does this principle hold true across C++, Python, Rust, TypeScript, Verilog, and Distributed Systems? (If dependent on a specific framework $\to$ Layer 1 Local).
+2. **Non-Prescriptive Heuristic Filter:** Does the learning impose a rigid pattern, or does it prescribe an adaptive System 2 reasoning heuristic? (If prescribing rigid fixed templates $\to$ reject or refactor into an adaptive heuristic).
+3. **Cross-Domain Resilience Filter:** Would applying this rule in a completely divergent technical domain (e.g., quantum simulation vs frontend animation) cause destructive interference? (If yes $\to$ Layer 1 Local).
 
 ---
 
-## 4. 🛠️ Protocolo Operacional de Execução do `/learn`
+## 3. ⚡ Post-Milestone Proactive Recommendation Trigger
 
-1. **Rascunho de Proposta:** Criar o artefato `learning_proposal.md` com classificação em Camada 1 vs Camada 2 e diffs explícitos.
-2. **Formatação Mandatória de Rules:**
+Upon completing:
+1. A major architectural milestone (e.g., massive 10+ node refactoring);
+2. The resolution of a complex causal root-cause defect;
+3. The correction of a cognitive bias identified by the user;
+
+The agent **MUST** formally recommend `/learn` to the user with a pre-drafted 2-layer classification:
+> *"We have conquered this critical challenge. I recommend running `/learn` to persist this insight cleanly to Layer 1 (Local Workspace) or Layer 2 (Global AGI Core) without risk of overfitting."*
+
+---
+
+## 4. 🛠️ Operational Protocol for `/learn` Execution
+
+1. **Proposal Draft:** Generate artifact `learning_proposal.md` with explicit Layer 1 vs Layer 2 classification and diff specifications.
+2. **Mandatory Rule Frontmatter Structure:**
    ```markdown
    ---
-   description: Resumo conciso da regra e escopo de atuação.
-   trigger: always_on # Opções: always_on | model_decision | glob
-   globs: "*.ts,*.py" # Obrigatório se trigger for glob
+   description: Concise summary of the rule and operational scope.
+   trigger: always_on # Options: always_on | model_decision | glob
+   globs: "*.ts,*.py" # Mandatory if trigger is glob
    ---
    ```
-3. **Validação e Aprovação:** Obter confirmação explícita do usuário antes de aplicar as mudanças em disco.
-4. **Verificação de Regressão:** Executar a suíte de testes com `pytest` para certificar Exit Code `0`.
+3. **Validation & Confirmation:** Obtain explicit user confirmation before writing changes to disk.
+4. **Regression Verification:** Run validation test suites via `pytest` to certify Exit Code `0`.

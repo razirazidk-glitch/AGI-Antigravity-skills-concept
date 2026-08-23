@@ -21,7 +21,7 @@ async def open_library(url: str = "https://gemini.google.com/library"):
     automation_profile = user_home / ".gemini" / "chrome_automation_profile"
 
     print(f"🌐 Opening Gemini Library in Chrome: {url}")
-    print("👉 Pressione CTRL+C quando terminar de navegar.")
+    print("👉 Press CTRL+C when you finish browsing.")
 
     async with async_playwright() as p:
         context = await p.chromium.launch_persistent_context(

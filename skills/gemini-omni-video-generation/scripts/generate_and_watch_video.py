@@ -132,6 +132,6 @@ async def generate_and_watch(prompt: str, output_path: str):
             return False
 
 if __name__ == "__main__":
-    p = sys.argv[1] if len(sys.argv) > 1 else "Gere um vídeo cinematográfico em alta resolução 1080p da Pirâmide do Louvre à noite com chuva e reflexos dourados"
+    p = sys.argv[1] if len(sys.argv) > 1 else "Generate a 1080p high resolution cinematic video of the Louvre Pyramid at night with gentle rain and golden reflections"
     o = sys.argv[2] if len(sys.argv) > 2 else "C:\\Users\\pichau\\Documents\\antigravity\\proud-babbage\\assets\\videos\\veo_generated_direct.mp4"
     asyncio.run(generate_and_watch(p, o))
