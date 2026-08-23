@@ -1,4 +1,4 @@
-﻿"""
+"""
 Adversarial Verification Test Suite for Milestone 2 (Core Methodology Skills).
 Empirically stress-tests:
 1. Frontmatter parser against malformed delimiters, invalid chars, multiline, comments, and edge cases.
@@ -33,18 +33,18 @@ M2_SKILLS = [
     "test-driven-development",
     "systematic-debugging",
     "gauntlet-loop",
-    "subagent-handoff",
-    "causal-debugging-protocol",
-    "session-handoff-protocol",
+    "corporate-swarm-os",
+    "project-neural-map",
+    "memory-leak-debugging",
 ]
 
 M2_REFERENCES = [
     "test-driven-development/references/tdd-patterns.md",
     "systematic-debugging/references/root-cause-playbook.md",
     "gauntlet-loop/references/adversarial-benchmarking.md",
-    "subagent-handoff/references/handoff-protocol.md",
-    "causal-debugging-protocol/references/falsification-matrices.md",
-    "session-handoff-protocol/references/state-cryptography.md",
+    "corporate-swarm-os/references/handoff-protocol.md",
+    "project-neural-map/references/state-cryptography.md",
+    "memory-leak-debugging/references/common-leaks.md",
 ]
 
 
@@ -171,26 +171,26 @@ class TestM2AdversarialStress(unittest.TestCase):
                 "Calculate Lyapunov delta stabilization across iterations",
                 "Run blind qualitative scoring and adversarial benchmarking",
             ],
-            "subagent-handoff": [
-                "Format a 5-component handoff report with observation logic caveats",
-                "Coordinate multi-agent task transfer and structured handoff",
-                "Standardize subagent handoffs with context-isolated execution boundaries",
-                "Ensure zero context loss across multi-agent delegations",
-                "Write structured conclusion and verification method in handoff",
+            "corporate-swarm-os": [
+                "Corporate hierarchy swarm OS with CEO and C-Level structure",
+                "Standardize multi-agent workflows with BRIEF.md and SECTOR.md",
+                "Execute massive batch orchestration across subagent teams",
+                "Coordinate corporate swarm hierarchy for large multi-agent project",
+                "Multi-agent project management and swarm topology delegation",
             ],
-            "causal-debugging-protocol": [
-                "Conduct deep causal root-cause investigations",
-                "Trace mathematical state transitions and invariant trees",
-                "Popperian falsification of state corruption paths",
-                "Map failure paths backwards for atomic bug isolation",
-                "Prove causal state corruption with zero guesswork",
+            "project-neural-map": [
+                "Maintain recursive long-term memory with PROJECT_BRAIN.md and NODE.md",
+                "Dynamic module status and transactional state schemas",
+                "Compute cryptographic SHA-256 session handoff state hashes",
+                "Recursive long-term project neural map and cognitive memory",
+                "Session state persistence across agent turns and context windows",
             ],
-            "session-handoff-protocol": [
-                "Manage transactional session state serialization",
-                "Compute cryptographic SHA-256 state hash for session",
-                "Execute atomic session handoffs across agent turns",
-                "Eliminate hallucinations and context drift during long-horizon tasks",
-                "Persist session state snapshot across context windows",
+            "memory-leak-debugging": [
+                "Diagnose memory leak and heap bloat in application",
+                "Analyze heap snapshot and out of memory OOM crashes",
+                "Perform JavaScript and Node.js memory profiling",
+                "Inspect retained size and garbage collection leaks",
+                "Resolve runaway memory usage and object retainers",
             ],
         }
 

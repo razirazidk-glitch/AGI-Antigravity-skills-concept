@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Master Plugin Verification Test Runner for agi-antigravity-core.
-Executes all 7 static & dynamic verification test suites, outputs color-coded diagnostics,
+Executes all 9 static & dynamic verification test suites, outputs color-coded diagnostics,
 and strictly enforces exit code 0 for 100% pass rate (or exit code 1 on any failure).
 
 Usage:
@@ -99,6 +99,20 @@ SUITES_REGISTRY = [
         "module": "test_autonomous_dry_run",
         "class": "TestAutonomousDryRun",
         "tier": "Tier 5: Autonomous Cycle",
+    },
+    {
+        "id": "adv_hooks",
+        "name": "8. Adversarial Hooks Stress",
+        "module": "test_adversarial_hooks",
+        "class": "TestAdversarialHooksM1",
+        "tier": "Tier 6: Adversarial Stress",
+    },
+    {
+        "id": "adv_m2",
+        "name": "9. M2 Adversarial Stress",
+        "module": "test_adversarial_m2",
+        "class": "TestM2AdversarialStress",
+        "tier": "Tier 6: Adversarial Stress",
     },
 ]
 

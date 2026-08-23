@@ -1,7 +1,7 @@
 ---
 name: project-neural-map
 description: >-
-  MANDATORY recursive long-term memory protocol implementing PROJECT_BRAIN.md and NODE.md per module with dynamic status. Trigger on mentions of: 'project brain', 'neural map', 'PROJECT_BRAIN.md', 'NODE.md', 'module status', 'long-term memory', 'project architecture map', or at the start of any turn in an active multi-module project.
+  MANDATORY recursive long-term memory and session state persistence protocol implementing PROJECT_BRAIN.md, transactional state schemas, and SHA-256 session handoff cryptography. Trigger on mentions of: 'project brain', 'neural map', 'PROJECT_BRAIN.md', 'NODE.md', 'module status', 'long-term memory', 'cognitive memory', 'state schema', 'save state', 'persist session', 'session handoff', 'state hash', or at the start of any turn in an active multi-module project.
 ---
 # 🧠 PROJECT NEURAL MAP — Memória Recursiva de Longo Prazo
 
@@ -9,7 +9,7 @@ description: >-
 
 ---
 
-## OS 4 STATUS DINÂMICOS
+## 1. Visão Geral & Os 4 Status Dinâmicos
 
 ```
 🔴 CHANGING  — Este núcleo está sendo modificado AGORA. Nenhum outro agente pode tocá-lo.

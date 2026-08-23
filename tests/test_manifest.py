@@ -8,9 +8,9 @@ import unittest
 from pathlib import Path
 
 try:
-    from conftest import PLUGIN_ROOT
+    from conftest import PLUGIN_ROOT, parse_yaml_frontmatter
 except ImportError:
-    from .conftest import PLUGIN_ROOT
+    from .conftest import PLUGIN_ROOT, parse_yaml_frontmatter
 
 
 class TestManifestsAndSchemas(unittest.TestCase):
@@ -303,6 +303,46 @@ class TestManifestsAndSchemas(unittest.TestCase):
         brain = PLUGIN_ROOT / "PROJECT_BRAIN.md"
         self.assertTrue(brain.exists(), f"PROJECT_BRAIN.md not found at {brain}")
         self.assertTrue(len(brain.read_text(encoding="utf-8").strip()) > 100)
+
+    def test_all_rules_frontmatter_and_triggers(self):
+        """Validates that 100% of .md files in rules/ have valid YAML frontmatter with trigger: always_on and non-empty description."""
+        rules_dir = PLUGIN_ROOT / "rules"
+        self.assertTrue(rules_dir.exists(), f"rules directory not found at {rules_dir}")
+
+        rule_files = [f for f in rules_dir.glob("*.md") if f.is_file() and not f.name.startswith(".")]
+        self.assertTrue(len(rule_files) > 0, f"No .md files found in {rules_dir}")
+
+        for rule_file in rule_files:
+            with self.subTest(rule=rule_file.name):
+                content = rule_file.read_text(encoding="utf-8")
+                fm, body = parse_yaml_frontmatter(content)
+                self.assertIsNotNone(
+                    fm,
+                    f"Rule file {rule_file.name} must start with valid YAML frontmatter delimited by ---",
+                )
+                self.assertIn(
+                    "trigger",
+                    fm,
+                    f"Rule file {rule_file.name} missing 'trigger' in frontmatter",
+                )
+                self.assertEqual(
+                    fm["trigger"],
+                    "always_on",
+                    f"Rule file {rule_file.name} 'trigger' must be 'always_on', got '{fm.get('trigger')}'",
+                )
+                self.assertIn(
+                    "description",
+                    fm,
+                    f"Rule file {rule_file.name} missing 'description' in frontmatter",
+                )
+                self.assertTrue(
+                    len(fm["description"].strip()) > 0,
+                    f"Rule file {rule_file.name} has empty 'description'",
+                )
+                self.assertTrue(
+                    len(body.strip()) > 0,
+                    f"Rule file {rule_file.name} has empty body",
+                )
 
 
 if __name__ == "__main__":

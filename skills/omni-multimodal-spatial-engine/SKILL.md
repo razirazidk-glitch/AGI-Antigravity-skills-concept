@@ -186,4 +186,4 @@ When deploying programmatic subagents via `invoke_subagent`:
 | **Window & Vista Shaders** | Omni Spatial Shaders (`omni-multimodal-spatial-engine`) | GLSL Interior Mapping & Depth Parallax Shaders |
 | **Acoustic Streams & SFX** | Acoustic Prospecting Subagent (`youtube-audio-prospecting` + `yt-dlp`) | `.mp3` / `.ogg` / `.wav` audio streams |
 | **Lighting & Post-Processing** | Omni Multimodal Core (`omni-multimodal-spatial-engine`) | IBL HDRI + ACES Filmic + SSAO/Bloom Composer |
-| **Scene Composition & UX** | Ultra-Loop Engine (`one-shot-ultra-loop-engine`) | Production application ($Q \ge 9.0$) |
+| **Scene Composition & UX** | Gauntlet Engine (`gauntlet-loop`) | Production application ($Q \ge 9.0$) |

@@ -1,7 +1,7 @@
 ---
 name: deep-planning-protocol
 description: >-
-  MANDATORY 5-document formal pre-flight planning protocol required before writing code on non-trivial tasks. Trigger on mentions of: 'deep planning', 'pre-flight plan', '5 documents', 'ARCHITECTURE.md', 'CONTRACTS.md', 'system design plan', 'implementation plan', 'plan before coding', or when initiating major features.
+  Master formal pre-flight planning and latent context expansion engine (5 mandatory documents: ARCHITECTURE.md, CONTRACTS.md, IMPLEMENTATION_PLAN.md, QUALITY_GATES.md, ROLLBACK_SPEC.md). Unifies Graph-of-Thought trade-off matrices, 10-dimension latent context expansion, and scientific theorem contracts. Trigger on mentions of: 'deep planning', 'pre-flight plan', '5 documents', 'ARCHITECTURE.md', 'CONTRACTS.md', 'system design plan', 'implementation plan', 'plan before coding', 'holistic plan', 'latent context', 'structured reasoning', 'scientific research contract', or when initiating major features.
 ---
 # 📐 DEEP PLANNING PROTOCOL — 5-Document Pre-Flight Gate
 

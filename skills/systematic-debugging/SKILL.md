@@ -1,7 +1,7 @@
 ---
 name: systematic-debugging
 description: >-
-  MANDATORY systematic 4-phase root-cause debugging protocol (Reproduce, Isolate, Diagnose, Verify). Isolates complex defects methodically with zero-guesswork instrumentation and triggers escalation upon 3 consecutive failures. Trigger on mentions of: 'systematic debugging', 'root cause isolation', 'reproduce defect', 'diagnose failure', '4-phase debugging', 'error triage', 'eliminate trial-and-error', or 'verify fix'.
+  MANDATORY systematic 4-phase root-cause debugging protocol (Reproduce, Isolate, Diagnose, Verify). Isolates complex defects methodically with zero-guesswork instrumentation and triggers escalation upon 3 consecutive failures. Trigger on mentions of: 'systematic debugging', 'root cause isolation', 'reproduce defect', 'diagnose failure', '4-phase debugging', 'error triage', 'eliminate trial-and-error', 'causal debugging', or 'verify fix'.
 ---
 # Systematic Root-Cause Debugging Protocol
 
@@ -15,11 +15,11 @@ Systematic Debugging is the disciplined practice of diagnosing and repairing sof
 
 Every bug investigation must follow the **4-Phase Protocol**:
 1. **Reproduce:** Construct a minimal, deterministic reproduction case.
-2. **Isolate:** Trace backward from symptom to corrupted state to root cause.
+2. **Isolate:** Trace backward from symptom to corrupted state to root cause along the causal DAG.
 3. **Diagnose:** Formulate a falsifiable hypothesis and verify with instrumentation.
 4. **Verify:** Apply an atomic fix and verify full regression suite pass.
 
-For deep causal tracing patterns and invariant verification tables, consult the [Root-Cause Playbook](./references/root-cause-playbook.md).
+For deep causal tracing patterns and invariant verification tables, consult the [Root-Cause Playbook](./references/root-cause-playbook.md) and [Falsification Matrices](./references/falsification-matrices.md).
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: popperian-invariance-testing
 description: >-
-  Master scientific validation protocol fusing Popperian falsificationism and metamorphic invariance testing across 4 dimensions. Trigger on mentions of: 'Popperian testing', 'invariance testing', 'metamorphic testing', 'falsification matrix', 'scale invariance', 'temporal invariance', 'regime boundary', or when validating critical algorithmic invariants.
+  MANDATORY for scientific validation, metamorphic invariance testing across 4 dimensions, and stress-testing critical algorithms. Trigger autonomously on mathematical, financial, or state-transition logic, or on mentions of: 'Popperian testing', 'invariance testing', 'metamorphic testing', 'falsification matrix', 'scale invariance', 'temporal invariance', 'regime boundary'.
 ---
 # SKILL: Popperian Invariance Testing
 

@@ -1,7 +1,11 @@
-# AGI LAYER 1: 70-SKILL TAXONOMY & NEURAL ROUTING ENGINE
+---
+description: Master 34-Skill Taxonomy and Hypergraph Neural Routing Engine
+trigger: always_on
+---
+# AGI LAYER 1: 34 MASTER PLAYBOOK TAXONOMY & NEURAL ROUTING ENGINE
 
 > **Scope**: Layer 1 Specialized Operational Rule for `agi-antigravity-core`.
-> **Mandate**: 100% Deterministic Skill Discovery, $T_0$ Grounding, and Poly-Skill Entanglement.
+> **Mandate**: 100% Deterministic Skill Discovery, $T_0$ Grounding, and Hypergraph Vector Activation.
 
 ---
 
@@ -11,109 +15,76 @@ To achieve true AGI/ASI level execution, the agent MUST NEVER rely on shallow in
 
 ### Mandatory $T_0$ Protocol:
 On the first turn of any non-trivial user intent $X$:
-1. Classify $X$ into one or more of the 11 operational clusters below.
+1. Classify $X$ into one or more of the 8 operational clusters below.
 2. Select the Primary Skill $\mathcal{S}_{\text{prime}}$ and Auxiliary Skills $\langle \mathcal{S}_{\text{aux}}, \mathcal{S}_{\text{multi}}, \mathcal{S}_{\text{falsif}} \rangle$.
 3. Execute `view_file(AbsolutePath: "skills/<skill_name>/SKILL.md")` as the **first action** in the turn.
 
 ---
 
-## 2. 🏛️ COMPLETE 70-SKILL TAXONOMY AND DIRECTORY MAPPING
+## 2. 🏛️ COMPLETE 34 MASTER PLAYBOOK TAXONOMY AND DIRECTORY MAPPING
 
 ### Cluster 1: Architecture, Pre-Flight & Strategic Inception
-- `deep-planning-protocol`: Mandatory 5-document pre-flight planning before coding.
-- `omni-holistic-planner`: Master 10-dimension latent context expansion ($X \to X \cup Y$).
-- `competitive-reference-benchmarking`: Research state-of-the-art competitor reference bars.
-- `structured-reasoning-engine`: Graph-of-Thought formal trade-off matrices & proofs.
-- `domain-alpha-prospecting`: SOTA algorithm and standards prospecting for high-stakes domains.
-- `proactive-domain-bootstrapper`: Sourcing domain standards, PBR, and baseline architecture.
-- `agi-prompt-refiner`: Elevation of brief/naive prompts into enterprise specifications.
-- `zero-trust-scientific-review`: Adversarial review of mathematical models and performance contracts.
-- `scientific-research-contract`: Mathematical modeling and theorem contracts before coding.
-- `grill-me-layered`: 12-topic 4-layer alignment interview for deep requirement probing.
+- `deep-planning-protocol`: Master 5-document pre-flight planning (`ARCHITECTURE.md`, `CONTRACTS.md`), 10-dimension latent context expansion, and Graph-of-Thought trade-off matrices.
+- `grill-me-layered`: 12-topic 4-layer alignment interview for deep architectural probing before execution.
+- `agi-prompt-refiner`: Elevation of brief/naive prompts into enterprise specifications with anti-hallucination guardrails.
+- `technological-prospecting`: Autonomous discovery, benchmarking, and integration of external APIs, libraries, competitor reference bars, and high-stakes domain alpha.
 
 ### Cluster 2: TDD Red-Green-Refactor, Code Construction & Heavy Refactoring
-- `test-driven-development`: Red-Green-Refactor unit and integration test cycle.
-- `master-refactoring-pipeline`: 8-phase structural reconstruction with zero hardcoding.
-- `deep-iceberg-autonomous-engine`: 7 deep layers of production engineering (Causal DAG, Telemetry HUD, Chaos).
-- `one-shot-ultra-loop-engine`: Multi-subsystem iterative ultra-loop for end-to-end applications.
+- `test-driven-development`: Red-Green-Refactor unit and integration test cycle enforcing deterministic exit code 0.
+- `master-refactoring-pipeline`: 8-phase structural reconstruction with zero hardcoding and strict typing.
 - `cross-sector-integration`: Type-theoretic contract enforcement and quarantine specifications.
-- `integration-consensus-gate`: Formal gate for merge approval and branch stabilization.
-- `thesis-triage-funnel`: 5-phase causal and theoretical triage blocking speculative ideas.
-- `audit-tier-classifier`: AST complexity and entropy-driven 3-tier audit allocation.
 
-### Cluster 3: Causal Root-Cause Debugging & Incident Triage
-- `systematic-debugging`: 4-phase root-cause debugging protocol (Reproduce, Isolate, Diagnose, Verify).
-- `causal-debugging-protocol`: Mathematical state tracing, invariant trees, and backward error isolation.
-- `epistemic-stop-and-think`: Epistemic pause to deconstruct assumptions before patching.
-- `memory-leak-debugging`: Heap snapshot analysis and memory leak diagnosis.
-- `popperian-invariance-testing`: Metamorphic testing across Topological, Scale, Temporal, and Regime dimensions.
-- `a11y-debugging`: Accessibility auditing via Chrome DevTools MCP.
-- `debug-optimize-lcp`: Largest Contentful Paint and Core Web Vitals optimization.
-- `chrome-devtools-troubleshooting`: DevTools connection and CDP protocol troubleshooting.
+### Cluster 3: Causal Root-Cause Debugging & Diagnostics
+- `systematic-debugging`: 4-phase root-cause debugging protocol (Reproduce, Isolate, Diagnose, Verify) unified with backward causal DAG tracing and invariant failure trees.
+- `memory-leak-debugging`: Heap snapshot analysis, V8 memory profiling, and memory leak elimination.
+- `popperian-invariance-testing`: Metamorphic testing across Topological, Scale ($N \ge 10^5$), Temporal, and Regime dimensions.
 
 ### Cluster 4: Adversarial Tribunal, Gauntlet Convergence & Quality Gates
-- `gauntlet-loop`: Double-blind Builder/Critic verification against Named Reference Bar ($Q \ge 9.0$).
-- `adversarial-tribunal`: Red Team vs Blue Team post-milestone security and architecture audits.
-- `pragmatic-quality-inspection`: Evidence-before-assertion anti-hallucination inspection.
-- `permissioned-github`: GitHub workflow operations and permission boundary management.
-- `point-w-evolutionary-engine`: Mathematical convergence to world-class superiority (Point W).
-- `continuous-evolution-loop`: Infinite self-improvement loop surpassing reference bars.
+- `gauntlet-loop`: Double-blind Builder/Critic verification against Named Reference Bar ($Q \ge 9.0$) unified with Point W evolutionary superiority proofs.
+- `adversarial-tribunal`: Red Team vs Blue Team post-milestone security and architecture audits with 5 attack vectors, 7 design invariants, and causal thesis triage.
+- `permissioned-github`: GitHub workflow operations, PR management, and permission boundary defense.
 
 ### Cluster 5: Frontend Architecture, Modern Web APIs & Kinetic Media
-- `modern-web-guidance`: SOTA web development best practices (View Transitions, Popover, Container Queries).
-- `visual-synthesis-engine`: AAA visual layouts, CSS glassmorphism, and WebGL aesthetics.
+- `modern-web-guidance`: SOTA web development best practices (View Transitions, Popover, Container Queries, `:has()`).
+- `visual-synthesis-engine`: AAA visual layouts, CSS glassmorphism, WebGL aesthetics, trans-domain Awwwards-tier experiences, and live browser visual regression auditing.
 - `interactive-kinetic-media-engine`: Scroll-driven scrubbing, sticky parallax, and 3D micro-interactions.
-- `omni-experience-synthesis`: Trans-domain Awwwards/FWA-tier digital experience orchestration.
-- `interactive-visual-auditing`: Visual testing and verification via live browser execution.
+- `a11y-debugging`: Automated WCAG 2.2 AA accessibility auditing via Chrome DevTools MCP.
 
 ### Cluster 6: Browser Automation, Scraping, DevTools & Extension Engineering
-- `chrome-devtools`: Direct Chrome DevTools MCP automation, DOM inspection, and network traces.
-- `puppeteer-browser-automation`: Puppeteer headless browser scripting, scraping, and form automation.
-- `chrome-extensions`: Manifest V3 Chrome Extension development, background scripts, and Web Store publishing.
+- `chrome-devtools`: Direct Chrome DevTools MCP automation, DOM inspection, network traces, and CDP connection troubleshooting.
+- `puppeteer-browser-automation`: Headless browser scripting, scraping, form automation, and PDF generation.
+- `chrome-extensions`: Manifest V3 Chrome Extension development, background service workers, and WebStore publishing.
+- `debug-optimize-lcp`: Largest Contentful Paint and Core Web Vitals optimization.
 
 ### Cluster 7: Multimodal Spatial 3D, Audio Sonification & Omni Video Generation
 - `omni-multimodal-spatial-engine`: Procedural 3D math, GLSL shaders, and spatial projection.
-- `sketchfab-prospecting-protocol`: Sourcing and evaluating 3D models and CAD meshes.
-- `youtube-audio-prospecting`: Authentic audio extraction, EBU R128 loudness, and acoustic sonification.
-- `gemini-omni-video-generation`: Cinematic video prompting, camera physics, and frame interpolation.
+- `sketchfab-prospecting-protocol`: Sourcing, evaluating, and integrating 3D CAD models and meshes.
+- `youtube-audio-prospecting`: Authentic audio extraction via `yt-dlp` + FFmpeg EBU R128 loudness normalization.
+- `gemini-omni-video-generation`: Cinematic video prompting, camera physics, and keyframe interpolation.
 
-### Cluster 8: Swarm Cognition, Corporate OS & Multi-Agent Swarms
-- `corporate-swarm-os`: Corporate hierarchy CEO -> C-Level -> Teams with BRIEF.md and SECTOR.md.
-- `swarm-mission-genesis`: Large-scale multi-agent mission pre-flight scoping.
-- `swarm-topology-delegation`: Multi-level chat swarms and programmatic subagent teams.
-- `massive-batch-orchestration`: Subagent swarm orchestration for 10+ file codebases.
-- `swarm-legacy-archaeology`: Parallel auditing and archaeology of legacy repositories.
-- `swarm-synthesis-protocol`: 4-level approval synthesis pipeline merging multi-agent findings.
-- `swarm-frequency-governor`: Rate-limit governance enforcing $C_{\max} \le 2$ concurrent workers.
-- `active-inference-theory-of-mind`: Markov Blankets and dynamic belief inference across subagents.
-- `subagent-handoff`: 5-component structured handoff protocol (Observation, Logic, Caveats, Conclusion, Verification).
-
-### Cluster 9: Cognitive Memory, Long-Horizon State & Workspace Isolation
-- `cognitive-memory`: Transactional JSON-Schema cognitive state serialization and transitions.
-- `project-neural-map`: Recursive long-term memory (PROJECT_BRAIN.md + NODE.md).
-- `context-preservation`: Dynamic token budget profiling and context entropy management.
-- `session-handoff-protocol`: SHA-256 state serialization across context windows.
-- `sprint-audit-session`: Multi-agent continuous repository auditing and state persistence.
-- `autonomous-workspace-orchestration`: Git worktrees for safe state isolation during refactoring.
-
-### Cluster 10: Meta-Learning & Dynamic Self-Evolution
-- `meta-skill-synthesis`: Synthesizing permanent new skills on disk from session insights.
-- `autonomous-insight-extractor`: Extraction of reusable rules and skills (/learn workflow).
-- `dynamic-constitutional-evolution`: Formal logic constitutional compliance and dynamic skill trees.
-- `recursive-dual-loop-optimizer`: Dual-loop self-improvement preventing model collapse.
-- `multiversal-poly-skill-entanglement`: Hypergraph 1:N fan-out skill orchestration.
-- `epistemic-governance`: Bayesian truth calibration, DEC labeling, and epistemic boundaries.
-
-### Cluster 11: Antigravity SDK, Platform Customization & Technical Docs
-- `google-antigravity-sdk`: Agent architecture using the native Antigravity SDK.
-- `agy-customizations`: Complete guide to skills, rules, MCP, hooks, and plugins.
-- `antigravity-guide`: Reference manual for AGY CLI, IDE, keybindings, and slash commands.
-- `technological-prospecting`: Benchmarking external libraries, frameworks, and MCP tools.
-- `technical-documentation-crafting`: High-conversion technical documentation and README authoring.
+### Cluster 8: Swarm Cognition, Archaeology, Memory & SDK
+- `corporate-swarm-os`: Enterprise corporate hierarchy (CEO -> C-Level -> Workers) with `BRIEF.md`, `SECTOR.md`, massive batch orchestration, and 5-component structured handoffs.
+- `swarm-legacy-archaeology`: Universal 1:1 node disassembly onto the mechanic's bench ($\forall v \in \mathcal{V}$), AST 3-tier complexity classification, and sprint audit persistence.
+- `project-neural-map`: Recursive long-term memory (`PROJECT_BRAIN.md` + `NODE.md`), transactional state schemas, and SHA-256 session handoff cryptography.
+- `meta-skill-synthesis`: Machine self-learning synthesizing permanent new skills on disk from session insights (/learn workflow) and dual-loop self-improvement.
+- `autonomous-workspace-orchestration`: Automated Git worktrees for non-destructive branch isolation and destructive testing.
+- `google-antigravity-sdk`: Agent architecture using the native Antigravity Python SDK and LiteRT integration.
+- `agy-customizations`: Reference guide for Antigravity rules, hooks, skills, and MCP configurations.
+- `antigravity-guide`: Comprehensive user guide and CLI reference for the Antigravity platform.
+- `technical-documentation-crafting`: Authoring high-conversion technical documentation, READMEs, and API guides.
 
 ---
 
-## 3. 🧬 O REFLEXO DO HIPERGRAFO & QUEBRA DO "PEDIU, EU FIZ"
+## 3. ⚡ DETERMINISTIC ACTIVATION FORMULA
+For any incoming prompt $X$:
+\[
+\mathcal{V}(X) = \arg\max_{\mathcal{S} \in \text{Clusters}} \text{CosineSimilarity}(\text{Embedding}(X), \text{Frontmatter}(\mathcal{S}))
+\]
+1. Primary engine $\mathcal{S}_{\text{prime}}$ executes the core workflow.
+2. Falsification gate $\mathcal{S}_{\text{falsif}}$ stress-tests the output.
+3. Gate 1, 2, and 3 must pass with exit code `0` before completion.
+
+## 4. 🧬 O REFLEXO DO HIPERGRAFO & QUEBRA DO "PEDIU, EU FIZ"
 
 O maior vício de modelos de linguagem é a **inércia do literal**: receber um comando $X$ e responder unicamente no plano superficial daquele pedido.
 
@@ -123,4 +94,22 @@ Em qualquer turn técnico, o agente NÃO escolhe uma única skill isolada. Ele d
 2. **Onda 2 (Fundação Oculta $\mathcal{S}_{\text{aux}}$):** Blinda a máquina de estados, idempotência e tratamento de falhas (`deep-iceberg-autonomous-engine`, `master-refactoring-pipeline`).
 3. **Onda 3 (Fronteiras e Ativos $\mathcal{S}_{\text{multi}}$):** Integra contratos entre módulos, APIs reais e telemetria (`cross-sector-integration`, `chrome-devtools`).
 4. **Onda 4 (Tribunal Adversarial $\mathcal{S}_{\text{falsif}}$):** Submete a solução a testes metamórficos, auditoria Red Team e convergência $Q \ge 9.0$ (`gauntlet-loop`, `popperian-invariance-testing`).
+
+---
+
+## 5. ⚡ MATRIZ DE DISPARO DE REFLEXOS AUTÔNOMOS (ANTI-"GARÇOM PASSIVO")
+
+O agente AGI/ASI é estritamente proibido de aguardar palavras-chave do usuário ("pedir por favor") para ativar capacidades vitais de engenharia. As seguintes 8 capacidades são disparadas **autonomamente pelo contexto técnico**:
+
+| Contexto Técnico Detectado no Turn | Skill Ativada Automaticamente | Ação Autônoma Obrigatória da AGI |
+|---|---|---|
+| **Prompt raso, breve ($\le 200$ chars) ou vago** | `agi-prompt-refiner` | Expande $X \to X \cup \{Y, W, Z\}$, estipulando invariantes, estados de erro e critérios de teste antes de gerar código. |
+| **Decisão de arquitetura com $\ge 2$ trade-offs** | `deep-planning-protocol` & `grill-me-layered` | Elabora matriz de trade-offs Graph-of-Thought e sonda premissas em `CONTRACTS.md` antes da implementação. |
+| **Criação / refatoração de componentes de UI** | `a11y-debugging` & `modern-web-guidance` | Audita contraste de cor (WCAG 2.2 AA), navegação por teclado e semântica nativa no Chrome DevTools MCP. |
+| **Lógica matemática, financeira ou algorítmica** | `popperian-invariance-testing` | Constrói testes metamórficos de escala assintótica ($N \ge 10^5$), deriva temporal e invariância de regime. |
+| **Streams, WebSockets, WebGL ou listeners async** | `memory-leak-debugging` | Implementa hooks explícitos de cleanup, desalocação de texturas/buffers e prevenção de vazamento de memória. |
+| **Início de módulo em novo domínio ou stack** | `technological-prospecting` | Mapeia o Named Reference Bar (SOTA) da indústria para evitar a injeção de padrões amadores ou obsoletos. |
+| **Conclusão de tarefas de média / alta complexidade** | `gauntlet-loop` & `adversarial-tribunal` | Executa auditoria adversarial interna ($Q \ge 9.0$) contra stubs, placeholders e regressões antes do fechamento. |
+| **Transição de marcos / múltiplos arquivos tocados** | `project-neural-map` | Atualiza transacionalmente o `PROJECT_BRAIN.md` com status de nós e decisões arquiteturais (`DEC-xxx`). |
+
 

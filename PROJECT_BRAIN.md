@@ -28,8 +28,8 @@
 | **M1** | Core Architecture, Manifests, Rules & Hooks | `plugin.json`, `mcp_config.json`, `hooks.json`, `hooks/*.py`, `rules/AGENTS.md`, `README.md`, `PROJECT_BRAIN.md` | ✅ COMPLETED |
 | **M2** | Core Methodology Skills (Superpowers & Gauntlet) | `test-driven-development`, `systematic-debugging`, `gauntlet-loop`, `subagent-handoff`, `causal-debugging-protocol`, `session-handoff-protocol` | ✅ COMPLETED |
 | **M3** | Refactored Global Tooling & Platform Guides | `google-antigravity-sdk`, `chrome-devtools`, `chrome-devtools-troubleshooting`, `a11y-debugging`, `debug-optimize-lcp`, `memory-leak-debugging`, `modern-web-guidance`, `chrome-extensions`, `agy-customizations`, `antigravity-guide` | ✅ COMPLETED |
-| **M4** | Cognitive, Swarm, Multimodal & Script Suites | 70 high-density cognitive skills + 19 functional Python scripts (tribunal evaluator, point W auditor, popperian runner, alpha extraction, 3D parallax, audio prospecting, Veo video automation) | ✅ COMPLETED |
-| **M5** | Final Integration, 100% E2E Pass & Autonomous Dry Run | 7 test suites passing in `test_plugin.py`, adversarial hardening, and autonomous 5-phase dry run demonstration | ✅ COMPLETED |
+| **M4** | Cognitive, Swarm, Multimodal & Script Suites | 34 high-density master playbooks + functional Python scripts (tribunal evaluator, point W auditor, popperian runner, 3D parallax, audio prospecting, Veo video automation) across 8 operational clusters | ✅ COMPLETED |
+| **M5** | Final Integration, 100% E2E Pass & Autonomous Dry Run | All test suites passing in `pytest` with exit code 0, adversarial hardening, and autonomous 5-phase dry run demonstration | ✅ COMPLETED |
 
 ---
 
@@ -37,7 +37,7 @@
 
 | ID | Architectural Decision | Rationale & Constraint | Grounded Date |
 |---|---|---|---|
-| **DEC-001** | Unified Master Plugin Package | Package all skills, rules, hooks, and MCP servers under `d:/agi/agi-antigravity-core` to eliminate fragmented dependencies. | 2026-08-22 |
+| **DEC-001** | Unified Master Plugin Package | Package all skills, rules, hooks, and MCP servers under `agi-antigravity-core` to eliminate fragmented dependencies. | 2026-08-22 |
 | **DEC-002** | Consolidated Constitution in `rules/AGENTS.md` | Retain constitutional rules in a single, high-density file under 300 lines loaded unconditionally across sessions. | 2026-08-22 |
 | **DEC-003** | Concurrency Limit $C_{\max} \le 2$ | Restrict concurrent subagents to max 2 to prevent API rate-limit (`429 RESOURCE_EXHAUSTED`) throttling. | 2026-08-22 |
 | **DEC-004** | Reactive Wakeup Invariant | Strictly prohibit busy loops on `manage_task(status)`; rely exclusively on reactive event notifications. | 2026-08-22 |
@@ -45,6 +45,10 @@
 | **DEC-006** | Tri-Gate Completion Firewall | Mandate Gate 1 (Build exit 0), Gate 2 (Visual/Interactive artifact), and Gate 3 (Adversarial Critic review $Q \ge 9.0$). | 2026-08-22 |
 | **DEC-007** | Zero-Placeholder Enforcement | Strict prohibition of placeholder tags, synthetic mocks, and stub implementations in all production code and scripts. | 2026-08-22 |
 | **DEC-008** | Language Lock Enforcement | Mandatory response generation in the user's prompt language, while codebase and markdown files remain in standard English. | 2026-08-22 |
+| **DEC-009** | 12 Iron Laws of Cognitive Immunity | Formalize systemic immunity against 12 LLM cognitive pathologies (sycophancy, shotgun debugging, top-down bias, greedy trap, toy scale). | 2026-08-23 |
+| **DEC-010** | Rules vs Skills Ontological Segregation | Promote 12 ambient thinking policies into `rules/` and consolidate 71 micro-skills into 34 high-density specialized master playbooks across 8 clusters to eliminate cognitive bloat and trigger ambiguity. | 2026-08-23 |
+| **DEC-011** | Autonomous Cognitive Reflex Matrix (Anti-Passive Bot Invariant) | Eliminate passive user-keyword dependency by establishing autonomous domain-state triggers in `rules/AGENTS.md` and `rules/01_SKILLS_TAXONOMY_ROUTING.md` across 8 core capabilities (prompt refinement, deep planning, a11y auditing, popperian invariance, memory hygiene, SOTA benchmarking, gauntlet release gate, and neural map checkpointing). | 2026-08-23 |
+
 
 ---
 

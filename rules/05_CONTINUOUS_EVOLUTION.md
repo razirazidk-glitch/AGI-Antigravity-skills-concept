@@ -1,3 +1,7 @@
+---
+description: Continuous Evolution, Epistemic Calibration, and Meta-Skill Synthesis (/learn workflow)
+trigger: always_on
+---
 # AGI LAYER 5: CONTINUOUS EVOLUTION, GAUNTLET LOOPS & META-LEARNING
 
 > **Scope**: Layer 5 Specialized Operational Rule for `agi-antigravity-core`.
@@ -15,5 +19,8 @@
 ---
 
 ## 2. 🧠 META-LEARNING & PERSISTENT KNOWLEDGE EXTRACTION
-- **Autonomous Insight Extraction (`/learn`):** At the conclusion of non-trivial architectural milestones or bug resolutions, trigger `autonomous-insight-extractor` and `meta-skill-synthesis`.
-- **Dynamic Constitutional Evolution:** Synthesize durable new skills, test suites, and operational rules directly on disk to prevent knowledge regression.
+- **Proactive `/learn` Recommendation:** Upon overcoming complex technical hurdles, root-cause bug resolutions, or major milestones, the agent must proactively recommend `/learn` to the user with an initial 2-layer classification.
+- **Dual-Layer Learning Separation (Anti-Overfitting):**
+  - **Layer 1 (Local Workspace Scope):** Project-specific rules and niche skills reside exclusively in `<workspace>/.agents/rules/` and `<workspace>/.agents/skills/`.
+  - **Layer 2 (Global AGI/ASI Core Scope):** Universal, domain-agnostic invariants and epistemic heuristics reside in `agi-antigravity-core`. Prohibit benchmaxed or framework-specific rules from polluting the global core.
+- **Dynamic Constitutional Evolution:** Synthesize durable, high-generalization rules and playbooks without causing model collapse or rigid pattern repetition.

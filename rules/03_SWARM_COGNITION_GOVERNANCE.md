@@ -1,3 +1,7 @@
+---
+description: Corporate Swarm Governance, Subagent Concurrency (C_max <= 2), and Reactive Wakeup
+trigger: always_on
+---
 # AGI LAYER 3: SWARM COGNITION & MULTI-AGENT GOVERNANCE
 
 > **Scope**: Layer 3 Specialized Operational Rule for `agi-antigravity-core`.

@@ -17,6 +17,8 @@ Analyze the user's brief input to extract:
 
 ## 2. AGI/ASI Formulation Rules
 When formatting the new prompt, it must adhere to the global AGI/ASI Neural Sector rigor:
+- **Anti-Hallucination & Zero-Preconception Invariant:** The refiner is STRICTLY PROHIBITED from inventing theoretical models, exotic frameworks (e.g., Schrödinger operators, LBM, unverified libraries), or diagnosing specific components ("apontar pro pneu") unless explicitly cited in the user's prompt or proven on disk.
+- **Agnostic Bottom-Up Archaeology Mandate:** For audits, codebase investigations, or large-scale refactoring, instruct the agent to execute a 1:1 node disassembly ($\forall v \in \mathcal{V}$) and map raw data lineage before dispatching adversarial tribunals.
 - **Zero-Trust Falsification:** Instruct the executing agent to verify all assumptions before proceeding.
 - **Topological & Graph Mapping:** If the task involves code or architecture, instruct the agent to build an Abstract Syntax Tree (AST) or Directed Acyclic Graph (DAG) mental model.
 - **Information-Theoretic Constraints:** Instruct the agent to minimize Shannon Entropy (uncertainty) and maximize explicit evidence (Citations/Pointers).
@@ -38,26 +40,37 @@ When refining a prompt or interacting with the user, evaluate the scope and **pr
 ## 4. The Output Template
 Present the result to the user in the following structure:
 
-1. **Brief Analysis:** Explain *why* you added certain constraints and what was missing from the original prompt.
+1. **Brief Analysis:** Explain *why* you added certain constraints, what was missing, and how the prompt enforces agnostic bottom-up discovery.
 2. **Recommended Slash Command:** State clearly which slash command is best suited for this execution (e.g., `/goal`).
 3. **The Refined Prompt:** Provide the exact text inside a markdown code block starting with the recommended slash command if applicable (e.g., `/goal ...`).
 
-### Example Refined Prompt Structure
+### Example Refined Prompt Structure (Deep Audit & Archaeology)
 ```markdown
-/goal Inicie a construção completa do projeto [Nome] com arquitetura de nível de produção.
+/goal INICIAR EXCAVAÇÃO ARQUEOLÓGICA FORENSE E AUDITORIA 1:1 DE BAIXO PARA CIMA DO PROJETO [NOME].
 
-### 🎯 Objetivo & Escopo
-[Declaração clara, não-ambígua do objetivo, restrições e fronteiras do sistema]
+### 🚫 1. LEI DO AGNOSTICISMO & ZERO-PRECONCEPÇÃO
+- Proibido formular hipóteses prematuras ou isolar um único componente antes de mapear 100% da árvore de arquivos.
+- Proibido inventar tecnologias não verificadas; todo diagnóstico deve nascer da evidência material coletada nó a nó.
 
-### ⚙️ Restrições de Execução & Auto-Evolução
-1. **Zero-Trust Falsification:** Verificar todas as dependências, contratos e arquivos via `view_file` antes de modificações.
-2. **Continuous Evolution Loop:** Proibido entregar na 1ª iteração ou criar MVPs rasos. Executar ciclos multi-estado de validação e Red Team critique até alcançar $Q \ge 9.0/10$.
-3. **Dados & Ativos Reais:** Conectar APIs/bancos reais com tratamento resiliente e gerar/integrar ativos de alta fidelidade específicos para o domínio.
-4. **Zero-Placeholder:** Código 100% implementado, sem `// TODO`, `pass` ou dados estáticos de teste mascarando a produção.
+### 🛠️ 2. FASE 1: DESMONTAGEM MECÂNICA & INVENTÁRIO 1:1 (∀v ∈ V)
+1. **Catalogação por Nó:** Caminho, LOC, dependências de entrada, interfaces exportadas e mutabilidade.
+2. **Eliminação de Código Morto:** Análise de alcance no AST para purgar arquivos órfãos e lógicas zumbis.
+3. **Grafo de Linhagem de Dados:** Rastreamento exato: Ingestão de Dados -> Transformadores -> Consumidores -> Sinks.
 
-### 📦 Entregáveis Obrigatórios
-1. [Entregável 1 com especificações exatas e contratos de interface]
-2. [Entregável 2 com testes de regressão e evidência empírica de execução]
+### 🔬 3. FASE 2: FORENSE DE ANOMALIAS MATERIAIS
+1. **Paridade Empírica:** Auditar divergências entre simulação/backtest e runtime de produção/live.
+2. **Calibração de Thresholds:** Identificar filtros excessivamente restritivos que bloqueiam sinais válidos.
+3. **Persistência & Telemetria:** Projetar/implementar banco de dados ACID/WAL e observabilidade estruturada nó a nó.
+
+### 🔴🔵 4. FASE 3: TRIBUNAL ADVERSARIAL VIA SUBAGENTES (C_max <= 2)
+Despachar Red Team e Blue Team operando exclusivamente sobre os nós anômalos identificados na Fase 1.
+
+### 📦 5. ENTREGÁVEIS OBRIGATÓRIOS
+1. PROJECT_BRAIN.md (Topologia viva e mapa causal de 100% dos nós).
+2. AUDIT_REPORT.md (Laudo forense das patologias eliminadas).
+3. ARCHITECTURE.md & CONTRACTS.md (Especificação institucional e contratos tipados).
+4. Suíte de Testes Automatizados (100% green, exit code 0).
 ```
+
 
 

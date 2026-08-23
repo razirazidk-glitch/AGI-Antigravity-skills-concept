@@ -1,7 +1,7 @@
 ---
 name: chrome-devtools
 description: >-
-  Direct Chrome DevTools MCP automation engine for live browser debugging, network tracing, and DOM inspection. Trigger on mentions of: 'Chrome DevTools', 'inspect DOM', 'console logs', 'network request', 'evaluate script', 'CDP', 'Chrome MCP', 'live page test', 'browser snapshot', or when automating Chrome browser sessions.
+  Direct Chrome DevTools MCP automation engine for live browser debugging, network tracing, DOM inspection, and CDP connection troubleshooting. Trigger on mentions of: 'Chrome DevTools', 'inspect DOM', 'console logs', 'network request', 'evaluate script', 'CDP', 'Chrome MCP', 'live page test', 'browser snapshot', 'Chrome DevTools error', 'CDP failed', 'list_pages failed', 'new_page failed', 'navigate_page error', or when automating Chrome browser sessions.
 ---
 ## Core Concepts
 

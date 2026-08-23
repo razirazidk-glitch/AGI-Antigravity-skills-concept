@@ -1,7 +1,7 @@
 ---
 name: technological-prospecting
 description: >-
-  MANDATORY prospecting engine for researching external APIs, libraries, framework capabilities, and MCP servers. Trigger on mentions of: 'technological prospecting', 'research library', 'benchmark package', 'API research', 'framework comparison', 'MCP server evaluation', 'evaluate tool', or before integrating third-party dependencies.
+  MANDATORY prospecting engine for benchmarking SOTA libraries, competitor reference bars, APIs, and domain baselines. Trigger autonomously when bootstrapping new technical domains or selecting third-party dependencies, or on mentions of: 'technological prospecting', 'research library', 'benchmark package', 'API research', 'competitor benchmark', 'reference bar', 'SOTA comparison'.
 ---
 # SKILL: Technological Prospecting (Autonomous API & MCP Integration Engine)
 

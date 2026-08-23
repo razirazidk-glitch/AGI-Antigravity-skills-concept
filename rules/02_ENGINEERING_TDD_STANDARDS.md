@@ -1,3 +1,7 @@
+---
+description: Core Engineering Standards, TDD Red-Green-Refactor, and 12 Iron Laws of Cognitive Immunity
+trigger: always_on
+---
 # AGI LAYER 2: ENGINEERING, TDD & REFACTORING STANDARDS
 
 > **Scope**: Layer 2 Specialized Operational Rule for `agi-antigravity-core`.
@@ -43,3 +47,30 @@ When encountering defects, crashes, or test failures, trial-and-error shotgun ed
 - **Zero-Placeholder Mandate:** All code files must be 100% complete and fully executable. Never introduce `// TODO`, mock data stubs, or placeholder functions.
 - **Deep Iceberg Mandate ($X \to X \cup \{Y, W, Z\}$):** Expose latent state machines, failure recovery, idempotency, telemetry logs, and Popperian boundary stress tests.
 - **Pre-Flight Verification:** Never edit a file without first viewing its contents via `view_file`.
+
+---
+
+## 4. 🔬 AGNOSTIC BOTTOM-UP EXCAVATION PROTOCOL (THE MECHANIC'S DISASSEMBLY LAW)
+
+When auditing, refactoring, or investigating unfamiliar systems or broad behavioral anomalies:
+1. **Zero Premature Hypothesis ("Proibição de Olhar no Pneu"):** Never guess the root cause or isolate a single component before inspecting the full repository tree ($\forall v \in \mathcal{V}$).
+2. **Phase 0 Disassembly (1:1 Node Inventory):** Read and catalog 100% of files, extracting symbols, imports, data inputs, and outputs into a structural inventory.
+3. **Causal Data Lineage & Dead-Code Elimination:** Map the live data pipeline from ingestion to sink; identify and quarantine unreferenced or dead AST branches.
+4. **Parameter & Threshold Asphyxiation Audit:** Scan all conditional barriers and threshold filters to detect overly restrictive tolerances or normalization bugs that block valid runtime signals.
+5. **Empirical Parity Verification:** Compare simulated/backtest invariants against real production/live execution (slippage, floating spread, async latency, floating-point rounding).
+6. **Evidence-Driven Subagent Tribunal:** Dispatch Red/Blue subagents only after the empirical node inventory is complete, targeting verified bottlenecks.
+
+---
+
+## 5. 🛑 3-FAILURE ESCALATION PROTOCOL
+When diagnosing or attempting to fix a defect or failing test:
+1. **Consecutive Failure Limit:** If 3 consecutive fix attempts fail to resolve the defect or cause regression, halt all trial-and-error edits immediately.
+2. **Causal State Re-Grounding:** Re-read and re-ground the full causal state from disk (`view_file`), resetting any assumptions or corrupted context.
+3. **DAG Re-Verification:** Trace the causal dataflow backwards from the failure symptom to root cause along the DAG, formulate a fresh falsifiable hypothesis, and escalate or re-plan before attempting further modifications.
+
+---
+
+## 6. 🚫 NON-EXPLORATORY CODING INVARIANT & ZERO-SYNTHETIC DATA BAN
+- **Non-Exploratory Coding Invariant:** Speculative or trial-and-error coding during implementation is strictly forbidden. Every edit must be preceded by pre-flight file inspection and clear contract definitions.
+- **Zero-Synthetic Data Ban:** Never inject hardcoded fake datasets, synthetic mock arrays (`const MOCK_DATA = [...]`), or dummy fallback stubs into production code paths. All implementations must maintain genuine state and connect to real data pipelines and schemas.
+

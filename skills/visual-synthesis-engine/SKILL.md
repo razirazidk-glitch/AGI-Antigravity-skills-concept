@@ -1,7 +1,7 @@
 ---
 name: visual-synthesis-engine
 description: >-
-  MANDATORY design engine for visual assets, web app styling, CSS glassmorphism, UI panels, and AAA WebGL environments. Trigger on mentions of: 'visual synthesis', 'UI design', 'glassmorphism', 'CSS styling', 'frontend theme', 'visual panel', 'WebGL bloom', 'fog and lighting', 'modern aesthetic', or when styling web interfaces.
+  MANDATORY design engine for visual assets, web app styling, CSS glassmorphism, UI panels, AAA WebGL environments, trans-domain Awwwards-tier digital experiences, and live browser visual regression auditing. Trigger on mentions of: 'visual synthesis', 'UI design', 'glassmorphism', 'CSS styling', 'frontend theme', 'visual panel', 'WebGL bloom', 'fog and lighting', 'modern aesthetic', 'omni experience', 'Awwwards tier', 'FWA design', 'liquid glassmorphism', 'visual audit', 'live browser test', 'visual regression', or when styling web interfaces.
 ---
 # Visual Synthesis Engine — Design System Protocol
 
