@@ -12,14 +12,15 @@ trigger: always_on
 On **every message / turn**, the agent MUST output the simplified Proactive Routing Directive at the **TOP** of the turn before any tool execution or response payload:
 
 ```markdown
-### ⚡ Proactive Routing:
-- **Recommended Slash Command**: `/goal` (ou `/grill-me`, `/browser`, `/teamwork-preview`, `/learn`, `/schedule`)
-- **Activated Skills**: `/skill-1` `/skill-2` `/skill-3`
-- **Thinking Mode**: `Medium` (ou `⚠️ High`)
-- **Prompt (Ready to Copy & Paste)**:
-> [Texto do prompt refinado e enriquecido com critérios de aceitação e invariantes pronto para execução direta]
+⚡ Proactive Routing:
+Recommended Slash Command: /goal
+Activated Skills: /skill-1 /skill-2 /skill-3
+Thinking Mode: Medium
+Prompt (Ready to Copy & Paste):
+[Texto do prompt refinado e enriquecido com critérios de aceitação e invariantes pronto para execução direta]
 ---
 ```
+
 
 ---
 
