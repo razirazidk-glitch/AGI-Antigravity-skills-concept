@@ -270,3 +270,49 @@ formal verification verdict.
 - [ ] Q-Score ≥ 9.0 for status promotion to DONE
 - [ ] If Q < 9.0: enumerate exact blocking flaws and return to COO
 ```
+
+---
+
+## 7. HIERARCHICAL TRANSACTIONAL CHECKLIST PROTOCOL
+
+Every mission, audit, and refactoring cycle MUST generate and consume a `CHECKLIST.md`. This is the external persistent memory that survives context window resets.
+
+### 7.1 CHECKLIST Structure
+
+```markdown
+# CHECKLIST — [MISSION NAME] — [ISO TIMESTAMP]
+> Owner: [CEO / Manager] | Phase: [N] | Status: IN_PROGRESS
+
+## Phase 0: Structural Inventory
+- [ ] Recursive file tree scan complete — [N] files catalogued
+- [ ] All modules registered in PROJECT_BRAIN.md with Tier classification
+- [ ] 100% node coverage confirmed before any subagent is deployed
+
+## Phase 1: Cluster Audit Deployment
+- [ ] Cluster [A] → Agent [conv-id] — Status: PENDING | RUNNING | VERIFIED
+- [ ] Cluster [B] → Agent [conv-id] — Status: PENDING | RUNNING | VERIFIED
+
+## Phase 2: Report Validation
+- [ ] Report Cluster [A] received at `.reports/cluster-A.md`
+- [ ] Embedded checklist inside cluster-A.md fully verified (0 open items)
+- [ ] Report Cluster [B] received at `.reports/cluster-B.md`
+
+## Phase 3: Refactor Deployment
+- [ ] Refactor Agent [R-A] assigned to cluster-A findings — BRIEF.md written
+- [ ] Refactor Agent [R-A] completed — Exit Code 0, Q ≥ 9.0
+- [ ] PROJECT_BRAIN.md updated with new module statuses
+
+## Phase 4: Final Tribunal
+- [ ] Red/Blue Team adversarial audit dispatched
+- [ ] Q ≥ 9.0 achieved across all audited modules
+- [ ] CHECKLIST closed — all items VERIFIED
+```
+
+### 7.2 Invariants
+
+- **CHECKLIST is written to disk BEFORE any subagent is deployed.** Never plan in memory.
+- **No subagent proceeds to Phase N+1 items** until all Phase N checkboxes are marked `VERIFIED`.
+- **Each audit report embeds its own sub-CHECKLIST** covering every finding it raises.
+- **Context Reset Recovery:** If agent context is lost, reading `CHECKLIST.md` and `PROJECT_BRAIN.md` is sufficient to resume from the exact last verified state.
+- **Tribunal Gate:** The final Red/Blue adversarial review item is only added to the checklist after all preceding phases are 100% verified.
+

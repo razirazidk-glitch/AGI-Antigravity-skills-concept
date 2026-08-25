@@ -55,19 +55,30 @@ Every module in the scanned codebase is assigned an audit tier:
 
 ---
 
-## 4. 🤖 SWARM DISPATCH & EXCAVATION PROTOCOL
+## 4. 🤖 DOMAIN-CLUSTER SWARM EXCAVATION PROTOCOL
 
-When delegating legacy archaeology to research workers:
-1. Enforce $C_{\max} \le 2$ concurrent workers.
-2. Structure the dispatch payload with explicit bounding contracts:
+To achieve 100% node coverage without API quota exhaustion (`HTTP 429`) or context fragmentation:
+
+1. **Deterministic Batch Pre-Scan (Step 0):**
+   - The Principal Agent executes a deterministic recursive scan (or AST extraction script) over the root target directory to map 100% of file paths, lines of code, and imports before spawning subagents.
+   - Record the full inventory in `PROJECT_BRAIN.md`.
+
+2. **Domain-Cluster Chunking:**
+   - Group files by cohesive subsystem directories / packages (e.g. `Code/Bridge/mt5/` with all its 8 files analyzed in one cluster context).
+   - **Strict Ban on 1:1 File Spawning:** Never spawn individual subagents for each isolated source file.
+
+3. **Bounded Swarm Execution ($C_{\max} \le 2$):**
+   - Dispatch workers for each subsystem cluster sequentially or in pools of 2:
 
 ```json
 {
   "TypeName": "research",
-  "Role": "Corpus Archaeology Worker",
-  "Prompt": "LEGACY ARCHAEOLOGY: Perform a semantic AST scan of directory [TARGET_DIR]. Extract exported symbols, call graphs, external dependencies, cyclomatic complexity metrics, and identify dead code or unreferenced modules. Deliver a structured 5-component handoff report."
+  "Role": "Subsystem Cluster Archaeology Worker",
+  "Prompt": "LEGACY ARCHAEOLOGY CLUSTER: Perform a complete semantic AST audit of cluster directory [TARGET_CLUSTER_DIR]. Inspect all files in this module together to trace internal state interactions, verify exported symbol contracts, extract call graphs, compute cyclomatic complexity, and detect dead branches or threshold asphyxiation. Deliver a structured 5-component handoff report."
 }
 ```
 
-3. Collect the archaeology findings and feed them directly into `swarm-synthesis-protocol`.
+4. **Gate of Full Coverage (Tribunal Firewall):**
+   - Adversarial Red/Blue Team audits and refactoring proposals are **STRICTLY BLOCKED** until 100% of module clusters report complete inventory status in `PROJECT_BRAIN.md`.
+
 

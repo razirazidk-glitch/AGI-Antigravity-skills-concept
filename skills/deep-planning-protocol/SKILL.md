@@ -243,3 +243,18 @@ Before presenting to the user, the agent self-audits each document:
 - [ ] TIMELINE.md: Mermaid DAG + quality gates with minimum Q-Score per milestone.
 If any checklist item fails, the agent rectifies the document before presenting it.
 
+---
+
+## STRATIFIED PROGRESSIVE ELABORATION (FLOOR-BY-FLOOR PROTOCOL)
+
+For large or complex projects where the full scope cannot be detailed in a single planning pass, use **Stratified Progressive Elaboration**:
+
+1. **Terrace (Scope & Architecture):** Define global architecture, module boundaries, inter-module contracts, and irreversible decisions. Slots for future phases are declared as **Declarative Scaffolds** — explicitly named, typed, and assigned an owner and acceptance criterion. Never leave an implicit blank.
+2. **Floor N:** Each floor elaborates one sector fully before the next floor is unlocked. A floor is LOCKED until the previous floor achieves exit code `0` and Q ≥ 9.0.
+3. **Scaffold Syntax in Planning Docs:**
+   ```
+   [PHASE-N: PENDING] — Module: [name] | Owner: [role] | Criteria: [contracts section X.Y] | Unblocked by: [Phase N-1 verified]
+   ```
+4. **Invariant:** Scaffolds live exclusively in `.planning/` and `CHECKLIST.md` files. Production source files must contain zero scaffolds.
+
+

@@ -34,10 +34,12 @@ Before persisting any lesson or crystallized rule, rigorously classify the targe
 The greatest failure mode of machine self-learning is **overfitting**, where a hyper-specific heuristic learned in one domain (e.g., "always structure websites using component X") is injected globally and rigidly applied out of context.
 
 ### The Universal Invariance Test:
-When proposing a synthesis for **Layer 2 (Global Scope)**, the agent must subject the candidate heuristic to 3 elimination filters:
+When proposing a synthesis for **Layer 2 (Global Scope)**, the agent must subject the candidate heuristic to 4 elimination filters:
 1. **Stack Independence Filter:** Does this principle hold true across C++, Python, Rust, TypeScript, Verilog, and Distributed Systems? (If dependent on a specific framework $\to$ Layer 1 Local).
-2. **Non-Prescriptive Heuristic Filter:** Does the learning impose a rigid pattern, or does it prescribe an adaptive System 2 reasoning heuristic? (If prescribing rigid fixed templates $\to$ reject or refactor into an adaptive heuristic).
-3. **Cross-Domain Resilience Filter:** Would applying this rule in a completely divergent technical domain (e.g., quantum simulation vs frontend animation) cause destructive interference? (If yes $\to$ Layer 1 Local).
+2. **Non-Prescriptive Heuristic Filter:** Does the learning impose a rigid operational pattern (e.g. fixed folder trees, rigid multi-tier subagent spawning per file), or does it prescribe an adaptive System 2 reasoning heuristic? (If prescribing rigid static topologies $\to$ reject or refactor into an adaptive principle).
+3. **Epistemic Invariance vs Structural Topology Filter:** Universal laws capture fundamental epistemics (e.g. "Mechanic's Disassembly Law: Mandate 100% node inventory $\forall v \in \mathcal{V}$ prior to causal diagnosis or refactoring"), NEVER prescriptive subagent topologies or local file paths.
+4. **Cross-Domain Resilience Filter:** Would applying this rule in a completely divergent technical domain (e.g., quantum simulation vs frontend animation) cause destructive interference or quota exhaustion? (If yes $\to$ Layer 1 Local).
+
 
 ---
 
@@ -66,3 +68,14 @@ The agent **MUST** formally recommend `/learn` to the user with a pre-drafted 2-
    ```
 3. **Validation & Confirmation:** Obtain explicit user confirmation before writing changes to disk.
 4. **Regression Verification:** Run validation test suites via `pytest` to certify Exit Code `0`.
+
+---
+
+## 5. 🚨 CAPABILITY GAP AUTO-GENESIS PROTOCOL
+
+When the system encounters a novel problem class where zero existing skills provide an adequate playbook:
+1. **Detect Gap:** Identify that current toolings/playbooks lack deterministic guidance.
+2. **Draft Capability Specification:** Rascunhar a `SKILL.md` draft defining triggers, invariants, and step-by-step execution protocol.
+3. **Propose Skill Genesis:** Present `learning_proposal.md` to user classifying whether it is Layer 1 (workspace) or Layer 2 (global core).
+4. **Persist & Register:** Write the new skill and register it in `01_SKILLS_TAXONOMY_ROUTING.md`.
+

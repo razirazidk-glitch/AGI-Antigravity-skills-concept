@@ -7,25 +7,25 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Antigravity-Master%20Plugin-00E5FF?style=for-the-badge" alt="Antigravity Master Plugin" />
   <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge" alt="Python 3.10+" />
-  <img src="https://img.shields.io/badge/Autonomous%20Skills-34%20Loaded-FF007F?style=for-the-badge" alt="34 Skills" />
+  <img src="https://img.shields.io/badge/Autonomous%20Skills-36%20Loaded-FF007F?style=for-the-badge" alt="36 Skills" />
   <img src="https://img.shields.io/badge/Empirical%20Quality-Q%20%E2%89%A5%209.0%20Certified-00E676?style=for-the-badge" alt="Q >= 9.0 Certified" />
   <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge" alt="License Apache 2.0" />
 </p>
 
 > **Unified Autonomous AGI/ASI IDE Development Platform Plugin for Google Antigravity**  
-> *Transforming Antigravity into an autonomous, self-verifying, System 2 cognitive engineering engine with 34 fully indexed master playbooks and the Hypergraph Reflex.*
+> *Transforming Antigravity into an autonomous, self-verifying, System 2 cognitive engineering engine with 36 fully indexed master playbooks and the Hypergraph Reflex.*
 
 ---
 
 ## 📖 Table of Contents
 1. [Overview and Philosophy](#1-overview-and-philosophy)
 2. [Visual Architecture and Showcase](#2-visual-architecture-and-showcase)
-3. [The 7-Layer Platform Architecture](#3-the-7-layer-platform-architecture)
+3. [The 10-Layer Constitutional Platform Architecture](#3-the-10-layer-constitutional-platform-architecture)
 4. [The Hypergraph Reflex (Anti-Literal Law)](#4-the-hypergraph-reflex-anti-literal-law)
 5. [The 5 Cognitive Operating Modes](#5-the-5-cognitive-operating-modes)
 6. [Constitutional Execution Laws](#6-constitutional-execution-laws)
 7. [Core Methodologies (Superpowers and Gauntlet-Loop)](#7-core-methodologies-superpowers-and-gauntlet-loop)
-8. [Comprehensive 34 Master Playbook Catalog](#8-comprehensive-34-master-playbook-catalog)
+8. [Comprehensive 36 Master Playbook Catalog](#8-comprehensive-36-master-playbook-catalog)
 9. [Model Context Protocol (MCP) Configuration](#9-model-context-protocol-mcp-configuration)
 10. [Lifecycle Hooks and Security Firewall](#10-lifecycle-hooks-and-security-firewall)
 11. [Automated Verification and Quality Certification](#11-automated-verification-and-quality-certification)
@@ -38,7 +38,8 @@
 `agi-antigravity-core` consolidates the full spectrum of Antigravity customizations into a single, production-grade Master Plugin package. It unifies:
 
 - **Sovereign System 2 Reasoning**: Dynamic graph-of-thought planning, formal Markov-blanketed multiagent inference, and epistemic truth governance.
-- **The Hypergraph Reflex (Anti-Literal Law)**: Eliminates naive "pediu, eu fiz" reactive responses by automatically expanding every intent $X$ into its 6 latent dimensions $X \cup {Y, W, Z}$.
+- **The Hypergraph Reflex (Anti-Literal Law)**: Eliminates naive "pediu, eu fiz" reactive responses by automatically expanding every intent $X$ into its 6 latent dimensions $X \cup \{Y, W, Z\}$.
+- **Session Lifecycle OS & Prompt Payloads**: Isolated mission containers (`SESSION_ID`), clean session-scoped checklists (`.sessions/active/CHECKLIST.md`), and instant ready-to-run elevated prompts.
 - **Superpowers Software Engineering Disciplines**: Native True TDD (Red-Green-Refactor), Systematic 4-Phase Root-Cause Debugging, and Structured 5-Component Subagent Handoffs.
 - **Gauntlet-Loop Adversarial Quality Engine**: Double-blind Builder/Critic verification loops comparing against named real-world quality bars until $Q \ge 9.0/10$.
 - **Chrome DevTools and Modern Web Suite**: Accessibility (a11y) WCAG auditing, Core Web Vitals (LCP) profiling, streaming heap snapshot leak analysis, and Manifest V3 extension pipelines.
@@ -54,15 +55,15 @@
 
 ---
 
-## 3. The 7-Layer Platform Architecture
+## 3. The 10-Layer Constitutional Platform Architecture
 
-The plugin is architected across 7 distinct, immutable operational layers:
+The plugin is architected across 10 distinct, immutable operational layers:
 
 ```text
 Layer 0: Ontological Sovereignty (rules/AGENTS.md)
   └── Zero-Subservience • Permanent AGI Embodiment • Language Lock • 3-Tempo Ignition
 Layer 1: Neural Skill Taxonomy & Routing (rules/01_SKILLS_TAXONOMY_ROUTING.md)
-  └── 34 Master Playbooks • 8 Operational Clusters • Zero-Unitarity Decomposition
+  └── 36 Master Playbooks • 8 Operational Clusters • Zero-Unitarity Decomposition
 Layer 2: Engineering & TDD Standards (rules/02_ENGINEERING_TDD_STANDARDS.md)
   └── True Red-Green-Refactor • 4-Phase Causal Debugging • Zero Placeholders
 Layer 3: Swarm Cognition & Corporate OS (rules/03_SWARM_COGNITION_GOVERNANCE.md)
@@ -75,13 +76,19 @@ Layer 6: Voice, Persona & Epistemic Grounding (rules/06_AGI_VOICE_PERSONA_ENGINE
   └── Dynamic Non-Scripted Prose • Anti-Hallucination 4-Tier Grounding • Epistemic Immune System
 Layer 7: Autonomous Cognition & Proactive Intelligence (rules/07_AGI_AUTONOMOUS_COGNITION_ENGINE.md)
   └── 3-Layer Parallel Inference • Proactive Suggestion Engine • Autonomous Action Triggers
+Layer 8: Anti-Laziness Immunity & Deterministic Grounding (rules/08_ANTI_LAZINESS_COGNITIVE_IMMUNITY.md)
+  └── 12 Inviolable Negative Laws • Scaffolding vs Stubs • 5-Phase Causal Diagnosis • Circuit Breaker
+Layer 9: Core Protocols Compact & Session OS (rules/09_CORE_PROTOCOLS_COMPACT.md)
+  └── Session-Scoped CHECKLIST • BRIEF.md • PROJECT_BRAIN Node Status Schema • 4-Phase Deep Audit
+Layer 10: Intelligent Model Routing & Proactive Orchestration (rules/10_INTELLIGENT_MODEL_SKILLS_ROUTING.md)
+  └── Proactive-First Ignition • Actionable Prompt Payloads • Session Container • Thinking Mode Governance
 ```
 
 ---
 
-## 4. The Hypergraph Reflex (Anti-Literal Law)
+## 4. The Hypergraph Reflex (Anti-Literal Law & Multiverse Routing)
 
-Standard AI engines operate in literal reactive inertia: receiving an instruction $X$ and executing only the surface request. `agi-antigravity-core` enforces permanent **hypergraph consciousness**:
+Standard AI engines operate in literal reactive inertia: receiving an instruction $X$ and executing only the surface request. `agi-antigravity-core` enforces permanent **hypergraph consciousness**, automatically fanning out user intent $X$ across 6 parallel Multiverse Logic Dimensions ($M_1 \dots M_6$) and navigating an 8-Node State Pointer Machine ($S_0 \dots S_7$):
 
 ```
                   ┌─────────────────────────────────────────┐
@@ -106,12 +113,27 @@ Standard AI engines operate in literal reactive inertia: receiving an instructio
 └──────────────┘               └──────────────┘               └──────────────┘
 ```
 
-1. **Causal State Reflex**: Expose hidden state machines, race conditions, and idempotency boundaries.
-2. **Contract & Boundary Reflex**: Validate type contracts, downstream callers, and quarantine specs.
-3. **Popperian Stress Reflex**: Metamorphic stress testing across Scale, Temporal, Regime, and Boundary dimensions.
-4. **SOTA Reference Bar Reflex**: Benchmark against world-class industry and open-source standards.
-5. **Observability & Proof Reflex**: Live DOM and runtime telemetry verification with exit code 0.
-6. **Adversarial Gauntlet Reflex**: Double-blind Red Team criticism converging at $Q \ge 9.0/10$.
+### 1. The 6 Multiverse Logic Dimensions & Operational Clusters
+1. **$M_1$: Causal State Machine Multiverse ($Y$ Foundation)**: Exposes hidden state transitions, async lifecycles, race conditions, memory leaks, and idempotency boundaries. *(Skills: `systematic-debugging`, `memory-leak-debugging`, `master-refactoring-pipeline`)*
+2. **$M_2$: Contracts & Boundaries Multiverse (Quarantine Specs)**: Formalizes invariant type contracts, interface schemas, API boundaries, security posture, and OWASP Top 10. *(Skills: `cross-sector-integration`, `deep-planning-protocol` - CONTRACTS.md, `permissioned-github`)*
+3. **$M_3$: Invariance & Popperian Stress Multiverse ($Z$ Falsification)**: Metamorphic stress testing across Scale ($N \ge 10^5$), Temporal drift, Regime boundaries, and edge invariants. *(Skills: `popperian-invariance-testing`, `test-driven-development`)*
+4. **$M_4$: SOTA Named Reference Bar Multiverse (Benchmarking)**: Benchmarks against world-class open-source standards, prospects dependencies, and evaluates trade-off matrices. *(Skills: `technological-prospecting`, `deep-planning-protocol` - RESEARCH.md, `systemic-insight-engine`)*
+5. **$M_5$: Telemetry HUD & Real Observability Multiverse ($W$ Proof)**: CDP console & network traces, Full HD ($1920 \times 1080$) visual rendering, real EBU R128 audio, zero synthetic stubs, exit code 0. *(Skills: `chrome-devtools`, `puppeteer-browser-automation`, `a11y-debugging`, `visual-synthesis-engine`, `youtube-audio-prospecting`)*
+6. **$M_6$: Blind Adversarial Challenge Multiverse (Gauntlet $Q \ge 9.0$)**: Red Team critics (Quality, Research, Architecture, Cognitive), double-blind tribunal, Lyapunov delta stabilization. *(Skills: `gauntlet-loop`, `adversarial-tribunal`, `adversarial-sector-validation`)*
+
+### 2. State Pointer Determination Machine ("Where Am I & Where Do I Go Next?")
+On every turn ignition ($T_{-1}$), the AI reads disk artifacts (`PROJECT_BRAIN.md`, `CHECKLIST.md`, `.planning/`, test logs) to compute its exact active State Pointer ($S_k$):
+
+| State Node ($S_k$) | State Name | Identification Criteria / Disk Triggers | Primary Multiverse Focus | Valid Next Transitions |
+|---|---|---|---|---|
+| **$S_0$** | `BOOTSTRAP_AND_SCAN` | Session start, `CHECKLIST.md` missing/empty, unread `PROJECT_BRAIN.md`. | All Multiverses ($M_1 \dots M_6$) | $S_0 \to S_1$ |
+| **$S_1$** | `INTENT_FANOUT_AND_SKILL_WATERFALL` | `CHECKLIST.md` initialized, skills mapped but unread. | $M_1, M_2, M_4$ | $S_1 \to S_2$ (if 3+ files) OR $S_1 \to S_3$ |
+| **$S_2$** | `PRE_FLIGHT_PLANNING_GATE` | 3+ files touched, `.planning/` 5 docs missing/pending user approval. | $M_2, M_4$ | $S_2 \to S_3$ (upon explicit user approval) |
+| **$S_3$** | `RED_TDD_INITIALIZATION` | Feature/bug active, failing test not yet written. | $M_1, M_3$ | $S_3 \to S_4$ (failing test written & verified) |
+| **$S_4$** | `GREEN_AND_REFACTOR_EXECUTION` | Failing test exists, production logic undergoing TDD implementation/refactor. | $M_1, M_2, M_3$ | $S_4 \to S_5$ (tests pass, exit code 0) |
+| **$S_5$** | `TELEMETRY_HUD_VERIFICATION` | Code complete, awaiting DevTools/Puppeteer/visual/DOM telemetry proof. | $M_5$ | $S_5 \to S_6$ (visual/CDP trace verified, exit 0) |
+| **$S_6$** | `ADVERSARIAL_GAUNTLET_TRIBUNAL` | Implementation & telemetry complete, awaiting Red Team blind audit. | $M_6$ | $S_6 \to S_7$ ($Q \ge 9.0/10$ certified) |
+| **$S_7$** | `EPISTEMIC_STATE_PERSISTENCE` | Audit passed, updating `PROJECT_BRAIN.md`, checking `/learn` candidates, retro. | All Multiverses | Terminal handoff or next task ($S_7 \to S_1$) |
 
 ---
 
@@ -162,9 +184,9 @@ Every subagent transfer report (`handoff.md`) contains:
 
 ---
 
-## 8. Comprehensive 34 Master Playbook Catalog
+## 8. Comprehensive 36 Master Playbook Catalog
 
-### 1. Architecture, Planning & Pre-Flight Alignment (4 Playbooks)
+### 1. Architecture, Planning & Pre-Flight Alignment (5 Playbooks)
 
 | Playbook Name | Primary Capability & Trigger Directive |
 |---|---|
@@ -172,6 +194,7 @@ Every subagent transfer report (`handoff.md`) contains:
 | [`grill-me-layered`](skills/grill-me-layered/SKILL.md) | MANDATORY 12-topic 4-layer deep alignment interview protocol activated via /grill-me for resolving ambiguous architectural decisions. |
 | [`agi-prompt-refiner`](skills/agi-prompt-refiner/SKILL.md) | MANDATORY prompt elevation engine with anti-hallucination guardrails. Elevates brief or naive user requests into enterprise AGI specifications. |
 | [`technological-prospecting`](skills/technological-prospecting/SKILL.md) | MANDATORY prospecting engine for researching external APIs, libraries, frameworks, MCP servers, competitor reference bars, high-stakes domain alpha (Quant, AI, Crypto), and domain baseline architectures. |
+| [`systemic-insight-engine`](skills/systemic-insight-engine/SKILL.md) | Systemic Insight, Counterfactual Hypothesis Generation, and Transdisciplinary Isomorphism Engine. Forces System 2 AGI to decompose problems to first principles, formulate falsifiable counterfactual hypotheses, simulate 2nd/3rd order systemic consequences, and map cross-domain analogies. |
 
 ### 2. Software Construction, TDD & Structural Refactoring (3 Playbooks)
 
@@ -189,12 +212,13 @@ Every subagent transfer report (`handoff.md`) contains:
 | [`memory-leak-debugging`](skills/memory-leak-debugging/SKILL.md) | Diagnoses and resolves memory leaks, heap bloat, and OOM crashes in JavaScript, Node.js, and browser applications. |
 | [`popperian-invariance-testing`](skills/popperian-invariance-testing/SKILL.md) | Master scientific validation protocol fusing Popperian falsificationism and metamorphic invariance testing across 4 dimensions. |
 
-### 4. Adversarial Tribunal & Gauntlet Quality Gates (3 Playbooks)
+### 4. Adversarial Tribunal & Gauntlet Quality Gates (4 Playbooks)
 
 | Playbook Name | Primary Capability & Trigger Directive |
 |---|---|
 | [`gauntlet-loop`](skills/gauntlet-loop/SKILL.md) | MANDATORY double-blind Builder and Critic adversarial verification loop against the Named Reference Bar. Enforces Dual-Gate convergence with test pass, Q >= 9.0, Point W evolutionary superiority (scripts/audit_point_w.py), blind qualitative scoring, and Lyapunov delta stabilization across iterations. |
 | [`adversarial-tribunal`](skills/adversarial-tribunal/SKILL.md) | MANDATORY for post-milestone quality audits, adversarial security reviews, thesis triage, and scientific verification. Orchestrates Red Team vs Blue Team adversarial validation with 5 attack vectors and 7 design invariants (scripts/tribunal_evaluator.py). |
+| [`adversarial-sector-validation`](skills/adversarial-sector-validation/SKILL.md) | Continuous multi-sector adversarial validation engine. Deploys specialized Red Team critic sub-agents (Quality, Research, Architecture, Cognitive) to independently invalidate proposals, plans, code, and reasoning chains before output finalization. |
 | [`permissioned-github`](skills/permissioned-github/SKILL.md) | Guidelines and protocols for interacting with GitHub repositories, pull requests, issues, and permission boundaries. |
 
 ### 5. Frontend Architecture, Modern Web & Kinetic Media (4 Playbooks)
@@ -269,7 +293,7 @@ pytest
 
 ### Verification Matrix:
 - **Tier 1 (Manifests & Schemas)**: `plugin.json`, `mcp_config.json`, `hooks.json` schema validation.
-- **Tier 2 (Skills Frontmatter)**: 100% of 34 master playbooks validated for lowercase-hyphenated names, third-person trigger descriptions, and markdown structure.
+- **Tier 2 (Skills Frontmatter)**: 100% of 36 master playbooks validated for lowercase-hyphenated names, third-person trigger descriptions, and markdown structure.
 - **Tier 3 (Hygiene & Markdown Links)**: 100% link resolution and zero placeholder violations (`TODO`, `FIXME`, stubs).
 - **Tier 4 (Tool Bindings & Hooks)**: Zero hallucinated or obsolete tool names.
 - **Tier 5 (Autonomous Cycle Simulation)**: End-to-end dry run passing Dual-Gate Gauntlet review with $Q \ge 9.0/10$.

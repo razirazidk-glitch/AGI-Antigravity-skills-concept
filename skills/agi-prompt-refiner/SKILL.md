@@ -24,25 +24,27 @@ When formatting the new prompt, it must adhere to the global AGI/ASI Neural Sect
 - **Information-Theoretic Constraints:** Instruct the agent to minimize Shannon Entropy (uncertainty) and maximize explicit evidence (Citations/Pointers).
 - **Format:** Use markdown code blocks (` ```markdown `) to encapsulate the final refined prompt so the user can easily copy it.
 
-## 3. Official Slash Command Recommendation Engine
-When refining a prompt or interacting with the user, evaluate the scope and **proactively recommend the appropriate official slash command**:
+## 3. Official Slash Command & Prompt Payload Engine
+When refining a prompt or interacting with the user, evaluate the scope and **proactively recommend the appropriate official slash command and generate the ready-to-run elevated payload**:
 
-| Task Complexity / Scope | Recommended Slash Command | How to Recommend |
+| Task Complexity / Scope | Recommended Slash Command | How to Recommend & Generate Payload |
 |---|---|---|
 | **Multi-step project, app, game, deep build, refactor** | `/goal` | Prefix prompt with `/goal` and explain that it enables continuous, uninterrupted execution loops until 100% completion. |
 | **Ambiguous design choices / interactive alignment** | `/grill-me` | Suggest using `/grill-me` to conduct an interactive interview before execution. |
 | **Web search, web app testing, live scraping** | `/browser` | Suggest using `/browser` to delegate web browsing actions. |
 | **Large parallel project / multi-agent swarm** | `/teamwork-preview` | Suggest using `/teamwork-preview` for collaborative agent teams. |
 | **Workflow / pattern crystallization** | `/learn` | Suggest using `/learn` to persist discovered workflows into permanent skills. |
+| **Periodic task / reminders** | `/schedule` | Suggest using `/schedule` for recurring tasks or time-delayed actions. |
 
 ---
 
 ## 4. The Output Template
 Present the result to the user in the following structure:
 
-1. **Brief Analysis:** Explain *why* you added certain constraints, what was missing, and how the prompt enforces agnostic bottom-up discovery.
-2. **Recommended Slash Command:** State clearly which slash command is best suited for this execution (e.g., `/goal`).
-3. **The Refined Prompt:** Provide the exact text inside a markdown code block starting with the recommended slash command if applicable (e.g., `/goal ...`).
+1. **⚡ Proactive Routing & Session Calibration:** State the `SESSION_ID`, detected intent, activated skills, and thinking mode (`medium` vs `high`).
+2. **🎯 Ready-to-Run Elevated Prompt & Command Payload:** Provide the exact text inside a markdown code block starting with the recommended slash command (e.g., `/goal ...` or `/grill-me ...`).
+3. **Deconstruction & Rationale:** Explain *why* you added certain invariants, what latent context $X \cup \{Y, W, Z\}$ was surfaced, and the exact acceptance criteria (exit code 0).
+
 
 ### Example Refined Prompt Structure (Deep Audit & Archaeology)
 ```markdown
