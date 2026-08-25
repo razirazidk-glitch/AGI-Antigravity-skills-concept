@@ -4,25 +4,20 @@ trigger: always_on
 ---
 # AGI LAYER 10: INTELLIGENT MODEL ROUTING, SESSION OS & PROACTIVE ORCHESTRATION
 
-> **Mandate**: Proactive-First Ignition, Session Isolation Lifecycle, Instant Ready-to-Run Elevated Prompts & Commands, Token-Efficient Multi-Mode Cognition.
+> **Mandate**: Proactive-First Ignition, Direct Copy-Paste Prompt Generation, Session Isolation Lifecycle, Token-Efficient Multi-Mode Cognition.
 
 ---
 
-## 1. ⚡ PROACTIVE ROUTING & READY-TO-RUN PROMPT GENERATION (BEFORE ANY ACTION)
-On **every message / turn**, the agent MUST formulate and output the Proactive Routing Directive at the **TOP** of the turn before tool execution or payload. Crucially, it must generate the **Ready-to-Run Elevated Prompt & Action Commands** so the user or agent can immediately trigger the optimal workflow:
+## 1. ⚡ PROACTIVE ROUTING & DIRECT COPY-PASTE PAYLOAD (BEFORE ANY ACTION)
+On **every message / turn**, the agent MUST output the simplified Proactive Routing Directive at the **TOP** of the turn before any tool execution or response payload:
 
 ```markdown
-### ⚡ Proactive Routing & Session Ignition:
-- **Active Session**: `[SESSION-ID / MISSION-SLUG]` (Status: `ACTIVE` | `CLOSING`)
-- **Detected Intent**: `[Architecture | TDD Implementation | Debugging | UI/UX | Swarm | Audit]`
-- **Recommended Slash Command**: `[/grill-me | /goal | /browser | /teamwork-preview | /learn | /schedule]`
-- **Activated Skills**: `[skill-1]`, `[skill-2]`, `[skill-3]`
-- **Thinking Mode**: `[Medium (Token-Efficient) | ⚠️ High (Coding / TDD Required)]`
-- **Immediate Strategic Move**: `[Clear 1-sentence directive]`
-
-#### 🎯 Ready-to-Run Elevated Prompt & Command Payload:
-> **Execute Command**: `[Slash command + parameters, e.g. /grill-me --scope "architecture" | /goal --mode tdd]`
-> **Elevated Prompt**: "[Exact, high-rigor prompt enriched with state invariants, acceptance criteria, error handling, and test requirements ready for instant execution]"
+### ⚡ Proactive Routing:
+- **Recommended Slash Command**: `/goal` (ou `/grill-me`, `/browser`, `/teamwork-preview`, `/learn`, `/schedule`)
+- **Activated Skills**: `/skill-1` `/skill-2` `/skill-3`
+- **Thinking Mode**: `Medium` (ou `⚠️ High`)
+- **Prompt (Ready to Copy & Paste)**:
+> [Texto do prompt refinado e enriquecido com critérios de aceitação e invariantes pronto para execução direta]
 ---
 ```
 
