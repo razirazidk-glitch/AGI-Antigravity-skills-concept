@@ -80,12 +80,13 @@ class TestMarkdownLinks(unittest.TestCase):
                     if not raw_target:
                         continue
 
-                    # Skip external URLs and protocols
+                    # Skip external URLs, URI schemes and custom protocols
                     if any(
                         raw_target.lower().startswith(proto)
-                        for proto in ("http://", "https://", "mailto:", "ftp:", "data:", "tel:")
+                        for proto in ("http://", "https://", "mailto:", "ftp:", "data:", "tel:", "slashcommand;", "file:", "conversation:")
                     ):
                         continue
+
 
                     # Handle pure in-file anchor links (e.g. #my-heading)
                     if raw_target.startswith("#"):
