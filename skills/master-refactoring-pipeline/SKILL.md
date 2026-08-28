@@ -1,7 +1,6 @@
 ---
 name: master-refactoring-pipeline
-description: >-
-  MANDATORY 8-phase theoretical reconstruction and refactoring engine enforcing zero hardcoding and structural invariants. Trigger on mentions of: 'refactor', 'refactoring pipeline', 'restructure code', 'code cleanup', 'AST refactor', 'decouple module', 'eliminate hardcoding', '8-phase refactor', or when modernizing legacy code.
+description: 8-phase structural refactoring engine with zero hardcoding. Trigger on: refactor, refactoring pipeline, restructure code, code cleanup, AST refactor, decouple module, 8-phase refactor.
 ---
 # SKILL: Master Refactoring & Architectural Reconstruction Pipeline
 

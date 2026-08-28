@@ -1,7 +1,6 @@
 ---
 name: youtube-audio-prospecting
-description: >-
-  Universal protocol for researching, extracting, and synthesizing authentic audio assets and telemetry from open multimedia sources. Trigger on mentions of: 'audio prospecting', 'sound effects', 'extract audio', 'yt-dlp audio', 'EBU R128', 'telemetry audio', 'soundscape', 'ambient sound', 'audio sonification', or when adding real sound to applications.
+description: Research and extract authentic audio assets with EBU R128 normalization. Trigger on: audio prospecting, sound effects, extract audio, yt-dlp audio, EBU R128, telemetry audio, soundscape.
 ---
 # Universal Audio & Acoustic Intelligence Protocol
 

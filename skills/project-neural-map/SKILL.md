@@ -1,7 +1,6 @@
 ---
 name: project-neural-map
-description: >-
-  MANDATORY recursive long-term memory and session state persistence protocol implementing PROJECT_BRAIN.md, transactional state schemas, and SHA-256 session handoff cryptography. Trigger on mentions of: 'project brain', 'neural map', 'PROJECT_BRAIN.md', 'NODE.md', 'module status', 'long-term memory', 'cognitive memory', 'state schema', 'save state', 'persist session', 'session handoff', 'state hash', or at the start of any turn in an active multi-module project.
+description: Long-term memory persistence for PROJECT_BRAIN.md and NODE.md state. Trigger on: project brain, neural map, PROJECT_BRAIN.md, NODE.md, module status, long-term memory, session handoff.
 ---
 # 🧠 PROJECT NEURAL MAP — Recursive Long-Term System Memory
 

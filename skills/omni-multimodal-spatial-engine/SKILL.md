@@ -1,7 +1,6 @@
 ---
 name: omni-multimodal-spatial-engine
-description: >-
-  MANDATORY engine for Multimodal Spatial Reasoning, procedural 3D math, GLSL shaders, raymarching, and window parallax. Trigger on mentions of: '3D spatial', 'Three.js', 'GLSL shader', 'raymarching', 'interior mapping', 'window parallax', 'procedural mesh', 'PBR materials', 'spatial math', or 'WebGL rendering'.
+description: Multimodal spatial 3D reasoning, Three.js, GLSL shaders, and raymarching. Trigger on: 3D spatial, Three.js, GLSL shader, raymarching, interior mapping, window parallax, procedural mesh, WebGL rendering.
 ---
 # 🌐 Omni-Multimodal Spatial & Procedural 3D Engine
 

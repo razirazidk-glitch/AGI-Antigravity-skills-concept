@@ -1,7 +1,6 @@
 ---
 name: grill-me-layered
-description: >-
-  MANDATORY 12-topic 4-layer deep alignment interview protocol activated via /grill-me for resolving ambiguous architectural decisions. Trigger on mentions of: '/grill-me', 'grill me', 'requirement interview', 'architectural alignment', 'deep questioning', 'scope probing', 'contract debate', or before starting complex, multi-variable projects.
+description: 12-topic deep alignment interview via /grill-me. Trigger on: /grill-me, grill me, requirement interview, architectural alignment, deep questioning, scope probing, contract debate.
 ---
 # 🔥 GRILL-ME LAYERED — 12-Topic / 4-Layer Deep Alignment Interview
 

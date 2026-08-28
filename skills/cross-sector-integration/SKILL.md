@@ -1,7 +1,6 @@
 ---
 name: cross-sector-integration
-description: >-
-  Unified protocol for cross-sector topological integration, Quarantine Specifications, and type-theoretic contract enforcement. Trigger on mentions of: 'cross-sector', 'quarantine specification', 'type contract', 'boundary integration', 'module integration', 'production blueprint', 'topological merge', or when connecting disparate subsystems.
+description: Topological cross-sector integration, quarantine specs, and type contracts. Trigger on: cross-sector, quarantine spec, type contract, boundary integration, module integration, topological merge.
 ---
 # SKILL: Cross-Sector Integration — Topological Boundary & Master Blueprint Protocol
 

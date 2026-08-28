@@ -1,7 +1,6 @@
 ---
 name: interactive-kinetic-media-engine
-description: >-
-  MANDATORY kinetic engine for scroll-driven video scrubbing, multi-layer parallax, sticky scrollytelling, and 3D micro-interactions. Trigger on mentions of: 'kinetic media', 'scroll-driven', 'video scrubbing', 'scrollytelling', 'parallax', '3D cursor tilt', 'clip-path mask', 'glass icons', 'micro-interactions', or 'kinetic UI animations'.
+description: Scroll-driven video scrubbing, parallax, and kinetic UI animations. Trigger on: kinetic media, scroll-driven, video scrubbing, scrollytelling, parallax, 3D cursor tilt, micro-interactions.
 ---
 # 🎬 Interactive Kinetic Media, Scrollytelling & 3D Icon Synthesis Engine
 

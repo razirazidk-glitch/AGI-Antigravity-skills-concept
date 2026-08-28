@@ -1,7 +1,6 @@
 ---
 name: a11y-debugging
-description: >-
-  MANDATORY for accessibility audits and WCAG compliance. Uses Chrome DevTools MCP for automated a11y inspection. Trigger autonomously on UI component generation or refactoring, or on mentions of: 'accessibility', 'a11y', 'WCAG', 'ARIA', 'screen reader', 'color contrast', 'keyboard navigation', 'focus state', 'tap target', 'semantic HTML'.
+description: Accessibility audits and WCAG compliance using Chrome DevTools MCP. Trigger on: accessibility, a11y, WCAG, ARIA, screen reader, color contrast, keyboard nav, tap target, semantic HTML.
 ---
 ## Core Concepts
 

@@ -1,13 +1,6 @@
 ---
 name: systemic-insight-engine
-description: >-
-  Systemic Insight, Counterfactual Hypothesis Generation, and Transdisciplinary Isomorphism Engine.
-  Forces System 2 AGI to decompose problems to first principles, formulate falsifiable counterfactual
-  hypotheses (H_¬), simulate 2nd/3rd order systemic consequences, and map cross-domain analogies.
-  Trigger on mentions of: 'systemic insight', 'counterfactual', 'hypothesis generation', 'first principles',
-  '2nd order effects', '3rd order effects', 'isomorphism', 'what if analysis', 'falsification vector',
-  or automatically during deep planning, architecture design, and complex problem resolution.
-trigger: model_decision
+description: Counterfactual hypothesis generation and transdisciplinary isomorphism. Trigger on: systemic insight, counterfactual, hypothesis generation, first principles, 2nd order effects, isomorphism.
 ---
 
 # 🧠 SYSTEMIC INSIGHT & COUNTERFACTUAL HYPOTHESIS ENGINE

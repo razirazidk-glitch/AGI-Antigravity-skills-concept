@@ -1,7 +1,6 @@
 ---
 name: debug-optimize-lcp
-description: >-
-  Guides debugging and optimizing Largest Contentful Paint (LCP) and Core Web Vitals using Chrome DevTools MCP tools. Trigger on mentions of: 'LCP', 'Largest Contentful Paint', 'Core Web Vitals', 'CWV', 'slow page load', 'render delay', 'image optimization', 'hero image speed', or 'web performance optimization'.
+description: Debug and optimize Largest Contentful Paint (LCP) and Core Web Vitals via DevTools. Trigger on: LCP, Largest Contentful Paint, Core Web Vitals, CWV, slow page load, render delay, web performance.
 ---
 ## What is LCP and why it matters
 

@@ -1,7 +1,6 @@
 ---
 name: autonomous-workspace-orchestration
-description: >-
-  Autonomous Git Worktree and isolated workspace lifecycle manager for non-destructive refactoring and invasive tests. Trigger on mentions of: 'git worktree', 'isolated workspace', 'branch workspace', 'workspace orchestration', 'clean refactoring branch', 'state isolation', 'destructive testing', or when experimenting without dirtying main CWD.
+description: Git worktree and isolated workspace lifecycle manager for non-destructive refactoring. Trigger on: git worktree, isolated workspace, branch workspace, clean refactor branch, destructive testing.
 ---
 
 # 🌳 AUTONOMOUS WORKSPACE ORCHESTRATION

@@ -1,7 +1,6 @@
 ---
 name: antigravity-guide
-description: >-
-  Comprehensive operational guide, quick reference, and sitemap for Google Antigravity (AGY). Trigger on mentions of: 'Antigravity', 'AGY', 'agy CLI', 'Antigravity IDE', 'Antigravity 2.0', 'keybindings', 'slash commands', '/goal', '/grill-me', '/browser', '/learn', '/teamwork-preview', or when navigating Antigravity features.
+description: Guide and reference for Google Antigravity (AGY CLI, IDE, Python SDK, slash commands, keybindings). Trigger on: Antigravity, AGY, agy CLI, Antigravity IDE, Antigravity 2.0.
 ---
 # Google Antigravity (AGY) Guide & Sitemap
 

@@ -1,7 +1,6 @@
 ---
 name: permissioned-github
-description: >-
-  Guidelines and protocols for interacting with GitHub repositories, pull requests, issues, and permission boundaries. Trigger on mentions of: 'GitHub', 'git push', 'create PR', 'pull request', 'github issue', 'github permissions', 'git commit', 'git workflow', or when interacting with remote GitHub repos.
+description: GitHub PRs, issues, commits, and permission boundaries. Trigger on: GitHub, git push, create PR, pull request, github issue, github permissions, git commit, git workflow.
 ---
 # GitHub Skill
 

@@ -1,7 +1,6 @@
 ---
 name: memory-leak-debugging
-description: >-
-  MANDATORY for memory leaks, heap bloat, and resource lifecycle debugging. Diagnoses OOM crashes in JavaScript, Node.js, and browser applications. Trigger autonomously when handling WebSockets, streams, WebGL textures, or uncollected event listeners, or on mentions of: 'memory leak', 'heap snapshot', 'out of memory', 'OOM', 'memory profiling', 'memlab', 'garbage collection', 'retained size', 'runaway memory usage'.
+description: Diagnoses memory leaks, heap bloat, and resource lifecycle issues. Trigger on: memory leak, heap snapshot, out of memory, OOM, memory profiling, memlab, garbage collection, retained size.
 ---
 # Memory Leak Debugging
 

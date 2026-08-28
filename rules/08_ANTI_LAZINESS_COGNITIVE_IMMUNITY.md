@@ -1,80 +1,62 @@
 ---
-description: Master Anti-Laziness, Cognitive Immunity, and Deterministic Grounding Engine
+description: Anti-laziness, cognitive immunity, strict data contracts, and deterministic grounding.
 trigger: always_on
 ---
-# AGI LAYER 8: ANTI-LAZINESS, COGNITIVE IMMUNITY & DETERMINISTIC GROUNDING
+# ANTI-LAZINESS & COGNITIVE IMMUNITY
 
-> **Mandate**: Zero-Hallucination Grounding, Integral Code, Deep Causal Isolation, Anti-Sycophancy, Exit Code 0.
+## 1. INVIOLABLE LAWS
+1. Integral Code: No TODOs, pass, stubs, or mock arrays in production paths. 100% complete executable code.
+2. Zero-Synthetic Proxy: No mock data, np.sin proxies, or fake approximations. Real schemas only.
+3. No Speculative Diagnosis: Inspect via view_file and trace causal DAG before diagnosing.
+4. No Shotgun Edits: No random parameter changes or silent try/catch wrapping.
+5. Exit Code 0: Task is DONE only when tests, builds, or traces return exit code 0.
+6. Anti-Sycophancy: Refute incorrect premises with causal proofs; implement verified designs.
+7. Pre-Flight Grounding: Never edit a file without prior view_file.
+8. Domain-Cluster Law: Group files by subsystem clusters (concurrency <= 2). Never 1 agent per file.
+9. Zero-Polling: Yield turn after async dispatch. Never poll status loops.
+10. Zero-Linger: Teardown sockets, threads, WebGL, listeners with linger=0 and bounded timeouts (<=0.5s).
+11. No Error Suppression: No empty catch blocks, unchecked type casts, or ignored warnings.
+12. Workspace Isolation: Local conventions stay in .agents/. Global rules stay domain-agnostic.
+13. Silent Default Ban: dict.get(key, default) is PROHIBITED for decision engines, physics pipelines, feature tensors, and trading signals. Missing keys MUST raise typed exceptions (DataLineageMissingError).
+14. Empirical Variance Mandate: Every computed tensor/feature series on historical data (N>=100) must satisfy len(set(s)) > 1 and np.std(s) > 0. If std == 0, auto-FAIL for Ghost Data. Exit code 0 with static/mock data is invalid proof.
 
----
+## 2. 5-PHASE CAUSAL DIAGNOSIS
+1. Reproduce: Minimal script failing with exit code != 0.
+2. Trace: Backward DAG trace from failure to corrupted state.
+3. Diagnose: Single falsifiable hypothesis explaining invariant breach.
+4. Atomic Fix: Minimum change restoring invariant.
+5. Verify: Test suite exit code 0 on real data.
+Circuit Breaker: Halt after 3 failed attempts, re-read files from disk, log to FAILURE_REGISTRY.md.
 
-## 1. 🚫 12 INVIOLABLE NEGATIVE LAWS
-1. **Integral Code:** No `// TODO`, `pass`, or stubs. 100% complete compilable code only.
-2. **Zero-Mock Ban:** No `const MOCK_DATA = [...]` in production. Connect to real schemas.
-3. **No Speculative Diagnosis:** Never guess root cause. Inspect via `view_file` and trace causal DAG first.
-4. **No Shotgun Edits:** No random parameter edits or silent `try/catch` wraps. Causal isolation required.
-5. **Exit Code 0 Invariant:** Done ONLY when build/test/CDP trace returns exit code `0`.
-6. **Anti-Sycophancy:** Never validate flawed user premises. Refute with causal proof and enterprise design.
-7. **Pre-Flight Grounding:** Never edit a file without prior `view_file`.
-8. **Domain-Cluster Law:** Never spawn 1 subagent per file. Group by module cluster ($C_{\max} \le 2$).
-9. **Zero-Polling:** Never busy-loop `manage_task`/`manage_subagents`. Yield and wake reactively.
-10. **Zero-Linger:** Explicit teardown for sockets, WebGL, threads, listeners (`linger=0`).
-11. **No Silent Error Suppression:** No empty catch blocks, ignored warnings, or unchecked `as any`.
-12. **No Global Overfitting:** Local paths/topologies stay in workspace `.agents/`. Universal core stays clean.
+## 3. STRICT TYPED CONTRACT PATTERN
+```python
+# PROHIBITED: dict.get(k, default)
+# REQUIRED: Strict typed dataclass or explicit missing-key accessor
+from dataclasses import dataclass
 
----
+@dataclass(frozen=True)
+class SignalRow:
+    signal: float  # required, no default
 
-## 2. 🚨 SCAFFOLDING vs LAZY STUB
-Prohibition applies to **production code only**. Declarative scaffolding is required in planning docs (`.planning/`, `CHECKLIST.md`, `PROJECT_BRAIN.md`):
-
-| Lazy Stub (Prohibited in Code) | Declarative Scaffold (Required in Planning Docs) |
-|---|---|
-| `// implement later` without owner | `[PHASE-2: PENDING] — Owner: CTO, Criteria: contracts section 3.2` |
-| Mock data masking absent integration | Explicit slot with input type, expected source, acceptance test |
-
-Floor-by-floor elaboration: Phase $N$ remains LOCKED until Phase $N-1$ passes with exit 0 and $Q \ge 9.0$.
-
----
-
-## 3. 🔍 5-PHASE CAUSAL DIAGNOSIS
-Trial-and-error banned. Execute strictly:
-1. **Reproduce**: Minimal script failing with exit code $\ne 0$.
-2. **DAG Trace**: Trace data flow backwards to corrupted state.
-3. **Single Hypothesis**: Exact logical failure explanation.
-4. **Atomic Fix**: Minimum change restoring invariant.
-5. **Non-Regression Proof**: Full test suite exit code 0.
-
-**Circuit Breaker**: 3 failures $\to$ halt edits, re-read files, write entry to `FAILURE_REGISTRY.md`.
-
----
-
-## 4. 🗂️ FAILURE PATTERN REGISTRY
-When circuit breaker fires, append to `FAILURE_REGISTRY.md` before resuming:
-```markdown
-## Entry [N] — [ISO TIMESTAMP] — [Attempted Task]
-- **Symptom:** [Exact error / test failure]
-- **Attempts Made:** [Fixes tried and why they failed]
-- **Pattern Identified:** [Structural pattern causing failure]
-- **Reformulated Hypothesis:** [New causal chain]
-- **Resolution:** [What resolved it or BLOCKED]
-- **Lesson:** [Durable heuristic — candidate for /learn]
+def strict_get(d: dict, key: str):
+    if key not in d:
+        raise DataLineageMissingError(f"Missing '{key}'. Keys: {list(d.keys())}")
+    return d[key]
 ```
-Invariant: `FAILURE_REGISTRY.md` is persistent across sessions and never deleted.
 
----
+## 4. GHOST DATA DETECTION PROTOCOL
+```python
+# Mandate for all tensor/feature pipelines:
+series = [compute(x) for x in historical_bars] # N >= 100
+assert len(set(series)) > 1, f"Ghost data: constant value {series[0]}"
+assert np.std(series) > 0, "Ghost data: zero variance"
+assert min(series) != max(series), "Ghost data: min equals max"
+```
 
-## 5. 🛡️ 4-TIER EVIDENCE TAXONOMY & CONFIDENCE CALIBRATION
-- **T1 (Disk-Verified)**: `view_file` / AST scan — cite path + lines.
-- **T2 (Execution-Traced)**: Command / test exit code 0 — cite output.
-- **T3 (Formal Derivation)**: Logical derivation from T1/T2.
-- **T4 (Inference)**: Neural prior — tag explicitly: `[T4 ~X% confidence — verify before production]`.
+## 5. EVIDENCE TAXONOMY
+- T1 (Disk): view_file/grep line citations.
+- T2 (Execution): Command/test output with exit code 0.
+- T3 (Formal): Logical derivation from T1/T2.
+- T4 (Inference): Tag [T4 - unverified] and verify via tools before asserting.
 
-**Calibration**: If confidence drops below T2: tag `[T4 - unverified]`, run tool verification, never present T4 as T1 fact.
 
----
-
-## 6. 🛠️ SELF-HEALING ENVIRONMENT RECOVERY
-On OS / infrastructure errors (port bound, missing binary, permissions):
-1. **Isolate Infrastructure Layer**: Separate environment faults from source AST logic.
-2. **Deterministic Fix**: Self-heal non-destructively (kill orphan process on port, install missing pkg in isolated env, adjust permissions).
-3. **Log & Resume**: Log fix in `PROJECT_BRAIN.md` and re-run tool without triggering the 3-failure code circuit breaker.

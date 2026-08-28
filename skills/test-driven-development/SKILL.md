@@ -1,7 +1,6 @@
 ---
 name: test-driven-development
-description: >-
-  MANDATORY Test-Driven Development (TDD) engine enforcing the Red-Green-Refactor cycle. Guides writing failing unit or integration tests before production code, implementing minimal passing logic to satisfy the test, and refactoring cleanly with zero regressions. Trigger on mentions of: 'TDD', 'Test-Driven Development', 'Red-Green-Refactor', 'write failing unit or integration tests', 'implement minimal passing logic', 'refactor cleanly with zero regressions', 'unit test', or 'integration test'.
+description: Red-Green-Refactor TDD engine for failing tests before production code. Trigger on: TDD, Test-Driven Development, Red-Green-Refactor, unit test, integration test.
 ---
 # Test-Driven Development (TDD) Engine
 

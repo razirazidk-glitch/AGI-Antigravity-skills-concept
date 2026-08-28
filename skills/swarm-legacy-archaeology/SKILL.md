@@ -1,7 +1,6 @@
 ---
 name: swarm-legacy-archaeology
-description: >-
-  Consolidated protocol for multi-level parallel swarm auditing of legacy repositories, 100% node disassembly, AST 3-tier complexity classification, and sprint audit persistence. Trigger on mentions of: 'legacy archaeology', 'codebase archaeology', 'legacy audit', 'legacy repository scan', 'batch planning', 'coverage gate', 'repository excavation', 'audit tier', 'codebase audit', 'complexity classification', 'AST analysis', 'entropy scan', 'sprint audit', or when onboarding onto unfamiliar legacy code.
+description: Swarm auditing of legacy repos, 100% node disassembly, and seam verification. Trigger on: legacy archaeology, codebase archaeology, legacy audit, AST analysis, repo excavation, sprint audit.
 ---
 
 # 🏛️ UNIVERSAL CORPUS ARCHAEOLOGY & SEMANTIC DEPENDENCY MAPPER
@@ -81,4 +80,53 @@ To achieve 100% node coverage without API quota exhaustion (`HTTP 429`) or conte
 4. **Gate of Full Coverage (Tribunal Firewall):**
    - Adversarial Red/Blue Team audits and refactoring proposals are **STRICTLY BLOCKED** until 100% of module clusters report complete inventory status in `PROJECT_BRAIN.md`.
 
+---
 
+## 5. 🔗 MANDATORY INTEGRATION SEAM VERIFICATION (CROSS-CLUSTER)
+
+> **Production-Verified Failure:** Two workers each declared their individual cluster "correct" in isolation — `fluid_dynamics.py` math was verified, `singularity_arbiter.py` logic was verified — but NOBODY traced whether the output of one was actually wired into the input of the other. The integration seam was the actual failure point, invisible to both workers.
+
+**This section is NON-OPTIONAL. It runs AFTER all cluster reports are received and BEFORE any tribunal.**
+
+### 5.1 Cross-Cluster Seam Mapping Protocol
+
+After all cluster workers return their reports, the Principal Agent MUST build the **Full Data Lineage DAG**:
+```
+[Ingestion Source] → [Transform A] → [Module B input] → [Transform B] → [Output Sink]
+```
+Map this graph across ALL cluster boundaries. Every inter-cluster edge is an explicit seam that must be verified.
+
+**Per-seam verification checklist:**
+```markdown
+## Seam: [Cluster A output] → [Cluster B input]
+- [ ] A's output type matches B's expected input type (empirically verified, not assumed)
+- [ ] A's output is actually consumed by B (grep-confirmed, not assumed)
+- [ ] The data transformation A→B produces values in B's expected range/domain
+- [ ] An integration test exercises this seam end-to-end
+- [ ] PROHIBITED: Marking VERIFIED based on A's unit tests or B's unit tests alone
+```
+
+### 5.2 Seam Failure Taxonomy
+
+| Failure Type | Symptom | Detection Method |
+|---|---|---|
+| **Dead Output** | A produces data nobody reads | `grep` A's return value consumed by B |
+| **Type Mismatch** | A outputs `float`, B expects `int` | AST type annotation cross-check |
+| **Domain Violation** | A outputs normalized [0,1], B expects raw signal | Trace expected value ranges through transforms |
+| **Phantom Connection** | Comment says "connected" but call graph shows no edge | Live call graph, not documentation trust |
+
+### 5.3 Required Deliverable: `SEAM_REPORT.md`
+
+Every archaeology mission delivers this before any refactoring begins:
+```markdown
+# SEAM REPORT — [PROJECT NAME] — [TIMESTAMP]
+
+## ✅ Verified Seams (live connection confirmed)
+| Seam | Output Type | Input Type | Consuming Call | Status |
+
+## ❌ Broken Seams (disconnected or type-mismatched)
+| Seam | Expected | Actual | Impact | Priority |
+
+## ⚠️ Unknown Seams (requires investigation)
+| Seam | Blocker | Next Step |
+```

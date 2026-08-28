@@ -1,7 +1,6 @@
 ---
 name: puppeteer-browser-automation
-description: >-
-  MANDATORY headless browser automation protocol for web scraping, live UI testing, form interaction, and screenshot verification. Trigger on mentions of: 'Puppeteer', 'puppeteer MCP', 'headless browser', 'scrape webpage', 'form submission', 'browser screenshot', 'puppeteer_navigate', 'puppeteer_click', or 'automated web testing'.
+description: Headless browser automation for scraping, form interaction, and screenshot verification. Trigger on: Puppeteer, puppeteer MCP, headless browser, scrape webpage, form submission, puppeteer_navigate.
 ---
 # 🌐 Puppeteer Browser Automation & Telemetry Engine (MCP)
 

@@ -1,7 +1,6 @@
 ---
 name: systematic-debugging
-description: >-
-  MANDATORY systematic 4-phase root-cause debugging protocol (Reproduce, Isolate, Diagnose, Verify). Isolates complex defects methodically with zero-guesswork instrumentation and triggers escalation upon 3 consecutive failures. Trigger on mentions of: 'systematic debugging', 'root cause isolation', 'reproduce defect', 'diagnose failure', '4-phase debugging', 'error triage', 'eliminate trial-and-error', 'causal debugging', or 'verify fix'.
+description: 4-phase causal root-cause debugging (Reproduce, Isolate, Diagnose, Verify). Trigger on: systematic debugging, root cause isolation, reproduce defect, diagnose failure, 4-phase debugging, causal debugging.
 ---
 # Systematic Root-Cause Debugging Protocol
 

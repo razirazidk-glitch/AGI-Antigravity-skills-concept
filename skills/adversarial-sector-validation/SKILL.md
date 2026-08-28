@@ -1,15 +1,6 @@
 ---
 name: adversarial-sector-validation
-description: >-
-  Continuous multi-sector adversarial validation engine. Deploys specialized Red Team
-  critic sub-agents (Quality, Research, Architecture, Cognitive) to independently
-  invalidate proposals, plans, code, and reasoning chains before the main agent
-  finalizes output. Zero sycophancy — critics are mandated to find flaws, not confirm.
-  Trigger on mentions of: 'sector validation', 'adversarial critic', 'devil's advocate',
-  'red team validation', 'quality sector', 'research critic', 'logic audit',
-  'architecture critic', or automatically when main agent proposes code, SOTA claims,
-  architectural decisions, or causal hypotheses.
-trigger: model_decision
+description: Multi-sector Red Team critic validation engine. Trigger on: sector validation, adversarial critic, devil's advocate, red team validation, quality sector, research critic, logic audit, architecture critic.
 ---
 
 # 🔴 ADVERSARIAL SECTOR VALIDATION ENGINE

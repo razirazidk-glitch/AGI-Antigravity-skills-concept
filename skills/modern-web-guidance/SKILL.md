@@ -1,7 +1,6 @@
 ---
 name: modern-web-guidance
-description: >-
-  MANDATORY first-action search tool for modern web standards, HTML/CSS APIs, and clientside JavaScript best practices. Trigger on mentions of: 'modern web', 'CSS grid', 'View Transitions', 'Popover API', 'Container Queries', ':has()', ':user-valid', 'dialog element', 'Web APIs', 'responsive design', or when building web interfaces.
+description: Modern web standards, HTML/CSS APIs, and responsive design. Trigger on: modern web, CSS grid, View Transitions, Popover API, Container Queries, :has(), responsive design.
 ---
 # Modern Web Guidance
 

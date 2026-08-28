@@ -1,7 +1,6 @@
 ---
 name: agy-customizations
-description: >-
-  Comprehensive guide and operational reference for the Antigravity Customization System. Trigger on mentions of: 'customizations', 'agy customization', 'custom skills', 'custom rules', 'plugins', 'hooks.json', 'mcp_config.json', 'GEMINI.md', 'AGENTS.md', 'skills.json', 'discovery priority', or when building and registering Antigravity extensions.
+description: Guide and reference for Antigravity Customization System (skills, rules, MCP, plugins, hooks). Trigger on: customizations, plugin creation, skill creation, rule creation.
 ---
 # Antigravity Customization System Guide
 

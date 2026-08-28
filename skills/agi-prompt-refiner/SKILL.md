@@ -1,7 +1,6 @@
 ---
 name: agi-prompt-refiner
-description: >-
-  MANDATORY when user input is brief (<= 200 chars), ambiguous, or missing enterprise constraints. Elevates naive requests into enterprise AGI specifications. Trigger on mentions of: 'refine prompt', 'improve prompt', 'format prompt', 'enhance requirement', 'AGI prompt', or whenever user input lacks explicit invariants, failure recovery, or verification criteria.
+description: Elevates ambiguous or short prompts (<=200 chars) into enterprise specs. Trigger on: refine prompt, improve prompt, format prompt, enhance requirement, AGI prompt.
 ---
 # AGI Prompt Refiner
 

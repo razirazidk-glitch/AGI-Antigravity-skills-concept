@@ -1,7 +1,6 @@
 ---
 name: chrome-extensions
-description: >-
-  Build and publish Chrome Extensions using Manifest V3 best practices. Trigger on mentions of: 'Chrome extension', 'browser extension', 'manifest.json', 'content script', 'service worker', 'popup', 'side panel', 'chrome.* API', 'declarativeNetRequest', 'omnibox', 'context menu', or 'publish extension'.
+description: Build and publish Chrome Extensions (Manifest V3). Trigger on: Chrome extension, browser extension, manifest.json, content script, service worker, popup, chrome API, publish extension.
 ---
 # Chrome Extensions
 

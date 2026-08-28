@@ -1,7 +1,6 @@
 ---
 name: corporate-swarm-os
-description: >-
-  MANDATORY Corporate Hierarchy Swarm OS for multi-agent workflows, massive batch orchestration (10+ files), and synthesis pipelines. Implements CEO -> C-Level -> Worker structure with BRIEF.md, SECTOR.md, and 5-component handoffs. Trigger on mentions of: 'corporate swarm', 'swarm hierarchy', 'BRIEF.md', 'SECTOR.md', 'CEO agent', 'subagent team', 'multi-agent project', 'enterprise swarm', 'mission genesis', 'topology delegation', 'massive batch', or 'swarm synthesis'.
+description: Corporate Swarm OS for multi-agent workflows, BRIEF.md, SECTOR.md, and batch orchestration. Trigger on: corporate swarm, swarm hierarchy, BRIEF.md, SECTOR.md, CEO agent, subagent team, multi-agent project.
 ---
 # 🏢 CORPORATE SWARM OS — High-Standard Enterprise Multi-Agent Operating System
 

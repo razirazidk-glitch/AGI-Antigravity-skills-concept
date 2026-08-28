@@ -1,7 +1,6 @@
 ---
 name: meta-skill-synthesis
-description: >-
-  AGI Machine Self-Learning protocol for synthesizing durable, new skill files directly on disk from session insights (/learn workflow) and dual-loop self-improvement without model collapse. Trigger on mentions of: 'meta skill', 'synthesize skill', 'create skill', 'self-learning agent', 'new skill generation', 'persist capability', 'skill synthesis', '/learn', 'extract insights', 'save lesson', 'learn from session', 'persist rule', 'dual loop optimizer', 'self-improvement', 'prevent model collapse', or when teaching the agent new permanent workflows.
+description: Self-learning protocol for synthesizing new skills/rules on disk (/learn). Trigger on: meta skill, synthesize skill, create skill, self-learning agent, /learn, extract insights, save lesson, persist rule.
 ---
 # 🧠 META-SKILL SYNTHESIS (Dual-Scope Machine Self-Learning)
 

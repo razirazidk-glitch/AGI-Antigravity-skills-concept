@@ -1,7 +1,6 @@
 ---
 name: adversarial-tribunal
-description: >-
-  MANDATORY for post-milestone quality audits, adversarial security reviews, thesis triage, and scientific verification. Orchestrates Red Team vs Blue Team adversarial validation with 5 attack vectors and 7 design invariants (scripts/tribunal_evaluator.py). Trigger on mentions of: 'adversarial review', 'tribunal', 'Red Team', 'Blue Team', 'security audit', 'penetration test', 'zero-trust check', 'stress test architecture', 'thesis triage', 'idea validation', 'scientific review', 'adversarial specification review', or before approving major production deployments.
+description: Post-milestone adversarial audits, security reviews, and thesis triage (Red/Blue Team). Trigger on: tribunal, adversarial review, Red Team, security audit, penetration test, stress test architecture, thesis triage.
 ---
 # SKILL: Adversarial Tribunal (Cognitive Debate & Epistemic Synthesis)
 

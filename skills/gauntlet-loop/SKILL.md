@@ -1,7 +1,6 @@
 ---
 name: gauntlet-loop
-description: >-
-  MANDATORY double-blind Builder and Critic adversarial verification loop against the Named Reference Bar. Enforces Dual-Gate convergence with test pass, Q >= 9.0, Point W evolutionary superiority (scripts/audit_point_w.py), blind qualitative scoring, and Lyapunov delta stabilization. Trigger on mentions of: 'gauntlet loop', 'builder critic', 'adversarial benchmark', 'double blind review', 'Q score >= 9.0', 'Dual-Gate convergence', 'Lyapunov delta', or 'Point W'.
+description: Double-blind Builder/Critic adversarial verification loop (Q >= 9.0). Trigger on: gauntlet loop, builder critic, adversarial benchmark, double blind review, Q score, Dual-Gate convergence, Point W.
 ---
 # Gauntlet-Loop Adversarial Quality Engine
 
