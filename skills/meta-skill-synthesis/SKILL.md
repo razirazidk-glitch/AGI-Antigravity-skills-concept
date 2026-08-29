@@ -14,14 +14,15 @@ description: >-
 Before persisting any lesson or crystallized rule, rigorously classify the target scope layer:
 
 ### Layer 1: Niche / Local Scope (Workspace & Project Specific)
-- **Criteria:** Local stack conventions (e.g., Next.js, Django, Rust, Tailwind), customer-specific database schemas, repository-specific build/CI workflows, local migration scripts, or bespoke domain business rules.
+- **Criteria:** Domain-specific vertical knowledge, industry standards, specialized taxonomies (e.g. Healthcare/HIPAA/FHIR/CID-10 vs Automotive/OBD-II/CAN-bus), client business rules, database schemas, local CI/build scripts, and framework-specific conventions (e.g., Next.js 15 App Router, Django ORM).
+- **The Domain Specialization Invariant:** Rules/skills relevant only to one specific industry (e.g., medical diagnostics, auto shop management, dental software, legal contracts) **MUST NEVER** be placed in the global plugin. A medical skill must never pollute an auto repair workspace.
 - **Canonical Paths:**
   - Local Rules: `<workspace_root>/.agents/rules/<rule-name>.md`
   - Local Skills: `<workspace_root>/.agents/skills/<skill-name>/SKILL.md`
-- **Isolation:** Strictly confined within the active workspace. **NEVER** pollute the global core plugin.
+- **Isolation:** Strictly confined within the active workspace and versioned in the project repository. **NEVER** pollute the global core plugin.
 
 ### Layer 2: Universal AGI/ASI Scope (Global Plugin `agi-antigravity-core`)
-- **Criteria:** First-principle invariant laws, System 2 reasoning methodologies, epistemic grounding, anti-hallucination cognitive defenses, universal TDD protocols, or heuristics applicable to ANY daily engineering domain.
+- **Criteria:** First-principle invariant laws, System 2 reasoning methodologies, epistemic grounding, anti-hallucination cognitive defenses, universal TDD protocols, 4-phase causal debugging, AST refactoring, or heuristics applicable to ANY daily engineering domain.
 - **Canonical Paths:**
   - Master Rules: `~/.gemini/config/plugins/agi-antigravity-core/rules/<rule-name>.md`
   - Master Skills: `~/.gemini/config/plugins/agi-antigravity-core/skills/<skill-name>/SKILL.md`
@@ -29,16 +30,17 @@ Before persisting any lesson or crystallized rule, rigorously classify the targe
 
 ---
 
-## 2. 🛡️ Anti-Overfitting & Anti-Benchmaxing Distillation Filter
+## 2. 🛡️ Anti-Overfitting & Domain Invariance Distillation Filter
 
-The greatest failure mode of machine self-learning is **overfitting**, where a hyper-specific heuristic learned in one domain (e.g., "always structure websites using component X") is injected globally and rigidly applied out of context.
+The greatest failure mode of machine self-learning is **overfitting and domain leakage**, where a hyper-specific heuristic or vertical niche ontology learned in one project is injected globally and rigidly applied out of context.
 
-### The Universal Invariance Test:
-When proposing a synthesis for **Layer 2 (Global Scope)**, the agent must subject the candidate heuristic to 4 elimination filters:
-1. **Stack Independence Filter:** Does this principle hold true across C++, Python, Rust, TypeScript, Verilog, and Distributed Systems? (If dependent on a specific framework $\to$ Layer 1 Local).
-2. **Non-Prescriptive Heuristic Filter:** Does the learning impose a rigid operational pattern (e.g. fixed folder trees, rigid multi-tier subagent spawning per file), or does it prescribe an adaptive System 2 reasoning heuristic? (If prescribing rigid static topologies $\to$ reject or refactor into an adaptive principle).
-3. **Epistemic Invariance vs Structural Topology Filter:** Universal laws capture fundamental epistemics (e.g. "Mechanic's Disassembly Law: Mandate 100% node inventory $\forall v \in \mathcal{V}$ prior to causal diagnosis or refactoring"), NEVER prescriptive subagent topologies or local file paths.
-4. **Cross-Domain Resilience Filter:** Would applying this rule in a completely divergent technical domain (e.g., quantum simulation vs frontend animation) cause destructive interference or quota exhaustion? (If yes $\to$ Layer 1 Local).
+### The Universal Invariance Test (The Medical vs. Workshop Proof):
+When proposing a synthesis for **Layer 2 (Global Scope)**, the agent must subject the candidate heuristic to 5 elimination filters:
+1. **The Medical vs. Workshop Test (Cross-Domain Invariance):** If this rule was created during a medical project, would it be completely absurd or obstructive in an automotive repair workshop project? If YES $\to$ **Layer 1 (Local Workspace)**. Only rules that are universally true in BOTH (e.g., deterministic verification, root-cause isolation, AST integrity) qualify for Layer 2.
+2. **Stack Independence Filter:** Does this principle hold true across C++, Python, Rust, TypeScript, Verilog, and Distributed Systems? (If dependent on a specific framework/library $\to$ Layer 1 Local).
+3. **Non-Prescriptive Heuristic Filter:** Does the learning impose a rigid operational pattern (e.g. fixed folder trees, rigid multi-tier subagent spawning per file), or does it prescribe an adaptive System 2 reasoning heuristic? (If prescribing rigid static topologies $\to$ reject or refactor into an adaptive principle).
+4. **Epistemic Invariance vs Structural Topology Filter:** Universal laws capture fundamental epistemics (e.g. "Mechanic's Disassembly Law: Mandate 100% node inventory $\forall v \in \mathcal{V}$ prior to causal diagnosis or refactoring"), NEVER prescriptive subagent topologies or local file paths.
+5. **Cross-Domain Resilience Filter:** Would applying this rule in a completely divergent technical domain (e.g., quantum simulation vs frontend animation) cause destructive interference or quota exhaustion? (If yes $\to$ Layer 1 Local).
 
 
 ---

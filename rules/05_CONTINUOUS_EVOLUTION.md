@@ -8,9 +8,13 @@ trigger: always_on
 - Gate A (Empirical): 100% test suite pass (exit code 0).
 - Gate B (Adversarial): Red Team qualitative review (Q >= 9.0/10).
 
-## 2. TWO-LAYER META-LEARNING (/learn)
-- Layer 1 (Local Workspace): Project-specific rules/skills in `<workspace>/.agents/`.
-- Layer 2 (Global AGI Core): Universal invariants in `agi-antigravity-core`.
+## 2. TWO-LAYER META-LEARNING (/learn) & DOMAIN QUARANTINE
+- **Layer 1 (Local Workspace - `<workspace>/.agents/`):**
+  - Destination for ALL niche domain knowledge, vertical business rules, industry standards (e.g., Medical/FHIR vs Automotive/OBD-II), project schemas, and framework specifics.
+  - Quarantined strictly to repository version control.
+- **Layer 2 (Global AGI Core - `agi-antigravity-core`):**
+  - Restricted EXCLUSIVELY to universal, domain-agnostic meta-invariants, System 2 reasoning protocols, epistemics, and cross-paradigm engineering standards.
+  - **Universal Invariance Filter**: Must be 100% transposable across any technical domain without semantic or cognitive friction.
 
 ## 3. POST-EDIT PROTOCOL & GIT SYNC
 - After rule/skill edit, notify user: "Regra/skill atualizada. Reinicie o Antigravity IDE para que as mudanças entrem em vigor."
