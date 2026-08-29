@@ -1,6 +1,7 @@
 ---
 name: youtube-audio-prospecting
-description: Research and extract authentic audio assets with EBU R128 normalization. Trigger on: audio prospecting, sound effects, extract audio, yt-dlp audio, EBU R128, telemetry audio, soundscape.
+description: >-
+  Research and extract authentic audio assets with EBU R128 normalization. Trigger on: audio prospecting, sound effects, extract audio, yt-dlp audio, EBU R128, telemetry audio, soundscape.
 ---
 # Universal Audio & Acoustic Intelligence Protocol
 

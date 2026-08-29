@@ -1,6 +1,7 @@
 ---
 name: gauntlet-loop
-description: Double-blind Builder/Critic adversarial verification loop (Q >= 9.0). Trigger on: gauntlet loop, builder critic, adversarial benchmark, double blind review, Q score, Dual-Gate convergence, Point W.
+description: >-
+  Double-blind Builder/Critic adversarial verification loop (Q >= 9.0). Trigger on: gauntlet loop, builder critic, adversarial benchmark, double blind review, Q score, Dual-Gate convergence, Point W.
 ---
 # Gauntlet-Loop Adversarial Quality Engine
 

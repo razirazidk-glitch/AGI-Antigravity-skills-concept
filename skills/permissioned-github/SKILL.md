@@ -1,6 +1,7 @@
 ---
 name: permissioned-github
-description: GitHub PRs, issues, commits, and permission boundaries. Trigger on: GitHub, git push, create PR, pull request, github issue, github permissions, git commit, git workflow.
+description: >-
+  GitHub PRs, issues, commits, and permission boundaries. Trigger on: GitHub, git push, create PR, pull request, github issue, github permissions, git commit, git workflow.
 ---
 # GitHub Skill
 

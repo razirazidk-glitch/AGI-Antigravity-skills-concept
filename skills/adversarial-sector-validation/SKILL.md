@@ -1,6 +1,7 @@
 ---
 name: adversarial-sector-validation
-description: Multi-sector Red Team critic validation engine. Trigger on: sector validation, adversarial critic, devil's advocate, red team validation, quality sector, research critic, logic audit, architecture critic.
+description: >-
+  Multi-sector Red Team critic validation engine. Trigger on: sector validation, adversarial critic, devil's advocate, red team validation, quality sector, research critic, logic audit, architecture critic.
 ---
 
 # 🔴 ADVERSARIAL SECTOR VALIDATION ENGINE

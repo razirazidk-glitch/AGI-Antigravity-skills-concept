@@ -1,6 +1,7 @@
 ---
 name: agy-customizations
-description: Guide and reference for Antigravity Customization System (skills, rules, MCP, plugins, hooks). Trigger on: customizations, plugin creation, skill creation, rule creation.
+description: >-
+  Guide and reference for Antigravity Customization System (skills, rules, MCP, plugins, hooks). Trigger on: customizations, plugin creation, skill creation, rule creation.
 ---
 # Antigravity Customization System Guide
 

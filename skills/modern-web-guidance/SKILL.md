@@ -1,6 +1,7 @@
 ---
 name: modern-web-guidance
-description: Modern web standards, HTML/CSS APIs, and responsive design. Trigger on: modern web, CSS grid, View Transitions, Popover API, Container Queries, :has(), responsive design.
+description: >-
+  Modern web standards, HTML/CSS APIs, and responsive design. Trigger on: modern web, CSS grid, View Transitions, Popover API, Container Queries, :has(), responsive design.
 ---
 # Modern Web Guidance
 

@@ -1,6 +1,7 @@
 ---
 name: cross-sector-integration
-description: Topological cross-sector integration, quarantine specs, and type contracts. Trigger on: cross-sector, quarantine spec, type contract, boundary integration, module integration, topological merge.
+description: >-
+  Topological cross-sector integration, quarantine specs, and type contracts. Trigger on: cross-sector, quarantine spec, type contract, boundary integration, module integration, topological merge.
 ---
 # SKILL: Cross-Sector Integration — Topological Boundary & Master Blueprint Protocol
 

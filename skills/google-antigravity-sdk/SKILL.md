@@ -1,6 +1,7 @@
 ---
 name: google-antigravity-sdk
-description: Build and debug autonomous agents using Google Antigravity SDK. Trigger on: Antigravity SDK, LocalAgentConfig, CapabilitiesConfig, LiteRT, agent budget, AGY Python SDK.
+description: >-
+  Build and debug autonomous agents using Google Antigravity SDK. Trigger on: Antigravity SDK, LocalAgentConfig, CapabilitiesConfig, LiteRT, agent budget, AGY Python SDK.
 ---
 # Google Antigravity Python SDK
 

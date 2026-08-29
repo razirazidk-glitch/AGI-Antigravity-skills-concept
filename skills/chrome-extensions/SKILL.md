@@ -1,6 +1,7 @@
 ---
 name: chrome-extensions
-description: Build and publish Chrome Extensions (Manifest V3). Trigger on: Chrome extension, browser extension, manifest.json, content script, service worker, popup, chrome API, publish extension.
+description: >-
+  Build and publish Chrome Extensions (Manifest V3). Trigger on: Chrome extension, browser extension, manifest.json, content script, service worker, popup, chrome API, publish extension.
 ---
 # Chrome Extensions
 

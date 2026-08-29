@@ -1,6 +1,7 @@
 ---
 name: project-neural-map
-description: Long-term memory persistence for PROJECT_BRAIN.md and NODE.md state. Trigger on: project brain, neural map, PROJECT_BRAIN.md, NODE.md, module status, long-term memory, session handoff.
+description: >-
+  Long-term memory persistence for PROJECT_BRAIN.md and NODE.md state. Trigger on: project brain, neural map, PROJECT_BRAIN.md, NODE.md, module status, long-term memory, session handoff.
 ---
 # 🧠 PROJECT NEURAL MAP — Recursive Long-Term System Memory
 

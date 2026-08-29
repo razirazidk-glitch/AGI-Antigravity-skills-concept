@@ -1,6 +1,7 @@
 ---
 name: deep-planning-protocol
-description: Pre-flight planning engine (5 docs: ARCHITECTURE, CONTRACTS, IMPLEMENTATION_PLAN, QUALITY_GATES, ROLLBACK_SPEC). Trigger on: deep planning, pre-flight plan, 5 documents, system design plan, implementation plan.
+description: >-
+  Pre-flight planning engine (5 docs: ARCHITECTURE, CONTRACTS, IMPLEMENTATION_PLAN, QUALITY_GATES, ROLLBACK_SPEC). Trigger on: deep planning, pre-flight plan, 5 documents, system design plan, implementation plan.
 ---
 # 📐 DEEP PLANNING PROTOCOL — 5-Document Pre-Flight Gate
 

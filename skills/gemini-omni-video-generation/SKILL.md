@@ -1,6 +1,7 @@
 ---
 name: gemini-omni-video-generation
-description: Cinematic video prompt generation, camera physics, and Veo rendering. Trigger on: video generation, Veo, Gemini video, cinematic prompt, camera pan, frame interpolation, motion physics.
+description: >-
+  Cinematic video prompt generation, camera physics, and Veo rendering. Trigger on: video generation, Veo, Gemini video, cinematic prompt, camera pan, frame interpolation, motion physics.
 ---
 # 🎬 GEMINI OMNI & VEO VIDEO GENERATION ENGINE (Senior Photorealism & Optical Physics)
 

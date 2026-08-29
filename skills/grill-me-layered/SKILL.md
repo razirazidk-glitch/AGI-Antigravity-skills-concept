@@ -1,6 +1,7 @@
 ---
 name: grill-me-layered
-description: 12-topic deep alignment interview via /grill-me. Trigger on: /grill-me, grill me, requirement interview, architectural alignment, deep questioning, scope probing, contract debate.
+description: >-
+  12-topic deep alignment interview via /grill-me. Trigger on: /grill-me, grill me, requirement interview, architectural alignment, deep questioning, scope probing, contract debate.
 ---
 # 🔥 GRILL-ME LAYERED — 12-Topic / 4-Layer Deep Alignment Interview
 

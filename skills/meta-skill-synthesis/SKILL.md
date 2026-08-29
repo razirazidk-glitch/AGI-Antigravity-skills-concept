@@ -1,6 +1,7 @@
 ---
 name: meta-skill-synthesis
-description: Self-learning protocol for synthesizing new skills/rules on disk (/learn). Trigger on: meta skill, synthesize skill, create skill, self-learning agent, /learn, extract insights, save lesson, persist rule.
+description: >-
+  Self-learning protocol for synthesizing new skills/rules on disk (/learn). Trigger on: meta skill, synthesize skill, create skill, self-learning agent, /learn, extract insights, save lesson, persist rule.
 ---
 # 🧠 META-SKILL SYNTHESIS (Dual-Scope Machine Self-Learning)
 

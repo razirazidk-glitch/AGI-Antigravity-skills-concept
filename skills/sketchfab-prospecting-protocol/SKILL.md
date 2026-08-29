@@ -1,6 +1,7 @@
 ---
 name: sketchfab-prospecting-protocol
-description: Research, evaluate, and integrate 3D models and CAD meshes. Trigger on: Sketchfab, 3D model download, CAD asset, spatial mesh, 3D environment, GLTF model, OBJ mesh.
+description: >-
+  Research, evaluate, and integrate 3D models and CAD meshes. Trigger on: Sketchfab, 3D model download, CAD asset, spatial mesh, 3D environment, GLTF model, OBJ mesh.
 ---
 # Universal 3D & Spatial Asset Intelligence Protocol
 
