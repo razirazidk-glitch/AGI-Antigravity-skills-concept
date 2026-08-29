@@ -26,15 +26,33 @@ description: >-
                → Next step: QA Worker audits and promotes to DONE or returns for rework.
 ```
 
+## 2. 🔄 CROSS-CHAT PROGRESSIVE MEMORY PIPELINE
+
+### Turn 0: Automated State Rehydration
+1. **Detect Brain:** Check if `PROJECT_BRAIN.md` exists at workspace root.
+2. **Rehydrate:** Read `PROJECT_BRAIN.md` to restore the active module dashboard and immutable decisions (`DEC::GROUNDED`).
+3. **Session Handoff:** Read latest `.sessions/archive/*/RETROSPECTIVE.md` to recover task handoffs from previous chats.
+
+### Turn N: Automated Closure & Handoff
+1. **Module Transition:** Update module state (`🔴 CHANGING` $\to$ `✅ DONE` or `🟡 READY`).
+2. **Decision Ledger:** Log architectural decisions in `DEC::GROUNDED`.
+3. **Retrospective Archival:** Generate `.sessions/archive/[SESSION_ID]/RETROSPECTIVE.md`.
+
+### Automated Workspace Bootstrap
+To scaffold progressive memory in any project workspace automatically:
+```powershell
+python ~/.gemini/config/plugins/agi-antigravity-core/skills/project-neural-map/scripts/init_project_brain.py
+```
+
 ---
 
 ## INITIALIZATION PROTOCOL (Project Genesis)
 
 ### When to Create
-Immediately upon user approval of the 5 planning documents from `deep-planning-protocol`, and BEFORE writing a single line of implementation code.
+Immediately upon project inception or user approval of the planning documents, and BEFORE modifying implementation code.
 
 ### Ownership
-The Principal Agent (CEO Agent) instantiates `PROJECT_BRAIN.md` and an empty `NODE.md` (status `⬜ NOT_MADE`) for every module defined in `ARCHITECTURE.md`.
+The Principal Agent instantiates `PROJECT_BRAIN.md` and an empty `NODE.md` (status `⬜ NOT_MADE`) for every module defined in the architecture.
 
 ### File Topology
 ```

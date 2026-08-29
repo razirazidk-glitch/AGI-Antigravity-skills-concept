@@ -14,3 +14,8 @@ trigger: always_on
 - Brief (`.planning/briefs/[ROLE]-[TIMESTAMP].md`): Mission, inputs, outputs, acceptance criteria (exit 0, Q >= 9.0).
 - Project Brain (`PROJECT_BRAIN.md`): Update on architecture changes or >=3 files modified. Tables: Module Registry, Active Decisions, Speculative Assumptions.
 - Retrospective: Deliverables, verified exit codes, root causes, /learn candidates.
+
+## 3. PROGRESSIVE CROSS-CHAT MEMORY PROTOCOL
+- Auto-Rehydration (Turn 0): Read `PROJECT_BRAIN.md` and latest `.sessions/archive/*/RETROSPECTIVE.md` to restore full architectural state.
+- Decision Immutability: Record non-trivial trade-offs in `PROJECT_BRAIN.md` under `DEC::GROUNDED`.
+- Session Archival: At closure, persist accomplishments and pending debt to `.sessions/archive/[SESSION_ID]/RETROSPECTIVE.md`.
