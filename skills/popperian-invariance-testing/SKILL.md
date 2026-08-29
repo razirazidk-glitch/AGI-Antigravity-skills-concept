@@ -70,3 +70,15 @@ Required fields per hypothesis:
 - [ ] Scale, Temporal, Regime, and Topological transformations executed.
 - [ ] Drift measured against statistical variance bounds (no arbitrary magic numbers).
 - [ ] Epistemic DEC status updated in system memory graph.
+
+---
+
+## 4. The 4-Layer Ground Truth Forensic Protocol
+
+When evaluating any predictive, heuristic, or autonomous decision system, black-box output metrics (e.g. cumulative win-rate, total loss score) are insufficient. The system must generate a 4-Layer Ground Truth Forensic Visual and Telemetric Audit:
+
+1. **Layer 1: Raw Empirical Reality ($D_{\text{raw}}$):** The unmodified real-world sensory, telemetry, or time-series data streams.
+2. **Layer 2: Ground Truth Oracle Benchmark ($O_{\text{ideal}}$):** The theoretical or a posteriori optimal action calculated with full hindsight (the optimal target).
+3. **Layer 3: Model Latent Physical State ($\Phi_{\text{latent}}$):** Internal hidden variables, potential fields, probability densities, or phase synchrony metrics.
+4. **Layer 4: Machine Action & Precision Delta ($\Delta_{\text{error}}$):** The discrete actions executed by the agent measured against the Oracle benchmark in latency, accuracy, and magnitude dispersion.
+
