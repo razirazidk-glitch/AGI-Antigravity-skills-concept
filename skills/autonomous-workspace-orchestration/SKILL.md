@@ -1,7 +1,7 @@
 ---
 name: autonomous-workspace-orchestration
 description: >-
-  Git worktree and isolated workspace lifecycle manager for non-destructive refactoring. Trigger on: git worktree, isolated workspace, branch workspace, clean refactor branch, destructive testing.
+  Git worktree and isolated workspace lifecycle manager for safe sandboxing and experimental refactoring. Trigger on: git worktree, isolated workspace, branch workspace, clean refactor branch, destructive testing, isolated sandbox, experimental refactor, safe parallel testing.
 ---
 
 # 🌳 AUTONOMOUS WORKSPACE ORCHESTRATION

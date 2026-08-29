@@ -1,7 +1,7 @@
 ---
 name: popperian-invariance-testing
 description: >-
-  Metamorphic invariance testing and stress-testing critical algorithms. Trigger on: Popperian testing, invariance testing, metamorphic testing, falsification matrix, scale invariance, regime boundary.
+  Metamorphic invariance testing and stress-testing critical algorithms against scale limits and boundaries. Trigger on: Popperian testing, invariance testing, metamorphic testing, falsification matrix, scale invariance, regime boundary, stress testing, property-based testing, boundary conditions.
 ---
 # SKILL: Popperian Invariance Testing
 

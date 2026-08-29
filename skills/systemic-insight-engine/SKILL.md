@@ -1,7 +1,7 @@
 ---
 name: systemic-insight-engine
 description: >-
-  Counterfactual hypothesis generation and transdisciplinary isomorphism. Trigger on: systemic insight, counterfactual, hypothesis generation, first principles, 2nd order effects, isomorphism.
+  Systemic insight engine for counterfactual hypothesis generation, evaluating architectural trade-offs, and first principles. Trigger on: systemic insight, architectural trade-offs, alternative designs, hidden risks, 2nd order effects, first principles, counterfactual, hypothesis generation, isomorphism.
 ---
 
 # 🧠 SYSTEMIC INSIGHT & COUNTERFACTUAL HYPOTHESIS ENGINE
