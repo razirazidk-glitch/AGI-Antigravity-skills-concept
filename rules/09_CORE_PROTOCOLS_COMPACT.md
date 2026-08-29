@@ -6,6 +6,7 @@ trigger: always_on
 
 ## 1. SESSION-SCOPED CHECKLIST
 - Active: `.sessions/active/CHECKLIST.md` (Created on Genesis).
+- Reports: `.sessions/active/reports/[INDEX]_[CLUSTER_NAME].md` + `MANIFEST.json`
 - Archive: `.sessions/archive/[SESSION_ID]/CHECKLIST.md` (Moved on Closure).
 - Invariant: No static CHECKLIST.md in repo root.
 

@@ -46,4 +46,13 @@ Workers must return:
 4. Conclusion (actionable output)
 5. Verification (deterministic command, exit code 0)
 
+## 8. PHYSICAL REPORT PERSISTENCE INVARIANT
+1. **Mandatory Disk Persistence**:
+   Every worker subagent dispatched for audit, forensics, benchmarking, or refactoring MUST have its complete 5-component handoff report persisted immediately to disk at:
+   `.sessions/active/reports/[INDEX]_[CLUSTER_NAME].md`
+2. **Active Session Manifest (`MANIFEST.json`)**:
+   The orchestrator maintains `.sessions/active/reports/MANIFEST.json` tracking inspected clusters, responsible subagent conversation IDs, and completion timestamps.
+3. **Brain Consolidation**:
+   Key findings, interfaces, contracts, and module statuses from individual reports are systematically cataloged into `PROJECT_BRAIN.md`.
+
 
