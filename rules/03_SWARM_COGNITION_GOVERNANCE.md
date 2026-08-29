@@ -50,9 +50,16 @@ Workers must return:
 1. **Mandatory Disk Persistence**:
    Every worker subagent dispatched for audit, forensics, benchmarking, or refactoring MUST have its complete 5-component handoff report persisted immediately to disk at:
    `.sessions/active/reports/[INDEX]_[CLUSTER_NAME].md`
-2. **Active Session Manifest (`MANIFEST.json`)**:
+2. **Uncompressed High-Density Mandate**:
+   Persisted reports MUST NEVER be shallow summaries. They must contain exact line citations, full AST definitions, complete before/after code diffs, parameter tables, and raw test execution logs (Exit Code 0).
+3. **Active Session Manifest (`MANIFEST.json`)**:
    The orchestrator maintains `.sessions/active/reports/MANIFEST.json` tracking inspected clusters, responsible subagent conversation IDs, and completion timestamps.
-3. **Brain Consolidation**:
+4. **Brain Consolidation**:
    Key findings, interfaces, contracts, and module statuses from individual reports are systematically cataloged into `PROJECT_BRAIN.md`.
+
+## 9. MANDATORY T0 REPORT GROUNDING INVARIANT
+1. When dispatching subagents for code repair, refactoring, or benchmark execution based on prior audit reports:
+   - The orchestrator MUST provide the absolute path to `.sessions/active/reports/[INDEX]_[NAME].md` in the subagent's initial prompt.
+   - The subagent's FIRST tool call MUST be `view_file` on the audit report to absorb all discovered defects and contracts before touching source files.
 
 
