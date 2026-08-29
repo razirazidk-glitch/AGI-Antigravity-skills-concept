@@ -32,7 +32,7 @@ class TestMarkdownLinks(unittest.TestCase):
         cls.md_files = list(PLUGIN_ROOT.rglob("*.md"))
         # Exclude temporary or test artifacts if any
         cls.md_files = [
-            f for f in cls.md_files if not any(p.startswith(".") for p in f.parts)
+            f for f in cls.md_files if not any(p.startswith(".") for p in f.relative_to(PLUGIN_ROOT).parts)
         ]
 
     def test_markdown_files_exist(self):
