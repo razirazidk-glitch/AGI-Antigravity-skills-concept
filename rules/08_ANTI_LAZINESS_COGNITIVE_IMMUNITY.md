@@ -20,6 +20,7 @@ trigger: always_on
 13. Silent Default Ban: dict.get(key, default) is PROHIBITED for decision engines, physics pipelines, feature tensors, and trading signals. Missing keys MUST raise typed exceptions (DataLineageMissingError).
 14. Empirical Variance Mandate: Every computed tensor/feature series on historical data (N>=100) must satisfy len(set(s)) > 1 and np.std(s) > 0. If std == 0, auto-FAIL for Ghost Data. Exit code 0 with static/mock data is invalid proof.
 15. Radical Zero-Trust Mandate: Assume 0% of codebase is verified a priori. Actively hunt for simplified stubs, dead code, corrupted mathematical states, silent fallback traps, and memory/socket leaks.
+16. Hypothesis-Free Neutral Prompting: Never dictate what bug to find or pre-diagnose the defect in prompts. Prescriptive prompting ("find bug X in logic Y") triggers model confirmation bias and hallucinations. Prompts MUST state ONLY inputs, outputs, boundaries, and observed symptoms.
 
 ## 2. 5-PHASE CAUSAL DIAGNOSIS
 1. Reproduce: Minimal script failing with exit code != 0.

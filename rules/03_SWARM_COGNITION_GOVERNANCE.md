@@ -14,14 +14,16 @@ trigger: always_on
 
 ## 3. DOMAIN-CLUSTER DELEGATION
 - PROHIBITED: Spawning 1 subagent per single file.
-- REQUIRED: Group by subsystem/directory clusters. Trace all files in cluster together.
+- PROHIBITED: Monolithic multi-subsystem dumps (>12 files or multiple disjoint engines in 1 subagent).
+- REQUIRED: Group by cohesive subsystem clusters (bounded to <=12 related files per agent). Trace all files in cluster together.
 
 ## 4. ANTI-DIRECTED FRAMING (HYPOTHESIS ISOLATION & ZERO BUG-TYPE ENUMERATION)
 - PROHIBITED: Injecting pre-conceived hypotheses into worker prompts (e.g., "check if line 1298 inverts signal"). Causes cognitive myopia where workers confirm prompts and miss structural defects.
-- PROHIBITED: Listing specific bug categories, error types, or hypothetical failure modes in worker prompts. Causes categorical tunnel vision where workers filter for matching keywords and miss emergent systemic defects.
+- PROHIBITED: Listing specific bug categories, error types, or hypothetical failure modes in worker prompts (e.g., "look for bug X", "check for memory leaks", "verify math in Y"). Causes categorical tunnel vision where workers filter for matching keywords, alucinate matching patterns, and miss emergent systemic defects.
+- PROHIBITED: Prescribing search targets or diagnosis scripts.
 - PROHIBITED: Silo auditing without cross-module integration tests. Every module must prove live data wiring to upstream and downstream sinks.
 - REQUIRED PROMPT FORMAT:
-  `"CLUSTER AUDIT: Disassemble ALL files in [DIR] together. Map all symbol inputs/outputs. Trace data lineage from [INGESTION] to [SINK]. Formulate hypotheses from evidence only. Report all cross-cluster seams."`
+  `"CLUSTER AUDIT: Inspect files in [BOUNDED_DIR/MODULE] (max 10-12 files). Map all symbol inputs/outputs. Trace live data lineage from [INGESTION_DATA] to [SINK_CONSUMER]. Derive invariants strictly from AST and execution evidence. Report interface seams and contract breaches."`
 
 ## 5. CEO PRE-DISPATCH 3-QUESTION GATE
 Before dispatching any worker, verify:
