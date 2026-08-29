@@ -5,61 +5,24 @@ trigger: always_on
 # SWARM COGNITION & MULTI-AGENT GOVERNANCE
 
 ## 1. CONCURRENCY & POLLING
-- Concurrency: Maximum 2 concurrent subagents (C_max <= 2).
-- Polling: PROHIBITED. Yield turn after dispatch; wake reactively on completion.
+- Max 2 concurrent subagents (C_max <= 2).
+- Polling prohibited: yield turn after dispatch; wake reactively on completion.
+- Built-in types: "self" or "research". Custom types require define_subagent first.
 
-## 2. SUBAGENT REGISTRATION & TYPES
-- Built-in types: TypeName MUST be "self" or "research".
-- Custom types: Must be registered via define_subagent before invoke_subagent.
+## 2. DOMAIN-CLUSTER DELEGATION
+- Group by cohesive subsystem clusters (<=12 related files per agent).
+- Prohibited: 1 subagent per single file. Monolithic multi-subsystem dumps (>12 files) prohibited.
 
-## 3. DOMAIN-CLUSTER DELEGATION
-- PROHIBITED: Spawning 1 subagent per single file.
-- PROHIBITED: Monolithic multi-subsystem dumps (>12 files or multiple disjoint engines in 1 subagent).
-- REQUIRED: Group by cohesive subsystem clusters (bounded to <=12 related files per agent). Trace all files in cluster together.
+## 3. ANTI-DIRECTED FRAMING
+- Prohibited: Injecting bug hypotheses, line numbers, or failure mode names into worker prompts.
+- Prohibited: Listing specific error types or prescriptive search targets.
+- Required Prompt Format: "CLUSTER AUDIT: Inspect files in [DIR/MODULE] (max 10-12 files). Map all symbol inputs/outputs. Trace live data lineage from [INGESTION] to [SINK]. Derive invariants from AST and execution evidence. Report interface seams and contract breaches."
 
-## 4. ANTI-DIRECTED FRAMING (HYPOTHESIS ISOLATION & ZERO BUG-TYPE ENUMERATION)
-- PROHIBITED: Injecting pre-conceived hypotheses into worker prompts (e.g., "check if line 1298 inverts signal"). Causes cognitive myopia where workers confirm prompts and miss structural defects.
-- PROHIBITED: Listing specific bug categories, error types, or hypothetical failure modes in worker prompts (e.g., "look for bug X", "check for memory leaks", "verify math in Y"). Causes categorical tunnel vision where workers filter for matching keywords, alucinate matching patterns, and miss emergent systemic defects.
-- PROHIBITED: Prescribing search targets or diagnosis scripts.
-- PROHIBITED: Silo auditing without cross-module integration tests. Every module must prove live data wiring to upstream and downstream sinks.
-- REQUIRED PROMPT FORMAT:
-  `"CLUSTER AUDIT: Inspect files in [BOUNDED_DIR/MODULE] (max 10-12 files). Map all symbol inputs/outputs. Trace live data lineage from [INGESTION_DATA] to [SINK_CONSUMER]. Derive invariants strictly from AST and execution evidence. Report interface seams and contract breaches."`
+## 4. PRE-DISPATCH CHECK & INTEGRATION SEAMS
+- Before dispatch: Verify prompt has no location hints, no bug hypotheses, and includes adjacent module seams.
+- Before marking DONE: Verify live upstream feeding, live downstream consumption, and satisfied type contracts.
 
-## 5. CEO PRE-DISPATCH 3-QUESTION GATE
-Before dispatching any worker, verify:
-1. Telling worker WHERE to look? -> Remove location hint.
-2. Telling worker WHAT the bug is? -> Remove hypothesis. State symptom only.
-3. Scope includes integration seams to adjacent modules? -> Expand if missing.
-
-## 6. INTEGRATION SEAM VERIFICATION
-Before marking any module or cluster DONE:
-- Upstream: Live connection feeding in verified (not assumed).
-- Downstream: Live consumption by sink verified (not assumed).
-- Contracts: Type contracts and value ranges satisfied across boundaries.
-- PROHIBITED: Declaring modules valid solely from isolated unit tests.
-
-## 7. 5-COMPONENT HANDOFF REPORT
-Workers must return:
-1. Observation (files, lines, logs)
-2. Logic Chain (deductive reasoning)
-3. Caveats (edge cases, unverified assumptions)
-4. Conclusion (actionable output)
-5. Verification (deterministic command, exit code 0)
-
-## 8. PHYSICAL REPORT PERSISTENCE INVARIANT
-1. **Mandatory Disk Persistence**:
-   Every worker subagent dispatched for audit, forensics, benchmarking, or refactoring MUST have its complete 5-component handoff report persisted immediately to disk at:
-   `.sessions/active/reports/[INDEX]_[CLUSTER_NAME].md`
-2. **Uncompressed High-Density Mandate**:
-   Persisted reports MUST NEVER be shallow summaries. They must contain exact line citations, full AST definitions, complete before/after code diffs, parameter tables, and raw test execution logs (Exit Code 0).
-3. **Active Session Manifest (`MANIFEST.json`)**:
-   The orchestrator maintains `.sessions/active/reports/MANIFEST.json` tracking inspected clusters, responsible subagent conversation IDs, and completion timestamps.
-4. **Brain Consolidation**:
-   Key findings, interfaces, contracts, and module statuses from individual reports are systematically cataloged into `PROJECT_BRAIN.md`.
-
-## 9. MANDATORY T0 REPORT GROUNDING INVARIANT
-1. When dispatching subagents for code repair, refactoring, or benchmark execution based on prior audit reports:
-   - The orchestrator MUST provide the absolute path to `.sessions/active/reports/[INDEX]_[NAME].md` in the subagent's initial prompt.
-   - The subagent's FIRST tool call MUST be `view_file` on the audit report to absorb all discovered defects and contracts before touching source files.
-
-
+## 5. HANDOFF REPORT & DISK PERSISTENCE
+- Worker report: 1. Observation, 2. Logic Chain, 3. Caveats, 4. Conclusion, 5. Verification (exit code 0).
+- Mandatory disk persistence at `.sessions/active/reports/[INDEX]_[CLUSTER].md` and manifest update.
+- Subagents modifying code must first execute view_file on the audit report.
