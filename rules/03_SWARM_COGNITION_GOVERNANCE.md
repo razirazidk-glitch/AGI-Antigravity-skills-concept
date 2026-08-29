@@ -16,8 +16,9 @@ trigger: always_on
 - PROHIBITED: Spawning 1 subagent per single file.
 - REQUIRED: Group by subsystem/directory clusters. Trace all files in cluster together.
 
-## 4. ANTI-DIRECTED FRAMING (HYPOTHESIS ISOLATION)
+## 4. ANTI-DIRECTED FRAMING (HYPOTHESIS ISOLATION & ZERO BUG-TYPE ENUMERATION)
 - PROHIBITED: Injecting pre-conceived hypotheses into worker prompts (e.g., "check if line 1298 inverts signal"). Causes cognitive myopia where workers confirm prompts and miss structural defects.
+- PROHIBITED: Listing specific bug categories, error types, or hypothetical failure modes in worker prompts. Causes categorical tunnel vision where workers filter for matching keywords and miss emergent systemic defects.
 - PROHIBITED: Silo auditing without cross-module integration tests. Every module must prove live data wiring to upstream and downstream sinks.
 - REQUIRED PROMPT FORMAT:
   `"CLUSTER AUDIT: Disassemble ALL files in [DIR] together. Map all symbol inputs/outputs. Trace data lineage from [INGESTION] to [SINK]. Formulate hypotheses from evidence only. Report all cross-cluster seams."`
