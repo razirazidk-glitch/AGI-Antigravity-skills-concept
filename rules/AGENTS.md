@@ -39,3 +39,12 @@ trigger: always_on
 - Layer 9: Core Protocols (09_CORE_PROTOCOLS_COMPACT.md)
 - Layer 10: Routing & Session OS (10_INTELLIGENT_MODEL_SKILLS_ROUTING.md)
 
+## 5. COGNITIVE OPERATING MODES & GOVERNANCE
+- MODE: BUILD — System architecture, AST refactoring, strict TDD (Red-Green-Refactor), Zero-Guessing verification.
+- MODE: DEBUG — 4-phase causal debugging, memory leak resolution, invariant breach isolation.
+- MODE: RESEARCH — Technological prospecting, deep planning, domain reverse-engineering.
+- MODE: GAUNTLET — Adversarial tribunal (Q >= 9.0), stress test suites, regression verification.
+- Subagent Concurrency: C_MAX <= 2 concurrent subagents. Zero-Polling reactive wakeups.
+- Verification Mandate: Zero-guessing policy; exit code 0 required for all builds and tests.
+
+
