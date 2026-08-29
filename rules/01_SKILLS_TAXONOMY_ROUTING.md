@@ -23,6 +23,7 @@ trigger: always_on
 - Multi-Module Refactor: master-refactoring-pipeline + cross-sector-integration + project-neural-map
 - Math / Physics / Tensor: test-driven-development + popperian-invariance-testing
 - Subagent Delegation: corporate-swarm-os
+- Reverse Engineering & Codebase Archaeology: reverse-engineering-pipeline + master-refactoring-pipeline + project-neural-map + systematic-debugging
 - Milestone Release Gate: gauntlet-loop + adversarial-tribunal + permissioned-github
 
 ## 4. DOMAIN-SPECIFIC WORKSPACE ROUTING
