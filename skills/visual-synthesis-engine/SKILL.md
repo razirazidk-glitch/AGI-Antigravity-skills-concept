@@ -1,7 +1,7 @@
 ---
 name: visual-synthesis-engine
 description: >-
-  UI/UX design, CSS glassmorphism, WebGL styling, and visual regression audits. Trigger on: visual synthesis, UI design, glassmorphism, CSS styling, visual panel, liquid glassmorphism, visual audit.
+  Adaptive UI/UX design, visual asset synthesis, and design system styling. Trigger on: UI design, generate image, create graphic, visual assets, banner design, design system, theme styling, visual panel, liquid glassmorphism, visual audit, UI styling.
 ---
 # Visual Synthesis Engine — Design System Protocol
 

@@ -1,7 +1,7 @@
 ---
 name: puppeteer-browser-automation
 description: >-
-  Headless browser automation for scraping, form interaction, and screenshot verification. Trigger on: Puppeteer, puppeteer MCP, headless browser, scrape webpage, form submission, puppeteer_navigate.
+  Headless browser automation for scraping, form interaction, and screenshot verification. Trigger on: browser automation, web scraping, headless browser, website screenshot, scrape data, form submission, e2e test, puppeteer, puppeteer_navigate.
 ---
 # 🌐 Puppeteer Browser Automation & Telemetry Engine (MCP)
 

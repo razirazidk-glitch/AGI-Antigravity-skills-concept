@@ -1,7 +1,7 @@
 ---
 name: agi-prompt-refiner
 description: >-
-  Elevates ambiguous or short prompts (<=200 chars) into enterprise specs. Trigger on: refine prompt, improve prompt, format prompt, enhance requirement, AGI prompt.
+  Elevates ambiguous or short prompts into enterprise specs. Trigger on: refine prompt, improve prompt, prompt engineering, enhance requirement, rewrite prompt, enterprise prompt, format prompt, AGI prompt.
 ---
 # AGI Prompt Refiner
 

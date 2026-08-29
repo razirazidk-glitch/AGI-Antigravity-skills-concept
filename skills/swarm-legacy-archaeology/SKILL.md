@@ -1,7 +1,7 @@
 ---
 name: swarm-legacy-archaeology
 description: >-
-  Swarm auditing of legacy repos, 100% node disassembly, and seam verification. Trigger on: legacy archaeology, codebase archaeology, legacy audit, AST analysis, repo excavation, sprint audit.
+  Swarm auditing of legacy repos, 100% node disassembly, and seam verification. Trigger on: codebase archaeology, legacy audit, repo excavation, explore codebase, map dependencies, AST analysis, legacy archaeology.
 ---
 
 # 🏛️ UNIVERSAL CORPUS ARCHAEOLOGY & SEMANTIC DEPENDENCY MAPPER

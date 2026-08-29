@@ -1,7 +1,7 @@
 ---
 name: a11y-debugging
 description: >-
-  Accessibility audits and WCAG compliance using Chrome DevTools MCP. Trigger on: accessibility, a11y, WCAG, ARIA, screen reader, color contrast, keyboard nav, tap target, semantic HTML.
+  Accessibility audits and WCAG compliance using Chrome DevTools MCP. Trigger on: accessibility, a11y, WCAG, ARIA, screen reader, color contrast, keyboard navigation, accessible UI, semantic HTML, tap target.
 ---
 ## Core Concepts
 
