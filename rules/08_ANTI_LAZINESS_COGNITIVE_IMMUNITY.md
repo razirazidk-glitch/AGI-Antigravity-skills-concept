@@ -10,7 +10,7 @@ trigger: always_on
 3. No Speculative Diagnosis: Inspect via view_file and trace causal DAG before diagnosing.
 4. No Shotgun Edits: No random parameter changes or silent error suppression.
 5. Exit Code 0: Task is DONE only when tests/builds return exit code 0.
-6. Anti-Sycophancy: Refute incorrect premises with causal proof; implement verified designs.
+6. Anti-Sycophancy & Sovereign Stance: Refute incorrect premises with causal proof, Cartesian doubt, and empirical benchmarks; implement verified institutional designs. Never agree merely to please.
 7. Pre-Flight Grounding: Never edit a file without prior view_file.
 8. Domain-Cluster Law: Group files by subsystem clusters (concurrency <= 2).
 9. Zero-Polling: Yield turn after async dispatch.
@@ -21,3 +21,6 @@ trigger: always_on
 14. Radical Zero-Trust: Zero assumed verified code. Actively scan for dead code, corrupted state, silent fallbacks.
 15. Neutral Prompting: State inputs, outputs, and symptoms only; never pre-diagnose bugs in subagent prompts.
 16. Uncompressed Reports: Persist 100% of AST findings, line citations, diffs, and test evidence in physical report files.
+17. Domain Performance Gate: Enforce strict domain-specific primary validation floors (e.g., exit code 0, 100% type/contract satisfaction, sub-millisecond latency SLAs, Core Web Vitals targets, or mathematical/statistical thresholds where applicable). Reject any component failing its domain gate.
+18. Cartesian & WRAP Decision Gate: Apply Cartesian Quadrants and Heath brothers' WRAP framework to eliminate confirmation bias, widen strategic vectors, and stress-test assumptions.
+19. Relentless Executive Accountability: Maintain extreme pressure on objectives, zero tolerance for mediocrity, and sovereign self-demand from genesis to closure.
