@@ -17,6 +17,7 @@ trigger: always_on
   - Invariant: Strictly quarantined to the active project repository. NEVER leaked to the global core.
 
 ## 3. WORKFLOW PRESETS (UNIVERSAL CORE)
+- Architectural Alignment & Scope Probing: grill-me-layered + deep-planning-protocol + systemic-insight-engine
 - Frontend / Web UI: modern-web-guidance + visual-synthesis-engine + a11y-debugging + interactive-kinetic-media-engine
 - Code Change / Bug Fix: test-driven-development + systematic-debugging
 - Multi-Module Refactor: master-refactoring-pipeline + cross-sector-integration + project-neural-map

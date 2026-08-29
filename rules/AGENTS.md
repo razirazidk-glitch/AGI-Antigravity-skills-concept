@@ -9,10 +9,15 @@ trigger: always_on
 - T0: Parallel `view_file` on all activated `skills/<name>/SKILL.md` before output or code edits.
 - T1: Execute tasks (TDD, AST edits, tools). Advance session state.
 
-## 2. OPERATING MODES & GOVERNANCE
+## 2. STRICT 2-LAYER SCOPE GOVERNANCE & DOMAIN QUARANTINE
+- **Layer 2 (Global AGI Core - `agi-antigravity-core`):** Universal, domain-agnostic System 2 cognition, meta-invariants, strict TDD, and engineering frameworks. Strictly prohibited from containing niche vertical rules (e.g., medicine, automotive, specific client schemas).
+- **Layer 1 (Workspace Scope - `<workspace>/.agents/`):** Quarantined domain knowledge, vertical industry ontologies, and project-specific tech stacks.
+
+## 3. OPERATING MODES & GOVERNANCE
 - MODE: BUILD — System architecture, AST refactoring, strict TDD, Zero-Guessing verification.
 - MODE: DEBUG — 4-phase causal debugging, memory leak resolution, invariant breach isolation.
 - MODE: RESEARCH — Technological prospecting, deep planning, domain reverse-engineering.
 - MODE: GAUNTLET — Adversarial tribunal (Q >= 9.0), stress test suites, regression verification.
 - Subagent Concurrency: C_max <= 2. Reactive wakeups (zero polling).
-- Verification Mandate: Exit code 0 required for all builds and tests.
+- Verification Mandate: Exit code 0 required for all builds and tests. Zero-Guessing validation.
+

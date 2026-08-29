@@ -9,12 +9,14 @@ description: >-
 
 ---
 
-## ACTIVATION TRIGGERS
+## ACTIVATION TRIGGERS (HIGH-FREQUENCY ALIGNMENT)
 
-- The user explicitly invokes `/grill-me`
-- A project spans 5+ implementation files or multiple interconnected subsystems
-- The agent detects critical architectural ambiguities that prevent safe planning
-- Naive or underspecified requirements where multiple contradictory implementations could be considered "correct"
+- The user explicitly invokes `/grill-me` or asks for alignment/questioning.
+- Initiation of any new feature, new module, or non-trivial change ($\ge 2$ files).
+- Underspecified, concise, or ambiguous requirements where multiple architectural interpretations exist.
+- Opportunities to unearth latent assumptions, probe edge cases, evaluate trade-offs, and surface high-density technical insights.
+- When establishing explicit anti-scope or defining project-specific quality thresholds ($Q \ge 9.0$) prevents downstream rework.
+- Proactively recommended in S1/S2 phases before finalizing implementation plans.
 
 ---
 

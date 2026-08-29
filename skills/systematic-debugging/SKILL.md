@@ -1,7 +1,7 @@
 ---
 name: systematic-debugging
 description: >-
-  4-phase causal root-cause debugging (Reproduce, Isolate, Diagnose, Verify). Trigger on: systematic debugging, root cause isolation, reproduce defect, diagnose failure, 4-phase debugging, causal debugging.
+  4-phase causal root-cause debugging (Reproduce, Isolate, Diagnose, Verify). Trigger on: systematic debugging, root cause isolation, reproduce defect, diagnose failure, 4-phase debugging, causal debugging, trial-and-error edits, zero-guesswork instrumentation, escalation failures.
 ---
 # Systematic Root-Cause Debugging Protocol
 

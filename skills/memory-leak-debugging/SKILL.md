@@ -1,7 +1,7 @@
 ---
 name: memory-leak-debugging
 description: >-
-  Diagnoses memory leaks, heap bloat, and resource lifecycle issues. Trigger on: memory leak, heap snapshot, out of memory, OOM, memory profiling, memlab, garbage collection, retained size.
+  Diagnoses memory leaks, heap bloat, and resource lifecycle issues. Trigger on: memory leak, heap snapshot, out of memory, OOM, memory profiling, memlab, garbage collection, retained size, JavaScript, Node.js, nodejs.
 ---
 # Memory Leak Debugging
 

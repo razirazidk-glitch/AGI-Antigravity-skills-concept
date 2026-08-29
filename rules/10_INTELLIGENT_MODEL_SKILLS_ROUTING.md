@@ -17,8 +17,12 @@ Prompt (Ready to Copy & Paste):
 ---
 ```
 
-## 2. ACTIVATED SKILLS CONTRACT
-- Activated Skills field MUST only list skills for which view_file(SKILL.md) is executed in the SAME turn.
+## 2. ACTIVATED SKILLS & SLASH COMMAND SELECTION
+- **Slash Command Prioritization:**
+  - Prioritize `[/grill-me](slashCommand;grill-me)` for new tasks, scope probing, architectural decisions, edge case exploration, and deep user alignment.
+  - Prioritize `[/goal](slashCommand;goal)` for long-running autonomous execution and multi-stage tasks.
+  - Prioritize `[/learn](slashCommand;learn)` upon completing major milestones, refactors, or root-cause resolutions.
+- Activated Skills field MUST only list skills for which `view_file(SKILL.md)` is executed in the SAME turn.
 - For turns where no skill is read, output: `Activated Skills: —` (em dash, no links).
 
 ## 3. CODING PAUSE GATE (P_high)
