@@ -26,4 +26,5 @@ Prompt (Ready to Copy & Paste):
 - For turns where no skill is read, output: `Activated Skills: —` (em dash, no links).
 
 ## 3. CODING PAUSE GATE (P_high)
-- Pause and prompt user to switch to High Reasoning mode before editing code, AST refactoring, or authoring tests.
+- For non-trivial architectural changes, multi-module refactorings, or complex test synthesis: prompt user to switch to High Reasoning mode before AST modifications.
+
