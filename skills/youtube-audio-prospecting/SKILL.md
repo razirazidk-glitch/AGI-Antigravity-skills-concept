@@ -25,14 +25,13 @@ This skill outlines the process for researching, vetting, extracting, and integr
 - Convert and optimize to web-compatible standards (`.ogg` for seamless looping, `.mp3` for compressed playback, `.wav` for uncompressed low-latency cues).
 - Apply normalization, DC offset removal, and trim silence/noise if needed.
 
-### 3. Anti-Synthetic Mandate (Authenticity First - Dual Classification)
-- **UI Micro-Interactions / Haptic Feedback (< 50ms):** Procedural Web Audio API (`AudioContext`) oscillators permitted for instant mechanical clicks and tactile interface beeps.
-- **Ambience, Production SFX & Domain Telemetry:** Using rudimentary synthetic oscillators is strictly FORBIDDEN. All realistic sound effects, vehicle engines, voices, environmental soundscapes, and domain audio MUST be prospected and extracted from authentic physical recordings via `yt-dlp` and `ffmpeg`.
+### 3. Absolute Anti-Synthetic Audio Law (Zero Synthesizer Exceptions)
+- Generating procedural oscillators, Beep APIs, or synthetic sine wave proxies is STRICTLY PROHIBITED for any UI component, alert, or telemetry.
+- 100% of sound effects, tactile micro-clicks, notification chimes, and transaction cues MUST be authentic physical audio assets (.wav, .mp3, .ogg) extracted and normalized from genuine high-fidelity recordings via yt-dlp and ffmpeg.
 
 ### 4. Integration & Spatial Audio Rigging
 - Place finalized audio assets into `public/audio/` or `assets/audio/`.
 - Wire into the application's audio engine (e.g., HTML5 Audio, Web Audio API `AudioBufferSourceNode`, `THREE.AudioListener` with 3D positional panning and distance attenuation).
 
 ### 5. Verification & Telemetry
-- Verify volume leveling, clean loop transitions (zero popping at loop boundaries), and correct spatial trigger responsiveness.
 
