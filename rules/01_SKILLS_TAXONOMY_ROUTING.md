@@ -30,3 +30,9 @@ trigger: always_on
 - When operating in a specialized domain (e.g., Medicine, Automotive, FinTech, Legal, Robotics):
   - Load and prioritize local rules from `<workspace>/.agents/rules/` and local skills from `<workspace>/.agents/skills/`.
   - Never import or propose global skills containing niche vertical dependencies.
+
+## 5. DUAL-BAND NATURAL SEMANTIC TRIGGER STANDARD
+- Invariant: Skill frontmatters must enforce Dual-Band triggers:
+  1. Band 1 (Natural / Atomic): Simple everyday dev vocabulary (`refactor`, `clean up`, `audit`, `debug`, `integrate`, `test`, `improve prompt`, `sound`, `3d model`, `slow page`). Synthetic compound jargon (`legacy refactor`, `codebase archaeology`) is prohibited.
+  2. Band 2 (Technical / Formal): Formal patterns & tooling names (`AST`, `CDP`, `WebGL`, `Three.js`, `TDD`, `WCAG`).
+

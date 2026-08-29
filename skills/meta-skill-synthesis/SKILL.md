@@ -77,7 +77,19 @@ The agent **MUST** formally recommend `/learn` to the user with a pre-drafted 2-
 
 When the system encounters a novel problem class where zero existing skills provide an adequate playbook:
 1. **Detect Gap:** Identify that current toolings/playbooks lack deterministic guidance.
-2. **Draft Capability Specification:** Rascunhar a `SKILL.md` draft defining triggers, invariants, and step-by-step execution protocol.
+2. **Draft Capability Specification:** Draft a `SKILL.md` defining triggers, invariants, and step-by-step execution protocol.
 3. **Propose Skill Genesis:** Present `learning_proposal.md` to user classifying whether it is Layer 1 (workspace) or Layer 2 (global core).
 4. **Persist & Register:** Write the new skill and register it in `01_SKILLS_TAXONOMY_ROUTING.md`.
+
+---
+
+## 6. 🎯 DUAL-BAND NATURAL SEMANTIC TRIGGER LAW (Anti-Hermetic Standard)
+
+When authoring or modifying the `description` and `Trigger on:` of any skill:
+1. **Ban on Synthetic Compound Jargon:** Strictly prohibit artificial, academic compound phrases that developers never say in daily conversation (e.g., `legacy refactor`, `codebase archaeology`, `quarantine spec`, `topological boundary`, `refine prompt`).
+2. **Mandatory Dual-Band Semantic Structure:**
+   - **Band 1 (Plain Everyday Language & Atomic Verbs):** Include common, raw, direct actions and objects (`refactor`, `clean up`, `audit`, `debug`, `find bug`, `integrate`, `connect API`, `improve prompt`, `sound`, `3D model`, `slow page`, `write test`).
+   - **Band 2 (Technical Concepts & Formal Tokens):** Include standard formal domain keywords (`AST`, `CDP`, `WebGL`, `Three.js`, `TDD`, `WCAG`, `Git worktree`).
+3. **Universality Filter:** The skill MUST activate smoothly for both ultra-short informal user prompts and long-form enterprise specifications.
+
 
