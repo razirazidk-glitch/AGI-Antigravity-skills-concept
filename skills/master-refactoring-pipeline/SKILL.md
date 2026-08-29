@@ -1,7 +1,7 @@
 ---
 name: master-refactoring-pipeline
 description: >-
-  8-phase structural refactoring engine with zero hardcoding. Trigger on: refactor, refactoring pipeline, restructure code, code cleanup, AST refactor, decouple module, 8-phase refactor.
+  Structural refactoring, code cleanup, modularization, and AST modernization. Trigger on: refactor, clean up, restructure, reorganize, decouple, modularize, rewrite, improve code, technical debt, clean code, simplify code, AST refactor, refactoring pipeline.
 ---
 # SKILL: Master Refactoring & Architectural Reconstruction Pipeline
 

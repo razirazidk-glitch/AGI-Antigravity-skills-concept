@@ -1,7 +1,7 @@
 ---
 name: technological-prospecting
 description: >-
-  Benchmarking SOTA libraries, competitor reference bars, and external APIs. Trigger on: technological prospecting, evaluate library, compare packages, benchmark SDK, select dependency, tech stack research, API research, competitor benchmark, reference bar.
+  Benchmarking SOTA libraries, competitor reference bars, and external APIs. Trigger on: compare libraries, best package, which library, npm package, python package, benchmark, evaluate tool, tech stack, API research, dependency, technological prospecting.
 ---
 # SKILL: Technological Prospecting (Autonomous API & MCP Integration Engine)
 

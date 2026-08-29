@@ -1,7 +1,7 @@
 ---
 name: corporate-swarm-os
 description: >-
-  Corporate Swarm OS for multi-agent workflows, BRIEF.md, SECTOR.md, and batch orchestration. Trigger on: corporate swarm, swarm hierarchy, BRIEF.md, SECTOR.md, CEO agent, subagent team, multi-agent project.
+  Corporate Swarm OS for multi-agent workflows, BRIEF.md, SECTOR.md, and batch orchestration. Trigger on: multi-agent, agent team, subagents, swarm, delegate, team of agents, corporate swarm, batch orchestration, swarm hierarchy, BRIEF.md, SECTOR.md, CEO agent, multi-agent project.
 ---
 # 🏢 CORPORATE SWARM OS — High-Standard Enterprise Multi-Agent Operating System
 

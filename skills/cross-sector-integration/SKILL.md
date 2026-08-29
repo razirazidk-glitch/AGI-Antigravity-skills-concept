@@ -1,7 +1,7 @@
 ---
 name: cross-sector-integration
 description: >-
-  Multi-module topological integration, boundary contracts, and cross-sector blueprints. Trigger on: cross-sector, multi-module integration, API contract boundary, frontend backend integration, cross-service communication, quarantine spec, type contract, boundary integration, module integration, topological merge.
+  Module integration, API contracts, frontend-backend binding, and service boundaries. Trigger on: integrate, connect API, frontend backend, combine modules, merge services, link modules, API contract, boundary, cross-service, data pipeline, cross-sector, integration.
 ---
 # SKILL: Cross-Sector Integration — Topological Boundary & Master Blueprint Protocol
 

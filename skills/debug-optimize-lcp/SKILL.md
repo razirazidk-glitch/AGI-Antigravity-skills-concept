@@ -1,7 +1,7 @@
 ---
 name: debug-optimize-lcp
 description: >-
-  Debug and optimize Largest Contentful Paint (LCP), page load lag, and Core Web Vitals via DevTools. Trigger on: LCP, Largest Contentful Paint, Core Web Vitals, CWV, slow page load, slow render, frontend lag, asset optimization, render delay, web performance.
+  Debug and optimize Largest Contentful Paint (LCP), page load lag, and Core Web Vitals via DevTools. Trigger on: slow page, page speed, slow load, lag, optimize frontend, fast render, web performance, Core Web Vitals, LCP, asset load.
 ---
 ## What is LCP and why it matters
 

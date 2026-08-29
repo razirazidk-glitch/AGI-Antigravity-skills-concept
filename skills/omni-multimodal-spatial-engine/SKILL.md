@@ -1,7 +1,7 @@
 ---
 name: omni-multimodal-spatial-engine
 description: >-
-  Multimodal spatial 3D reasoning, Three.js, WebGL/WebGPU, and GLSL shaders. Trigger on: 3D scene, Three.js, WebGL, WebGPU, GLSL shader, 3D canvas, 3D rendering, procedural 3D, spatial computing, raymarching, 3D graphics, window parallax.
+  Multimodal spatial 3D reasoning, Three.js, WebGL/WebGPU, and GLSL shaders. Trigger on: 3D scene, Three.js, WebGL, WebGPU, GLSL shader, 3D canvas, 3D rendering, procedural 3D, spatial computing, raymarching, 3D graphics, 3D spatial.
 ---
 # 🌐 Omni-Multimodal Spatial & Procedural 3D Engine
 

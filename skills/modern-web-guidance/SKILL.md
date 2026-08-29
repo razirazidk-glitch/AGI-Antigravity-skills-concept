@@ -1,7 +1,7 @@
 ---
 name: modern-web-guidance
 description: >-
-  Modern web standards, HTML/CSS APIs, responsive layouts, and native UI patterns. Trigger on: modern web, web standards, CSS layout, responsive design, View Transitions, Popover API, Container Queries, HTML best practices, web UI patterns, CSS grid.
+  Modern web standards, HTML/CSS APIs, responsive layouts, and native UI patterns. Trigger on: css layout, responsive, modern web, web standards, html css, responsive design, css grid, web ui, component pattern, View Transitions.
 ---
 # Modern Web Guidance
 

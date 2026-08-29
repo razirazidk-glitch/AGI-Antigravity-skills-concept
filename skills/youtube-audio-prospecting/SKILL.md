@@ -1,7 +1,7 @@
 ---
 name: youtube-audio-prospecting
 description: >-
-  Universal audio asset intelligence, acoustic telemetry, sound design, and normalization. Trigger on: audio, sound effects, sfx, background music, audio asset, audio telemetry, soundscape, audio playback, sound design, extract audio, youtube audio, web audio, yt-dlp audio.
+  Universal audio asset intelligence, acoustic telemetry, sound design, and normalization. Trigger on: audio, sound, sfx, sound effect, music, background audio, play sound, sound design, audio file, extract audio, web audio, youtube audio.
 ---
 # Universal Audio & Acoustic Intelligence Protocol
 

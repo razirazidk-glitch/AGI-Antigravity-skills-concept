@@ -1,7 +1,7 @@
 ---
 name: interactive-kinetic-media-engine
 description: >-
-  Scroll-driven video scrubbing, parallax effects, and kinetic UI animations. Trigger on: interactive animation, scroll animation, video scrubbing, scrollytelling, parallax effect, kinetic media, 3D cursor tilt, micro-interactions, canvas animation, scroll-driven.
+  Scroll-driven video scrubbing, parallax effects, and kinetic UI animations. Trigger on: animation, scroll animation, parallax, hover effect, micro interactions, cursor tilt, smooth scroll, interactive UI, kinetic media, video scrubbing.
 ---
 # 🎬 Interactive Kinetic Media, Scrollytelling & 3D Icon Synthesis Engine
 

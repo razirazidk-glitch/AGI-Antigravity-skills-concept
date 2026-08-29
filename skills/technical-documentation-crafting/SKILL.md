@@ -1,7 +1,7 @@
 ---
 name: technical-documentation-crafting
 description: >-
-  Author high-conversion technical documentation, READMEs, and API guides. Trigger on: technical documentation, write README, API documentation, developer guide, release notes, project documentation, doc crafting, architecture guide.
+  Author high-conversion technical documentation, READMEs, and API guides. Trigger on: write readme, documentation, api docs, docs, document code, developer guide, release notes, write docs, doc crafting, technical documentation.
 ---
 # Technical Documentation & Open-Source Persuasion Protocol
 

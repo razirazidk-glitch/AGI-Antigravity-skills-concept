@@ -1,7 +1,7 @@
 ---
 name: visual-synthesis-engine
 description: >-
-  Adaptive UI/UX design, visual asset synthesis, and design system styling. Trigger on: UI design, generate image, create graphic, visual assets, banner design, design system, theme styling, visual panel, liquid glassmorphism, visual audit, UI styling.
+  Adaptive UI/UX design, visual asset synthesis, and design system styling. Trigger on: UI design, design, generate image, make image, banner, graphic, visual, theme, styling, layout, aesthetic, icon, mockup, visual synthesis.
 ---
 # Visual Synthesis Engine — Design System Protocol
 

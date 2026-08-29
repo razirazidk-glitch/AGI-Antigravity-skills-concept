@@ -1,7 +1,7 @@
 ---
 name: agi-prompt-refiner
 description: >-
-  Elevates ambiguous or short prompts into enterprise specs. Trigger on: refine prompt, improve prompt, prompt engineering, enhance requirement, rewrite prompt, enterprise prompt, format prompt, AGI prompt.
+  Elevates ambiguous or short prompts into enterprise specs. Trigger on: improve prompt, refine prompt, rewrite prompt, enhance prompt, fix prompt, better prompt, prompt engineering, expand requirements, craft prompt, format prompt.
 ---
 # AGI Prompt Refiner
 

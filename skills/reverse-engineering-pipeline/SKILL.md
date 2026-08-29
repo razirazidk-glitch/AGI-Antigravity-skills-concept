@@ -1,7 +1,7 @@
 ---
 name: reverse-engineering-pipeline
 description: >-
-  Systematic reverse engineering, legacy codebase archaeology, structural refactoring, and AST modernization across any engineering domain. Trigger on: reverse engineering, legacy codebase, modernize legacy, AST disassembly, legacy refactor, reverse engineer, code archaeology, legacy audit.
+  Systematic reverse engineering, code deconstruction, AST analysis, and legacy understanding. Trigger on: reverse engineer, understand code, analyze code, deconstruct, how it works, trace data flow, legacy codebase, modernize, AST disassembly, investigate code, reverse engineering.
 ---
 # 🔬 REVERSE ENGINEERING PIPELINE — Systematic AST Disassembly & Modernization
 

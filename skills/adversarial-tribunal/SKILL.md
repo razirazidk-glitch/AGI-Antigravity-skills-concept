@@ -1,7 +1,7 @@
 ---
 name: adversarial-tribunal
 description: >-
-  Post-milestone adversarial audits, security reviews, architecture critique, and thesis triage (Red/Blue Team). Trigger on: tribunal, adversarial review, Red Team, security audit, penetration test, stress test architecture, thesis triage, code audit, architecture review, vulnerability check.
+  Adversarial code review, vulnerability auditing, security checks, and design critique. Trigger on: review code, find flaws, critique, security audit, find bugs, vulnerability, check code, stress test, red team, adversarial review, code review, tribunal.
 ---
 # SKILL: Adversarial Tribunal (Cognitive Debate & Epistemic Synthesis)
 

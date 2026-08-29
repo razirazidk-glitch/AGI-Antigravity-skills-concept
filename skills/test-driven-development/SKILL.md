@@ -1,7 +1,7 @@
 ---
 name: test-driven-development
 description: >-
-  Red-Green-Refactor TDD development cycle engine for writing failing tests before production code. Trigger on: TDD, Test-Driven Development, Red-Green-Refactor, refactor, regressions, cycle, failing test, unit test, integration test.
+  Red-Green-Refactor TDD development cycle engine for writing failing tests before production code, implementing minimal passing logic, and refactoring with zero regressions. Trigger on: TDD, test driven, write tests, unit test, integration test, failing test, test first, minimal passing test, red green refactor, test suite, regressions, cycle, production code, Test-Driven Development.
 ---
 # Test-Driven Development (TDD) Engine
 
