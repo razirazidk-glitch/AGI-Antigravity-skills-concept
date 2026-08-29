@@ -19,6 +19,7 @@ trigger: always_on
 12. Workspace Isolation: Local conventions stay in .agents/. Global rules stay domain-agnostic.
 13. Silent Default Ban: dict.get(key, default) is PROHIBITED for decision engines, physics pipelines, feature tensors, and trading signals. Missing keys MUST raise typed exceptions (DataLineageMissingError).
 14. Empirical Variance Mandate: Every computed tensor/feature series on historical data (N>=100) must satisfy len(set(s)) > 1 and np.std(s) > 0. If std == 0, auto-FAIL for Ghost Data. Exit code 0 with static/mock data is invalid proof.
+15. Radical Zero-Trust Mandate: Assume 0% of codebase is verified a priori. Actively hunt for simplified stubs, dead code, corrupted mathematical states, silent fallback traps, and memory/socket leaks.
 
 ## 2. 5-PHASE CAUSAL DIAGNOSIS
 1. Reproduce: Minimal script failing with exit code != 0.
