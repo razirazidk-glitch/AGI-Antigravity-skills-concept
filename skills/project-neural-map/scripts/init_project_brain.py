@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Deterministic Progressive Memory & Project Brain Initializer for Antigravity Workspaces.
 Scaffolds:
@@ -24,6 +24,17 @@ PROJECT_BRAIN_TEMPLATE = """# 🧠 PROJECT BRAIN — {project_name}
 | Main System | `src/` | ⬜ NOT_MADE | — | — | — |
 
 **Legend:** 🔴 CHANGING | ✅ DONE | ⬜ NOT_MADE | 🟡 READY
+
+---
+
+## 🏆 GOLDEN REFERENCE CORE (PROD STABLE BASELINE)
+
+> Canonical production files and real validation harnesses. These files define the ground-truth baseline for all experimental sandboxes.
+
+| Subsystem / Core | Canonical Path | Invariant Role | Ground Truth Baseline Spec |
+|---|---|---|---|
+| Main System Engine | `src/` | Proven calculation & execution | Mathematical & invariant contract |
+| Validation Harness | `tests/` | Ground truth test benchmark | Deterministic real-data test feed |
 
 ---
 

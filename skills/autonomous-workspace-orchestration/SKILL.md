@@ -69,3 +69,33 @@ If an experiment fails or is discarded:
 git worktree remove --force ../refactor-isolated-sandbox
 git branch -D task/isolated-refactor
 ```
+
+---
+
+## 4. 🏆 THE GOLDEN REFERENCE ENGINE & HIGH-FIDELITY SANDBOX REPLICATION
+
+When testing experimental algorithms, new trading strategies, physics simulations, or major architectural pivots:
+
+### 1. Identify the Golden Reference Core (Ground Truth)
+- Check `PROJECT_BRAIN.md` under `## 🏆 GOLDEN REFERENCE CORE`.
+- Determine the canonical stable files:
+  - **Execution Engine:** The proven production core.
+  - **Backtest / Benchmark Harness:** The real validation runner and historical datasets.
+  - **Data Ingestion Pipeline:** The authentic input feeds.
+
+### 2. High-Fidelity Sandbox Isolation (Zero Mocks)
+- **Invariant:** Never modify the golden reference engine in-place to test an experimental hypothesis.
+- Spawn an isolated workspace (`Workspace: "branch"` or `git worktree add ../sandbox-experiment -b task/experiment`).
+- **Zero-Synthetic Mandate:** The sandbox MUST inherit and replay the exact execution harness, input feeds, and backtest suite of the Golden Core. Synthetic mocks, simplified stubs, or fake proxy math are strictly prohibited.
+
+### 3. Differential A/B Benchmarking
+- Run the experiment and baseline against the **exact same real dataset**:
+  $$\Delta_{\text{metric}} = \text{Score}(\text{Experimental}) - \text{Score}(\text{Golden Baseline})$$
+- Record metrics in `.sessions/active/SANDBOX_BENCHMARK.md` (e.g. latency, throughput, Sharpe ratio, drawdown, precision, memory envelope).
+
+### 4. Promotion & Consensus Gate
+- Merge is permitted only if:
+  1. The experimental logic preserves 100% of mathematical invariants and contract types.
+  2. All baseline regression tests pass with `Exit Code 0`.
+  3. $\Delta_{\text{metric}} \ge 0$ (demonstrated parity or superiority over Golden Baseline).
+

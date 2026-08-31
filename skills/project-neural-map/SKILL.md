@@ -95,6 +95,18 @@ The Principal Agent instantiates `PROJECT_BRAIN.md` and an empty `NODE.md` (stat
 
 ---
 
+## 🏆 GOLDEN REFERENCE CORE (PROD STABLE BASELINE)
+
+> Canonical production files and real validation harnesses. These files define the ground-truth baseline for all experimental sandboxes.
+
+| Subsystem / Core | Canonical Path | Invariant Role | Ground Truth Baseline Spec |
+|---|---|---|---|
+| Execution Core | `core/engine.py` | Proven calculation & execution | Mathematical & invariant contract |
+| Backtest / Harness | `tests/backtest_runner.py` | Ground truth test benchmark | Deterministic historical tick feed |
+| Data Feed Pipeline | `data/feed.py` | Real input feed & data lineage | Strict typed records, zero fake mocks |
+
+---
+
 ## 🏢 ACTIVE MULTI-AGENT TOPOLOGY
 
 ```
