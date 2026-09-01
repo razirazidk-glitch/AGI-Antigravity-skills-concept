@@ -24,3 +24,11 @@ trigger: always_on
 ## 4. CIRCUIT BREAKER & CLEANUP
 - Halt edits after 3 consecutive failed fixes; re-read target files from disk.
 - Configure socket LINGER=0 on teardown. Bounded thread/listener teardown (<=0.5s).
+
+## 5. THE DUAL-POLE ISOMORPHISM LAW (DIGITAL TWIN PARITY)
+- Invariant: Zero behavioral divergence between Simulation/Sandbox/Staging pole ($P_{sim}$) and Production/Live pole ($P_{prod}$).
+- Synchronous Mirroring: Any mechanic, filter, state machine, or configuration modified in one pole MUST be simultaneously implemented and verified with identical causal behavior in the other pole.
+- Pre-Release Parity Gate: No component or engine upgrade may be deployed to Production without passing the identical benchmark in Simulation with exit code 0.
+
+## 6. THE MECHANIC'S DISASSEMBLY LAW (ZERO BLIND REFACTORING)
+- Before altering or modernizing existing subsystems: catalog 100% of symbols and establish minimal reproducible baseline test probes to capture prior behavior before modifying AST.
