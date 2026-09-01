@@ -5,7 +5,8 @@ description: >-
 ---
 # 🏢 CORPORATE SWARM OS — High-Standard Enterprise Multi-Agent Operating System
 
-> 🔴 **ABSOLUTE MANDATE:** Every complex project is operated like a next-generation enterprise organization. Vague subagents, brief prompts, and delegations lacking explicit context are STRICTLY PROHIBITED. Every agent receives an exhaustive BRIEF.md, operates within a formal sector with quantifiable KPIs, and reports via a structured closeout report. Zero informality. Zero ambiguity.
+> 🔴 **ABSOLUTE MANDATE:** Every complex project is operated like a next-generation enterprise organization. Vague subagents, brief prompts, and delegations lacking explicit context are STRICTLY PROHIBITED. When a real subagent team or swarm is requested, the orchestrator MUST dispatch authentic subagents via `invoke_subagent`. Simulating subagents by authoring audit files or mock reports in the parent context is STRICTLY PROHIBITED. Every agent receives an exhaustive BRIEF.md, operates within a formal sector with quantifiable KPIs, and reports via a structured closeout report. Zero informality. Zero ambiguity.
+
 
 ---
 

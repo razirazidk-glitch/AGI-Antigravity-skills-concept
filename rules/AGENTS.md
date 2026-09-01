@@ -19,5 +19,7 @@ trigger: always_on
 - MODE: RESEARCH — Technological prospecting, deep planning, domain reverse-engineering.
 - MODE: GAUNTLET — Adversarial tribunal (Q >= 9.0), stress test suites, regression verification.
 - Subagent Concurrency: C_max <= 2. Reactive wakeups (zero polling).
+- Real Subagent Mandate: When requested to deploy a real subagent team/swarm, invoke authentic subagents via invoke_subagent. Never simulate audits through local file writing or mock worker roleplay in the parent thread.
 - Verification Mandate: Exit code 0 required for all builds and tests. Zero-Guessing validation.
+
 

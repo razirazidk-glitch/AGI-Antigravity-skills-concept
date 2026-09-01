@@ -26,3 +26,9 @@ trigger: always_on
 - Worker report: 1. Observation, 2. Logic Chain, 3. Caveats, 4. Conclusion, 5. Verification (exit code 0).
 - Mandatory disk persistence at `.sessions/active/reports/[INDEX]_[CLUSTER].md` and manifest update.
 - Subagents modifying code must first execute view_file on the audit report.
+
+## 6. REAL SUBAGENT INVOCATION MANDATE (ANTI-SIMULATION LAW)
+- When the user explicitly requests a team of real subagents (e.g., "time de subagents reais", "swarm", "equipe de subagentes", "multi-agent team"), the orchestrator MUST dispatch authentic subagents via `invoke_subagent`.
+- Strictly Prohibited: Simulating multi-agent swarms by authoring audit files or executing single-agent audits directly in the parent context pretending to be separate workers.
+- The orchestrator must NEVER bypass `invoke_subagent` using local file creation or mock audit reports when real subagents are requested.
+
