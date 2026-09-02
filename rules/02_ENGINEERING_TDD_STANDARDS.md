@@ -32,3 +32,8 @@ trigger: always_on
 
 ## 6. THE MECHANIC'S DISASSEMBLY LAW (ZERO BLIND REFACTORING)
 - Before altering or modernizing existing subsystems: catalog 100% of symbols and establish minimal reproducible baseline test probes to capture prior behavior before modifying AST.
+
+## 7. THE CANONICAL HARNESS & DIFFERENTIAL A/B BENCHMARKING LAW
+- Prohibited: Creating standalone "toy" scripts, mock backtest runners, or ad-hoc isolated loops to test new hypotheses/features instead of exercising the canonical engine.
+- Mandatory Protocol: Any candidate algorithm, decision rule, or strategy must be plugged into the canonical execution harness via formal interface contracts.
+- Differential A/B Parity ($P_{baseline}$ vs $P_{challenger}$): Run the identical canonical pipeline on identical raw datasets with frozen microenvironment friction models (fees, slippage, latency, orderbook state transitions) and isolate the formal mathematical $\Delta$.

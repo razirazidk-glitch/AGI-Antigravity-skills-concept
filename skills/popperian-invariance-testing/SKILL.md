@@ -36,7 +36,7 @@ Every hypothesis, solver, or algorithm must undergo rigorous scientific stress-t
 ### Step 1: Formal Falsifier Declaration
 - State hypothesis \(H\) with quantitative tolerance bounds.
 - Define Falsifier \(F\): `"H is FALSE if [Measurable Condition C holds within time T]."`
-- **MANDATORY EXECUTION:** \(F\) MUST be backed by an executable test runner command (`pytest`, `npm test`, or a standalone Python script) executed via `run_command`. Synthetic textual assertion without command execution is FORBIDDEN.
+- **MANDATORY EXECUTION & CANONICAL HARNESS:** \(F\) MUST be backed by an executable test runner command (`pytest`, `npm test`, etc.) executing directly against the CANONICAL architecture/engine. Writing standalone "toy" scripts or mock runners to simulate algorithms is FORBIDDEN. Comparative hypotheses must enforce differential A/B testing on frozen canonical pipelines.
 
 ### Step 2: Automated Metamorphic Battery & Subagent Dispatch
 Subject \(H\) to the metamorphic transformation matrix:

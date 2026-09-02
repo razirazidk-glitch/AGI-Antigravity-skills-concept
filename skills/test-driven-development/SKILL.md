@@ -79,12 +79,31 @@ TDD applies equally to the creation and modification of Antigravity progressive 
 | Modifying test assertions to mask code bugs | Fix the underlying code; tests represent the authoritative requirement |
 | Tests that always pass (vacuous assertions) | Every test must assert specific invariant values or state changes |
 | Testing private implementation details | Test observable public contracts, inputs, outputs, and side effects |
+| Authoring standalone toy runners / shadow test scripts | Plug candidate logic into canonical execution harness via strategy polymorphism |
 | Skipping the Refactor phase | Always perform a refactoring pass once the test turns green |
 | Hardcoding test return values | Implement real state and computational logic |
 
 ---
 
-## 5. Concrete Polyglot Examples
+## 5. Canonical Architecture Integration & Differential A/B Testing Protocol
+
+When developing, testing, or benchmarking new algorithms, decision logic, or strategies in complex domain architectures (e.g., trading engines, physics solvers, consensus mechanisms):
+
+1. **Zero-Shadow Implementation Mandate:** Never author a separate, simplified simulation script (`toy_runner.py` or ad-hoc backtesters). The candidate logic MUST implement the production system's formal interface contracts.
+2. **Frozen-Harness Differential Run ($P_{baseline}$ vs $P_{challenger}$):**
+   ```python
+   # Execute canonical harness across identical raw data lineage
+   result_baseline = CanonicalPipeline.run(dataset, strategy=BaselineStrategy())
+   result_challenger = CanonicalPipeline.run(dataset, strategy=ChallengerStrategy())
+   
+   # Assert invariant preservation and compute empirical delta
+   delta_metrics = compute_differential_metrics(result_baseline, result_challenger)
+   ```
+3. **Parity Gate:** The challenger is validated only if it passes all canonical state-machine transitions and zero data corruption assertions under the full production harness.
+
+---
+
+## 6. Concrete Polyglot Examples
 
 ### Example A: Python Standard Library Unit Test
 ```python
@@ -115,7 +134,7 @@ if __name__ == "__main__":
 
 ---
 
-## 6. Diagnostic & Verification Checklist
+## 7. Diagnostic & Verification Checklist
 
 Before completing any implementation task:
 - [ ] Was every test observed in a failing state prior to code authoring?
