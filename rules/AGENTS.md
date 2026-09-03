@@ -31,3 +31,11 @@ trigger: always_on
 - **Exit Code 0 Invariant**: A task or milestone is NEVER complete until the canonical test suite, type checker, and build commands execute with exit code 0.
 - **Pre-Presentation Visual Gate**: For any UI or web artifact, capture a Full HD (1920x1080) screenshot via Puppeteer, view the file, and perform a 3-point contrast/layout inspection before presenting to the user.
 - **Evidence Tiers**: Every claim must be grounded in T1 (AST/disk line citations) or T2 (command telemetry with exit code 0).
+
+## 6. AUTONOMOUS FRICTIONLESS LAWS (ZERO MANUAL COMMANDS)
+- **Port Auto-Heal**: Before launching any local web or dev server, ensure the target port (3000, 5173, 8000) is free via `free-port` to prevent `EADDRINUSE` crashes.
+- **Auto-Dependency Healing**: If execution fails due to a missing package (`Cannot find module` or `ModuleNotFoundError`), immediately run `npm install <pkg>` or `uv add <pkg>` and retry without pausing for manual intervention.
+- **Autonomous Formatting**: Every written or modified source file is automatically formatted via `post_tool_linter.py` (Prettier / Ruff).
+- **Environment Auto-Sync**: Whenever a new environment variable is introduced, run `sync-env` to document it in `.env.example` without secrets.
+- **Autonomous Checkpointing**: When a task passes its verification gate (exit code 0), create a clean Git commit via `auto-checkpoint`.
+

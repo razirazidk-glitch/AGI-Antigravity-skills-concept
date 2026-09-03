@@ -3,8 +3,8 @@
 Post-Tool Linter & Telemetry Hook for agi-antigravity-core.
 
 Inspects tool execution results after execution in the Antigravity agent loop.
-Captures errors, performs telemetry logging, and returns an empty JSON object
-as mandated by the Antigravity PostToolUse lifecycle specification.
+Captures errors, performs telemetry logging, triggers auto-formatting on modified files,
+and returns an empty JSON object as mandated by the Antigravity PostToolUse lifecycle specification.
 """
 
 import json
@@ -13,19 +13,35 @@ from typing import Any, Dict
 
 
 def process_post_tool_event(payload: Dict[str, Any]) -> Dict[str, Any]:
-    """Inspect post-tool execution payload and log telemetry if needed."""
+    """Inspect post-tool execution payload, auto-format code, and log telemetry."""
+    if not isinstance(payload, dict):
+        return {}
+
     step_idx = payload.get("stepIdx", 0)
     error = payload.get("error", "")
     conversation_id = payload.get("conversationId", "")
+    tool_name = payload.get("toolName", "")
+    args = payload.get("args", {})
+
+    if tool_name in ("write_to_file", "replace_file_content") and isinstance(args, dict):
+        target_file = args.get("TargetFile")
+        if target_file and isinstance(target_file, str):
+            try:
+                import subprocess
+                subprocess.run(
+                    ["/home/razirazi/.gemini/antigravity/bin/auto-format", target_file],
+                    capture_output=True,
+                    timeout=5,
+                )
+            except Exception:
+                pass
 
     if error:
-        # Diagnostic logging to stderr without corrupting stdout JSON contract
         sys.stderr.write(
             f"[POST_TOOL_LINTER] Warning: Tool step {step_idx} in conversation {conversation_id} reported error: {error}\n"
         )
         sys.stderr.flush()
 
-    # Antigravity PostToolUse specification strictly expects an empty JSON object on stdout
     return {}
 
 
