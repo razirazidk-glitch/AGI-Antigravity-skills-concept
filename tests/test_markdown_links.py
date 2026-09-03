@@ -119,9 +119,8 @@ class TestMarkdownLinks(unittest.TestCase):
 
                     # Resolve relative target against source file directory
                     try:
-                        # Handle posix separators on Windows
-                        clean_rel_path = target_path_part.replace("/", "\\")
-                        resolved = (md_file.parent / clean_rel_path).resolve()
+                        # Handle path resolution cross-platform
+                        resolved = (md_file.parent / target_path_part).resolve()
                     except Exception as e:
                         broken_links.append(
                             LinkOccurrence(

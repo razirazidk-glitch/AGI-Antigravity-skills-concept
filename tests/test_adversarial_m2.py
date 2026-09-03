@@ -277,8 +277,7 @@ class TestM2AdversarialStress(unittest.TestCase):
                     if "#" in raw_target:
                         path_part, anchor_part = raw_target.split("#", 1)
 
-                    target_clean = path_part.replace("/", "\\")
-                    resolved = (md_file.parent / target_clean).resolve()
+                    resolved = (md_file.parent / path_part).resolve()
 
                     self.assertTrue(
                         resolved.exists(),
